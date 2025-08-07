@@ -2,6 +2,7 @@ import asyncio
 import os
 import time
 import json
+import argparse
 from datetime import datetime
 from typing import List, Dict, Any, Optional
 from dataclasses import dataclass
@@ -59,15 +60,30 @@ class ModelConfig:
     rate_limit_delay: float = 10.0
 
 class AdvancedDocumentRefiner:
-    def __init__(self):
+    def __init__(self, mode: str = "all"):
+        """
+        Initialize the document refiner
+        Args:
+            mode: "all" for all models, "gemini" for Gemini only, "openrouter" for OpenRouter only
+        """
+        self.mode = mode
+        
         # Model configurations
-        self.models = [
+        all_models = [
             ModelConfig("gemini-2.5-pro", "gemini_25_pro", "gemini", 8.0),  # Reduced delay
             ModelConfig("deepseek/deepseek-r1-0528-qwen3-8b:free", "deepseek_qwen3_8b", "openrouter", 8.0),
             ModelConfig("deepseek/deepseek-r1-0528:free", "deepseek_r1", "openrouter", 8.0),
             ModelConfig("meta-llama/llama-3.1-405b-instruct:free", "llama_405b", "openrouter", 8.0),
             ModelConfig("mistralai/mistral-small-3.1-24b-instruct:free", "mistral_small", "openrouter", 8.0),
         ]
+        
+        # Filter models based on mode
+        if mode == "gemini":
+            self.models = [m for m in all_models if m.provider == "gemini"]
+        elif mode == "openrouter":
+            self.models = [m for m in all_models if m.provider == "openrouter"]
+        else:  # mode == "all"
+            self.models = all_models
         
         # Configuration
         self.input_dir = "Barba_Docs"
@@ -413,9 +429,10 @@ DOCUMENT TO PROCESS:
         print("="*70)
         print(f"📁 Input: {self.input_dir}/")
         print(f"📁 Output: {self.output_dir}/")
-        print(f"🤖 Models: {len(self.models)} (mixed Gemini + OpenRouter)")
+        print(f"🎯 Mode: {self.mode.upper()}")
+        print(f"🤖 Models: {len(self.models)} ({'Gemini only' if self.mode == 'gemini' else 'OpenRouter only' if self.mode == 'openrouter' else 'mixed Gemini + OpenRouter'})")
         print(f"⚡ Parallel: {self.max_parallel} files simultaneously")
-        print(f"⏱️  Rate Limit: 10 seconds between requests")
+        print(f"⏱️  Rate Limit: 8 seconds between requests")
         print("="*70)
         
         # Setup
@@ -465,10 +482,52 @@ DOCUMENT TO PROCESS:
         print(f"⏱️  Total time: {total_time/60:.1f} minutes")
         print(f"📁 Check {self.output_dir}/ for refined files")
 
+def parse_arguments():
+    """Parse command line arguments"""
+    parser = argparse.ArgumentParser(
+        description="Advanced Batch Document Refiner for RAG Systems",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python batch_refiner.py                    # Process with all models (default)
+  python batch_refiner.py --geminionly       # Process with Gemini models only
+  python batch_refiner.py --openrouteronly   # Process with OpenRouter models only
+
+Note: Make sure to set your API keys in the code or environment variables.
+        """
+    )
+    
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument(
+        '--geminionly', 
+        action='store_true',
+        help='Use only Gemini models for processing'
+    )
+    group.add_argument(
+        '--openrouteronly', 
+        action='store_true',
+        help='Use only OpenRouter models for processing'
+    )
+    
+    return parser.parse_args()
+
 async def main():
-    """Main function"""
+    """Main function with argument parsing"""
     try:
-        refiner = AdvancedDocumentRefiner()
+        args = parse_arguments()
+        
+        # Determine processing mode
+        if args.geminionly:
+            mode = "gemini"
+            print("🎯 Running in GEMINI ONLY mode")
+        elif args.openrouteronly:
+            mode = "openrouter"
+            print("🎯 Running in OPENROUTER ONLY mode")
+        else:
+            mode = "all"
+            print("🎯 Running in ALL MODELS mode")
+        
+        refiner = AdvancedDocumentRefiner(mode=mode)
         await refiner.run_batch_processing()
         
     except KeyboardInterrupt:
