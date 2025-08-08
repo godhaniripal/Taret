@@ -1,0 +1,2628 @@
+# GSAP Documentation: animation_targets_dom-elements
+                
+**URL:** https://animejs.com/documentation/animation/targets/dom-elements
+**Scraped:** 2025-08-06 14:09:05
+**Content Length:** 68207 characters
+**Processing Time:** 2.34 seconds
+
+---
+
+#  [ ![anime.js logo v4](https://animejs.com/assets/images/anime-js-logo-v4.svg) Anime.js | JavaScript Animation Engine ](https://animejs.com/) 4.1.2 3.2.2 2.1.0
+  * [Docs](https://animejs.com/documentation "Documentation")
+  * [Learn](https://animejs.com/learn "Learn")
+  * [Examples](https://codepen.io/collection/Poerqa?cursor=eyJwYWdlIjoxfQ==/ "CodePen")
+  * [GitHub](https://github.com/juliangarnier/anime "GitHub")
+  * [ Sponsor ](https://github.com/sponsors/juliangarnier "Sponsor Julian Garnier on GitHub")
+
+
+DOM Elements
+Search
+  * [ Getting started  ](https://animejs.com/documentation/getting-started "Getting started")
+    * [ Installation  ](https://animejs.com/documentation/getting-started/installation "Installation")
+    * [ Imports  ](https://animejs.com/documentation/getting-started/imports "Imports")
+    * [ Using with vanilla JS  ](https://animejs.com/documentation/getting-started/using-with-vanilla-js "Using with vanilla JS")
+    * [ Using with React  ](https://animejs.com/documentation/getting-started/using-with-react "Using with React")
+  * [ Timer  ](https://animejs.com/documentation/timer "Timer")
+    * [ Playback settings  ](https://animejs.com/documentation/timer/timer-playback-settings "Timer playback settings")
+      * [ delay  ](https://animejs.com/documentation/timer/timer-playback-settings/delay "delay")
+      * [ duration  ](https://animejs.com/documentation/timer/timer-playback-settings/duration "duration")
+      * [ loop  ](https://animejs.com/documentation/timer/timer-playback-settings/loop "loop")
+      * [ loopDelay  ](https://animejs.com/documentation/timer/timer-playback-settings/playback-loopdelay "loopDelay")
+      * [ alternate  ](https://animejs.com/documentation/timer/timer-playback-settings/alternate "alternate")
+      * [ reversed  ](https://animejs.com/documentation/timer/timer-playback-settings/reversed "reversed")
+      * [ autoplay  ](https://animejs.com/documentation/timer/timer-playback-settings/autoplay "autoplay")
+      * [ frameRate  ](https://animejs.com/documentation/timer/timer-playback-settings/framerate "frameRate")
+      * [ playbackRate  ](https://animejs.com/documentation/timer/timer-playback-settings/playbackrate "playbackRate")
+    * [ Callbacks  ](https://animejs.com/documentation/timer/timer-callbacks "Timer callbacks")
+      * [ onBegin  ](https://animejs.com/documentation/timer/timer-callbacks/onbegin "onBegin")
+      * [ onComplete  ](https://animejs.com/documentation/timer/timer-callbacks/oncomplete "onComplete")
+      * [ onUpdate  ](https://animejs.com/documentation/timer/timer-callbacks/onupdate "onUpdate")
+      * [ onLoop  ](https://animejs.com/documentation/timer/timer-callbacks/onloop "onLoop")
+      * [ onPause  ](https://animejs.com/documentation/timer/timer-callbacks/onpause "onPause")
+      * [ then()  ](https://animejs.com/documentation/timer/timer-callbacks/then "then\(\)")
+    * [ Methods  ](https://animejs.com/documentation/timer/timer-methods "Timer methods")
+      * [ play()  ](https://animejs.com/documentation/timer/timer-methods/play "play\(\)")
+      * [ reverse()  ](https://animejs.com/documentation/timer/timer-methods/reverse "reverse\(\)")
+      * [ pause()  ](https://animejs.com/documentation/timer/timer-methods/pause "pause\(\)")
+      * [ restart()  ](https://animejs.com/documentation/timer/timer-methods/restart "restart\(\)")
+      * [ alternate()  ](https://animejs.com/documentation/timer/timer-methods/alternate "alternate\(\)")
+      * [ resume()  ](https://animejs.com/documentation/timer/timer-methods/resume "resume\(\)")
+      * [ complete()  ](https://animejs.com/documentation/timer/timer-methods/complete "complete\(\)")
+      * [ cancel()  ](https://animejs.com/documentation/timer/timer-methods/cancel "cancel\(\)")
+      * [ revert()  ](https://animejs.com/documentation/timer/timer-methods/revert "revert\(\)")
+      * [ seek()  ](https://animejs.com/documentation/timer/timer-methods/seek "seek\(\)")
+      * [ stretch()  ](https://animejs.com/documentation/timer/timer-methods/stretch "stretch\(\)")
+    * [ Properties  ](https://animejs.com/documentation/timer/timer-properties "Timer properties")
+  * [ Animation  ](https://animejs.com/documentation/animation "Animation")
+    * [ Targets  ](https://animejs.com/documentation/animation/targets "Targets")
+      * [ CSS Selector  ](https://animejs.com/documentation/animation/targets/css-selector "CSS Selector")
+      * [ DOM Elements  ](https://animejs.com/documentation/animation/targets/dom-elements "DOM Elements")
+      * [ JavaScript Objects  JS ](https://animejs.com/documentation/animation/targets/javascript-objects "JavaScript Objects")
+      * [ Array of targets  ](https://animejs.com/documentation/animation/targets/array-of-targets "Array of targets")
+    * [ Animatable properties  ](https://animejs.com/documentation/animation/animatable-properties "Animatable properties")
+      * [ CSS Properties  ](https://animejs.com/documentation/animation/animatable-properties/css-properties "CSS Properties")
+      * [ CSS transforms  ](https://animejs.com/documentation/animation/animatable-properties/css-transforms "CSS transforms")
+      * [ CSS Variables  JS ](https://animejs.com/documentation/animation/animatable-properties/css-variables "CSS Variables")
+      * [ JS Object properties  JS ](https://animejs.com/documentation/animation/animatable-properties/javascript-object-properties "JavaScript Object properties")
+      * [ HTML Attributes  JS ](https://animejs.com/documentation/animation/animatable-properties/html-attributes "HTML Attributes")
+      * [ SVG Attributes  JS ](https://animejs.com/documentation/animation/animatable-properties/svg-attributes "SVG Attributes")
+    * [ Tween value types  ](https://animejs.com/documentation/animation/tween-value-types "Tween value types")
+      * [ Numerical  ](https://animejs.com/documentation/animation/tween-value-types/numerical-value "Numerical value")
+      * [ Unit conversion  ](https://animejs.com/documentation/animation/tween-value-types/unit-conversion-value "Unit conversion value")
+      * [ Relative  JS ](https://animejs.com/documentation/animation/tween-value-types/relative-value "Relative value")
+      * [ Color  ](https://animejs.com/documentation/animation/tween-value-types/color-value "Color value")
+      * [ Color function  WAAPI ](https://animejs.com/documentation/animation/tween-value-types/color-function-value "Color function value")
+      * [ CSS variable  WAAPI ](https://animejs.com/documentation/animation/tween-value-types/css-variable "CSS variable")
+      * [ Function based  ](https://animejs.com/documentation/animation/tween-value-types/function-based "Function based value")
+    * [ Tween parameters  ](https://animejs.com/documentation/animation/tween-parameters "Tween parameters")
+      * [ to  ](https://animejs.com/documentation/animation/tween-parameters/to "to")
+      * [ from  ](https://animejs.com/documentation/animation/tween-parameters/from "from")
+      * [ delay  ](https://animejs.com/documentation/animation/tween-parameters/delay "delay")
+      * [ duration  ](https://animejs.com/documentation/animation/tween-parameters/duration "duration")
+      * [ ease  ](https://animejs.com/documentation/animation/tween-parameters/ease "ease")
+      * [ composition  JS ](https://animejs.com/documentation/animation/tween-parameters/composition "composition")
+      * [ modifier  JS ](https://animejs.com/documentation/animation/tween-parameters/modifier "modifier")
+    * [ Keyframes  ](https://animejs.com/documentation/animation/keyframes "Keyframes")
+      * [ Tween values  ](https://animejs.com/documentation/animation/keyframes/tween-values-keyframes "Tween values keyframes")
+      * [ Tween parameters  JS ](https://animejs.com/documentation/animation/keyframes/tween-parameters-keyframes "Tween parameters keyframes")
+      * [ Duration based  JS ](https://animejs.com/documentation/animation/keyframes/duration-based-keyframes "Duration based keyframes")
+      * [ Percentage based  JS ](https://animejs.com/documentation/animation/keyframes/percentage-based-keyframes "Percentage based keyframes")
+    * [ Playback settings  ](https://animejs.com/documentation/animation/animation-playback-settings "Animation playback settings")
+      * [ delay  ](https://animejs.com/documentation/animation/animation-playback-settings/delay "delay")
+      * [ duration  ](https://animejs.com/documentation/animation/animation-playback-settings/duration "duration")
+      * [ loop  ](https://animejs.com/documentation/animation/animation-playback-settings/loop "loop")
+      * [ loopDelay  JS ](https://animejs.com/documentation/animation/animation-playback-settings/playback-loopdelay "loopDelay")
+      * [ alternate  ](https://animejs.com/documentation/animation/animation-playback-settings/alternate "alternate")
+      * [ reversed  ](https://animejs.com/documentation/animation/animation-playback-settings/reversed "reversed")
+      * [ autoplay  ](https://animejs.com/documentation/animation/animation-playback-settings/autoplay "autoplay")
+      * [ frameRate  JS ](https://animejs.com/documentation/animation/animation-playback-settings/framerate "frameRate")
+      * [ playbackRate  ](https://animejs.com/documentation/animation/animation-playback-settings/playbackrate "playbackRate")
+      * [ playbackEase  JS ](https://animejs.com/documentation/animation/animation-playback-settings/playbackease "playbackEase")
+    * [ Callbacks  ](https://animejs.com/documentation/animation/animation-callbacks "Animation callbacks")
+      * [ onBegin  JS ](https://animejs.com/documentation/animation/animation-callbacks/onbegin "onBegin")
+      * [ onComplete  ](https://animejs.com/documentation/animation/animation-callbacks/oncomplete "onComplete")
+      * [ onBeforeUpdate  JS ](https://animejs.com/documentation/animation/animation-callbacks/onbeforeupdate "onBeforeUpdate")
+      * [ onUpdate  JS ](https://animejs.com/documentation/animation/animation-callbacks/onupdate "onUpdate")
+      * [ onRender  JS ](https://animejs.com/documentation/animation/animation-callbacks/onrender "onRender")
+      * [ onLoop  JS ](https://animejs.com/documentation/animation/animation-callbacks/onloop "onLoop")
+      * [ onPause  JS ](https://animejs.com/documentation/animation/animation-callbacks/onpause "onPause")
+      * [ then()  ](https://animejs.com/documentation/animation/animation-callbacks/then "then\(\)")
+    * [ Methods  ](https://animejs.com/documentation/animation/animation-methods "Animation methods")
+      * [ play()  ](https://animejs.com/documentation/animation/animation-methods/play "play\(\)")
+      * [ reverse()  ](https://animejs.com/documentation/animation/animation-methods/reverse "reverse\(\)")
+      * [ pause()  ](https://animejs.com/documentation/animation/animation-methods/pause "pause\(\)")
+      * [ restart()  ](https://animejs.com/documentation/animation/animation-methods/restart "restart\(\)")
+      * [ alternate()  ](https://animejs.com/documentation/animation/animation-methods/alternate "alternate\(\)")
+      * [ resume()  ](https://animejs.com/documentation/animation/animation-methods/resume "resume\(\)")
+      * [ complete()  ](https://animejs.com/documentation/animation/animation-methods/complete "complete\(\)")
+      * [ cancel()  ](https://animejs.com/documentation/animation/animation-methods/cancel "cancel\(\)")
+      * [ revert()  ](https://animejs.com/documentation/animation/animation-methods/revert "revert\(\)")
+      * [ seek()  ](https://animejs.com/documentation/animation/animation-methods/seek "seek\(\)")
+      * [ stretch()  JS ](https://animejs.com/documentation/animation/animation-methods/stretch "stretch\(\)")
+      * [ refresh()  JS ](https://animejs.com/documentation/animation/animation-methods/refresh "refresh\(\)")
+    * [ Properties  ](https://animejs.com/documentation/animation/animation-properties "Animation properties")
+  * [ Timeline  ](https://animejs.com/documentation/timeline "Timeline")
+    * [ Add timers  ](https://animejs.com/documentation/timeline/add-timers "Add timers")
+    * [ Add animations  ](https://animejs.com/documentation/timeline/add-animations "Add animations")
+    * [ Sync WAAPI animations  ](https://animejs.com/documentation/timeline/sync-waapi-animations "Sync WAAPI animations")
+    * [ Sync timelines  ](https://animejs.com/documentation/timeline/sync-timelines "Sync timelines")
+    * [ Call functions  ](https://animejs.com/documentation/timeline/call-functions "Call functions")
+    * [ Time position  ](https://animejs.com/documentation/timeline/time-position "Time position")
+    * [ Playback settings  ](https://animejs.com/documentation/timeline/timeline-playback-settings "Timeline playback settings")
+      * [ defaults  ](https://animejs.com/documentation/timeline/timeline-playback-settings/defaults "defaults")
+      * [ delay  ](https://animejs.com/documentation/timeline/timeline-playback-settings/delay "delay")
+      * [ loop  ](https://animejs.com/documentation/timeline/timeline-playback-settings/loop "loop")
+      * [ loopDelay  ](https://animejs.com/documentation/timeline/timeline-playback-settings/playback-loopdelay "loopDelay")
+      * [ alternate  ](https://animejs.com/documentation/timeline/timeline-playback-settings/alternate "alternate")
+      * [ reversed  ](https://animejs.com/documentation/timeline/timeline-playback-settings/reversed "reversed")
+      * [ autoplay  ](https://animejs.com/documentation/timeline/timeline-playback-settings/autoplay "autoplay")
+      * [ frameRate  ](https://animejs.com/documentation/timeline/timeline-playback-settings/framerate "frameRate")
+      * [ playbackRate  ](https://animejs.com/documentation/timeline/timeline-playback-settings/playbackrate "playbackRate")
+      * [ playbackEase  ](https://animejs.com/documentation/timeline/timeline-playback-settings/playbackease "playbackEase")
+    * [ Callbacks  ](https://animejs.com/documentation/timeline/timeline-callbacks "Timeline callbacks")
+      * [ onBegin  ](https://animejs.com/documentation/timeline/timeline-callbacks/onbegin "onBegin")
+      * [ onComplete  ](https://animejs.com/documentation/timeline/timeline-callbacks/oncomplete "onComplete")
+      * [ onBeforeUpdate  ](https://animejs.com/documentation/timeline/timeline-callbacks/onbeforeupdate "onBeforeUpdate")
+      * [ onUpdate  ](https://animejs.com/documentation/timeline/timeline-callbacks/onupdate "onUpdate")
+      * [ onRender  ](https://animejs.com/documentation/timeline/timeline-callbacks/onrender "onRender")
+      * [ onLoop  ](https://animejs.com/documentation/timeline/timeline-callbacks/onloop "onLoop")
+      * [ onPause  ](https://animejs.com/documentation/timeline/timeline-callbacks/onpause "onPause")
+      * [ then()  ](https://animejs.com/documentation/timeline/timeline-callbacks/then "then\(\)")
+    * [ Methods  ](https://animejs.com/documentation/timeline/timeline-methods "Timeline methods")
+      * [ add()  ](https://animejs.com/documentation/timeline/timeline-methods/add "add\(\)")
+      * [ set()  ](https://animejs.com/documentation/timeline/timeline-methods/set "set\(\)")
+      * [ sync()  ](https://animejs.com/documentation/timeline/timeline-methods/sync "sync\(\)")
+      * [ label()  ](https://animejs.com/documentation/timeline/timeline-methods/label "label\(\)")
+      * [ remove()  ](https://animejs.com/documentation/timeline/timeline-methods/remove "remove\(\)")
+      * [ call()  ](https://animejs.com/documentation/timeline/timeline-methods/call "call\(\)")
+      * [ init()  ](https://animejs.com/documentation/timeline/timeline-methods/init "init\(\)")
+      * [ play()  ](https://animejs.com/documentation/timeline/timeline-methods/play "play\(\)")
+      * [ reverse()  ](https://animejs.com/documentation/timeline/timeline-methods/reverse "reverse\(\)")
+      * [ pause()  ](https://animejs.com/documentation/timeline/timeline-methods/pause "pause\(\)")
+      * [ restart()  ](https://animejs.com/documentation/timeline/timeline-methods/restart "restart\(\)")
+      * [ alternate()  ](https://animejs.com/documentation/timeline/timeline-methods/alternate "alternate\(\)")
+      * [ resume()  ](https://animejs.com/documentation/timeline/timeline-methods/resume "resume\(\)")
+      * [ complete()  ](https://animejs.com/documentation/timeline/timeline-methods/complete "complete\(\)")
+      * [ cancel()  ](https://animejs.com/documentation/timeline/timeline-methods/cancel "cancel\(\)")
+      * [ revert()  ](https://animejs.com/documentation/timeline/timeline-methods/revert "revert\(\)")
+      * [ seek()  ](https://animejs.com/documentation/timeline/timeline-methods/seek "seek\(\)")
+      * [ stretch()  ](https://animejs.com/documentation/timeline/timeline-methods/stretch "stretch\(\)")
+      * [ refresh()  ](https://animejs.com/documentation/timeline/timeline-methods/refresh "refresh\(\)")
+    * [ Properties  ](https://animejs.com/documentation/timeline/timeline-properties "Timeline properties")
+  * [ Animatable  ](https://animejs.com/documentation/animatable "Animatable")
+    * [ Settings  ](https://animejs.com/documentation/animatable/animatable-settings "Animatable settings")
+      * [ unit  ](https://animejs.com/documentation/animatable/animatable-settings/unit "unit")
+      * [ duration  ](https://animejs.com/documentation/animatable/animatable-settings/duration "duration")
+      * [ ease  ](https://animejs.com/documentation/animatable/animatable-settings/ease "ease")
+      * [ modifier  ](https://animejs.com/documentation/animatable/animatable-settings/modifier "modifier")
+    * [ Methods  ](https://animejs.com/documentation/animatable/animatable-methods "Animatable methods")
+      * [ Getters  ](https://animejs.com/documentation/animatable/animatable-methods/getters "Getters")
+      * [ Setters  ](https://animejs.com/documentation/animatable/animatable-methods/setters "Setters")
+      * [ revert()  ](https://animejs.com/documentation/animatable/animatable-methods/revert "revert\(\)")
+    * [ Properties  ](https://animejs.com/documentation/animatable/animatable-properties "Animatable properties")
+  * [ Draggable  ](https://animejs.com/documentation/draggable "Draggable")
+    * [ Axes parameters  ](https://animejs.com/documentation/draggable/draggable-axes-parameters "Draggable axes parameters")
+      * [ x  ](https://animejs.com/documentation/draggable/draggable-axes-parameters/x "x")
+      * [ y  ](https://animejs.com/documentation/draggable/draggable-axes-parameters/y "y")
+      * [ snap  ](https://animejs.com/documentation/draggable/draggable-axes-parameters/snap "snap")
+      * [ modifier  ](https://animejs.com/documentation/draggable/draggable-axes-parameters/modifier "modifier")
+      * [ mapTo  ](https://animejs.com/documentation/draggable/draggable-axes-parameters/mapto "mapTo")
+    * [ Settings  ](https://animejs.com/documentation/draggable/draggable-settings "Draggable settings")
+      * [ trigger  ](https://animejs.com/documentation/draggable/draggable-settings/trigger "trigger")
+      * [ container  ](https://animejs.com/documentation/draggable/draggable-settings/container "container")
+      * [ containerPadding  ](https://animejs.com/documentation/draggable/draggable-settings/containerpadding "containerPadding")
+      * [ containerFriction  ](https://animejs.com/documentation/draggable/draggable-settings/containerfriction "containerFriction")
+      * [ releaseContainerFriction  ](https://animejs.com/documentation/draggable/draggable-settings/releasecontainerfriction "releaseContainerFriction")
+      * [ releaseMass  ](https://animejs.com/documentation/draggable/draggable-settings/releasemass "releaseMass")
+      * [ releaseStiffness  ](https://animejs.com/documentation/draggable/draggable-settings/releasestiffness "releaseStiffness")
+      * [ releaseDamping  ](https://animejs.com/documentation/draggable/draggable-settings/releasedamping "releaseDamping")
+      * [ velocityMultiplier  ](https://animejs.com/documentation/draggable/draggable-settings/velocitymultiplier "velocityMultiplier")
+      * [ minVelocity  ](https://animejs.com/documentation/draggable/draggable-settings/minvelocity "minVelocity")
+      * [ maxVelocity  ](https://animejs.com/documentation/draggable/draggable-settings/maxvelocity "maxVelocity")
+      * [ releaseEase  ](https://animejs.com/documentation/draggable/draggable-settings/releaseease "releaseEase")
+      * [ dragSpeed  ](https://animejs.com/documentation/draggable/draggable-settings/dragspeed "dragSpeed")
+      * [ scrollThreshold  ](https://animejs.com/documentation/draggable/draggable-settings/scrollthreshold "scrollThreshold")
+      * [ scrollSpeed  ](https://animejs.com/documentation/draggable/draggable-settings/scrollspeed "scrollSpeed")
+      * [ cursor  ](https://animejs.com/documentation/draggable/draggable-settings/cursor "cursor")
+    * [ Callbacks  ](https://animejs.com/documentation/draggable/draggable-callbacks "Draggable callbacks")
+      * [ onGrab  ](https://animejs.com/documentation/draggable/draggable-callbacks/ongrab "onGrab")
+      * [ onDrag  ](https://animejs.com/documentation/draggable/draggable-callbacks/ondrag "onDrag")
+      * [ onUpdate  ](https://animejs.com/documentation/draggable/draggable-callbacks/onupdate "onUpdate")
+      * [ onRelease  ](https://animejs.com/documentation/draggable/draggable-callbacks/onrelease "onRelease")
+      * [ onSnap  ](https://animejs.com/documentation/draggable/draggable-callbacks/onsnap "onSnap")
+      * [ onSettle  ](https://animejs.com/documentation/draggable/draggable-callbacks/onsettle "onSettle")
+      * [ onResize  ](https://animejs.com/documentation/draggable/draggable-callbacks/onresize "onResize")
+      * [ onAfterResize  ](https://animejs.com/documentation/draggable/draggable-callbacks/onafterresize "onAfterResize")
+    * [ Methods  ](https://animejs.com/documentation/draggable/draggable-methods "Draggable methods")
+      * [ disable()  ](https://animejs.com/documentation/draggable/draggable-methods/disable "disable\(\)")
+      * [ enable()  ](https://animejs.com/documentation/draggable/draggable-methods/enable "enable\(\)")
+      * [ setX()  ](https://animejs.com/documentation/draggable/draggable-methods/setx "setX\(\)")
+      * [ setY()  ](https://animejs.com/documentation/draggable/draggable-methods/sety "setY\(\)")
+      * [ animateInView()  ](https://animejs.com/documentation/draggable/draggable-methods/animateinview "animateInView\(\)")
+      * [ scrollInView()  ](https://animejs.com/documentation/draggable/draggable-methods/scrollinview "scrollInView\(\)")
+      * [ stop()  ](https://animejs.com/documentation/draggable/draggable-methods/stop "stop\(\)")
+      * [ reset()  ](https://animejs.com/documentation/draggable/draggable-methods/reset "reset\(\)")
+      * [ revert()  ](https://animejs.com/documentation/draggable/draggable-methods/revert "revert\(\)")
+      * [ refresh()  ](https://animejs.com/documentation/draggable/draggable-methods/refresh "refresh\(\)")
+    * [ Properties  ](https://animejs.com/documentation/draggable/draggable-properties "Draggable properties")
+  * [ Scroll  ](https://animejs.com/documentation/scroll "ScrollObserver")
+    * [ Settings  ](https://animejs.com/documentation/scroll/scrollobserver-settings "ScrollObserver settings")
+      * [ container  ](https://animejs.com/documentation/scroll/scrollobserver-settings/container "container")
+      * [ target  ](https://animejs.com/documentation/scroll/scrollobserver-settings/target "target")
+      * [ debug  ](https://animejs.com/documentation/scroll/scrollobserver-settings/debug "debug")
+      * [ axis  ](https://animejs.com/documentation/scroll/scrollobserver-settings/axis "axis")
+      * [ repeat  ](https://animejs.com/documentation/scroll/scrollobserver-settings/repeat "repeat")
+    * [ Thresholds  ](https://animejs.com/documentation/scroll/scrollobserver-thresholds "ScrollObserver thresholds")
+      * [ Numeric values  ](https://animejs.com/documentation/scroll/scrollobserver-thresholds/numeric-values "Numeric values")
+      * [ Positions shorthands  ](https://animejs.com/documentation/scroll/scrollobserver-thresholds/positions-shorthands "Positions shorthands")
+      * [ Relative position values  ](https://animejs.com/documentation/scroll/scrollobserver-thresholds/relative-position-values "Relative position values")
+      * [ Min max  ](https://animejs.com/documentation/scroll/scrollobserver-thresholds/min-max "Min max")
+    * [ Synchronisation modes  ](https://animejs.com/documentation/scroll/scrollobserver-synchronisation-modes "ScrollObserver synchronisation modes")
+      * [ Method names  ](https://animejs.com/documentation/scroll/scrollobserver-synchronisation-modes/method-names "Method names")
+      * [ Playback progress  ](https://animejs.com/documentation/scroll/scrollobserver-synchronisation-modes/playback-progress "Playback progress")
+      * [ Smooth scroll  ](https://animejs.com/documentation/scroll/scrollobserver-synchronisation-modes/smooth-scroll "Smooth scroll")
+      * [ Eased scroll  ](https://animejs.com/documentation/scroll/scrollobserver-synchronisation-modes/eased-scroll "Eased scroll")
+    * [ Callbacks  ](https://animejs.com/documentation/scroll/scrollobserver-callbacks "ScrollObserver callbacks")
+      * [ onEnter  ](https://animejs.com/documentation/scroll/scrollobserver-callbacks/onenter "onEnter")
+      * [ onEnterForward  ](https://animejs.com/documentation/scroll/scrollobserver-callbacks/onenterforward "onEnterForward")
+      * [ onEnterBackward  ](https://animejs.com/documentation/scroll/scrollobserver-callbacks/onenterbackward "onEnterBackward")
+      * [ onLeave  ](https://animejs.com/documentation/scroll/scrollobserver-callbacks/onleave "onLeave")
+      * [ onLeaveForward  ](https://animejs.com/documentation/scroll/scrollobserver-callbacks/onleaveforward "onLeaveForward")
+      * [ onLeaveBackward  ](https://animejs.com/documentation/scroll/scrollobserver-callbacks/onleavebackward "onLeaveBackward")
+      * [ onUpdate  ](https://animejs.com/documentation/scroll/scrollobserver-callbacks/onupdate "onUpdate")
+      * [ onSyncComplete  ](https://animejs.com/documentation/scroll/scrollobserver-callbacks/onsynccomplete "onSyncComplete")
+    * [ Methods  ](https://animejs.com/documentation/scroll/scrollobserver-methods "ScrollObserver methods")
+      * [ link()  ](https://animejs.com/documentation/scroll/scrollobserver-methods/link "link\(\)")
+      * [ refresh()  ](https://animejs.com/documentation/scroll/scrollobserver-methods/refresh "refresh\(\)")
+      * [ revert()  ](https://animejs.com/documentation/scroll/scrollobserver-methods/revert "revert\(\)")
+    * [ Properties  ](https://animejs.com/documentation/scroll/scrollobserver-properties "ScrollObserver properties")
+  * [ Scope  ](https://animejs.com/documentation/scope "Scope")
+    * [ Add constructor function  ](https://animejs.com/documentation/scope/add-constructor-function "Add constructor function")
+    * [ Register method function  ](https://animejs.com/documentation/scope/register-method-function "Register method function")
+    * [ Parameters  ](https://animejs.com/documentation/scope/scope-parameters "Scope parameters")
+      * [ root  ](https://animejs.com/documentation/scope/scope-parameters/root "root")
+      * [ defaults  ](https://animejs.com/documentation/scope/scope-parameters/defaults "defaults")
+      * [ mediaQueries  ](https://animejs.com/documentation/scope/scope-parameters/mediaqueries "mediaQueries")
+    * [ Methods  ](https://animejs.com/documentation/scope/scope-methods "Scope methods")
+      * [ add()  ](https://animejs.com/documentation/scope/scope-methods/add "add\(\)")
+      * [ addOnce()  ](https://animejs.com/documentation/scope/scope-methods/addonce "addOnce\(\)")
+      * [ keepTime()  ](https://animejs.com/documentation/scope/scope-methods/keeptime "keepTime\(\)")
+      * [ revert()  ](https://animejs.com/documentation/scope/scope-methods/revert "revert\(\)")
+      * [ refresh()  ](https://animejs.com/documentation/scope/scope-methods/refresh "refresh\(\)")
+    * [ Properties  ](https://animejs.com/documentation/scope/scope-properties "Scope properties")
+  * [ Stagger  ](https://animejs.com/documentation/stagger "Stagger")
+    * [ Time staggering  ](https://animejs.com/documentation/stagger/time-staggering "Time staggering")
+    * [ Values staggering  ](https://animejs.com/documentation/stagger/values-staggering "Values staggering")
+    * [ Timeline staggering  ](https://animejs.com/documentation/stagger/timeline-positions-staggering "Timeline positions staggering")
+    * [ Value types  ](https://animejs.com/documentation/stagger/stagger-value-types "Stagger value types")
+      * [ Numerical  ](https://animejs.com/documentation/stagger/stagger-value-types/numerical-value "Numerical value")
+      * [ Range  ](https://animejs.com/documentation/stagger/stagger-value-types/range-value "Range value")
+    * [ Parameters  ](https://animejs.com/documentation/stagger/stagger-parameters "Stagger parameters")
+      * [ start  ](https://animejs.com/documentation/stagger/stagger-parameters/stagger-start "Stagger start")
+      * [ from  ](https://animejs.com/documentation/stagger/stagger-parameters/stagger-from "Stagger from")
+      * [ reversed  ](https://animejs.com/documentation/stagger/stagger-parameters/stagger-reversed "Stagger reversed")
+      * [ ease  ](https://animejs.com/documentation/stagger/stagger-parameters/stagger-ease "Stagger ease")
+      * [ grid  ](https://animejs.com/documentation/stagger/stagger-parameters/stagger-grid "Stagger grid")
+      * [ axis  ](https://animejs.com/documentation/stagger/stagger-parameters/stagger-grid-axis "Stagger grid axis")
+      * [ modifier  ](https://animejs.com/documentation/stagger/stagger-parameters/stagger-modifier "Stagger modifier")
+      * [ use  ](https://animejs.com/documentation/stagger/stagger-parameters/stagger-use "Stagger use")
+      * [ total  ](https://animejs.com/documentation/stagger/stagger-parameters/stagger-total "Stagger total")
+  * [ SVG  ](https://animejs.com/documentation/svg "SVG")
+    * [ morphTo()  ](https://animejs.com/documentation/svg/morphto "morphTo\(\)")
+    * [ createDrawable()  ](https://animejs.com/documentation/svg/createdrawable "createDrawable\(\)")
+    * [ createMotionPath()  ](https://animejs.com/documentation/svg/createmotionpath "createMotionPath\(\)")
+  * [ Text  ](https://animejs.com/documentation/text "Text")
+    * [ split()  ](https://animejs.com/documentation/text/split "split\(\)")
+      * [ Settings  ](https://animejs.com/documentation/text/split/textsplitter-settings "TextSplitter settings")
+        * [ lines  ](https://animejs.com/documentation/text/split/textsplitter-settings/lines "lines")
+        * [ words  ](https://animejs.com/documentation/text/split/textsplitter-settings/words "words")
+        * [ chars  ](https://animejs.com/documentation/text/split/textsplitter-settings/chars "chars")
+        * [ debug  ](https://animejs.com/documentation/text/split/textsplitter-settings/debug "debug")
+        * [ includeSpaces  ](https://animejs.com/documentation/text/split/textsplitter-settings/includespaces "includeSpaces")
+        * [ accessible  ](https://animejs.com/documentation/text/split/textsplitter-settings/accessible "accessible")
+      * [ Split parameters  ](https://animejs.com/documentation/text/split/split-parameters "Split parameters")
+        * [ class  ](https://animejs.com/documentation/text/split/split-parameters/class "class")
+        * [ wrap  ](https://animejs.com/documentation/text/split/split-parameters/wrap "wrap")
+        * [ clone  ](https://animejs.com/documentation/text/split/split-parameters/clone "clone")
+      * [ HTML template  ](https://animejs.com/documentation/text/split/html-template "HTML template")
+      * [ Methods  ](https://animejs.com/documentation/text/split/textsplitter-methods "TextSplitter methods")
+        * [ addEffect()  ](https://animejs.com/documentation/text/split/textsplitter-methods/addeffect "addEffect\(\)")
+        * [ revert()  ](https://animejs.com/documentation/text/split/textsplitter-methods/revert "revert\(\)")
+        * [ refresh()  ](https://animejs.com/documentation/text/split/textsplitter-methods/refresh "refresh\(\)")
+      * [ Properties  ](https://animejs.com/documentation/text/split/textsplitter-properties "TextSplitter properties")
+  * [ Utilities  ](https://animejs.com/documentation/utilities "Utilities")
+    * [ $()  ](https://animejs.com/documentation/utilities/dollar-sign "$\(\)")
+    * [ get()  ](https://animejs.com/documentation/utilities/get "get\(\)")
+    * [ set()  ](https://animejs.com/documentation/utilities/set "set\(\)")
+    * [ remove()  ](https://animejs.com/documentation/utilities/remove "remove\(\)")
+    * [ cleanInlineStyles()  ](https://animejs.com/documentation/utilities/clean-inline-styles "cleanInlineStyles\(\)")
+    * [ keepTime()  ](https://animejs.com/documentation/utilities/createtimekeeper "keepTime\(\)")
+    * [ random()  ](https://animejs.com/documentation/utilities/random "random\(\)")
+    * [ randomPick()  ](https://animejs.com/documentation/utilities/random-pick "randomPick\(\)")
+    * [ shuffle()  ](https://animejs.com/documentation/utilities/shuffle "shuffle\(\)")
+    * [ sync()  ](https://animejs.com/documentation/utilities/sync "sync\(\)")
+    * [ lerp()  ](https://animejs.com/documentation/utilities/lerp "lerp\(\)")
+    * [ round()  ](https://animejs.com/documentation/utilities/round "round\(\)")
+    * [ clamp()  ](https://animejs.com/documentation/utilities/clamp "clamp\(\)")
+    * [ snap()  ](https://animejs.com/documentation/utilities/snap "snap\(\)")
+    * [ wrap()  ](https://animejs.com/documentation/utilities/wrap "wrap\(\)")
+    * [ mapRange()  ](https://animejs.com/documentation/utilities/map-range "mapRange\(\)")
+    * [ interpolate()  ](https://animejs.com/documentation/utilities/interpolate "interpolate\(\)")
+    * [ roundPad()  ](https://animejs.com/documentation/utilities/round-pad "roundPad\(\)")
+    * [ padStart()  ](https://animejs.com/documentation/utilities/pad-start "padStart\(\)")
+    * [ padEnd()  ](https://animejs.com/documentation/utilities/pad-end "padEnd\(\)")
+    * [ degToRad()  ](https://animejs.com/documentation/utilities/deg-to-rad "degToRad\(\)")
+    * [ radToDeg()  ](https://animejs.com/documentation/utilities/rad-to-deg "radToDeg\(\)")
+    * [ Chain-able utilities  ](https://animejs.com/documentation/utilities/chain-able-utility-functions "Chain-able utility functions")
+  * [ WAAPI  ](https://animejs.com/documentation/web-animation-api "Web Animation API")
+    * [ When to use  ](https://animejs.com/documentation/web-animation-api/when-to-use-waapi "When to use WAAPI")
+    * [ Hardware-acceleration  ](https://animejs.com/documentation/web-animation-api/hardware-accelerated-animations "Hardware-accelerated animations")
+    * [ Improvements to WAAPI  ](https://animejs.com/documentation/web-animation-api/improvements-to-the-web-animation-api "Improvements to the Web Animation API")
+      * [ Sensible defaults  ](https://animejs.com/documentation/web-animation-api/improvements-to-the-web-animation-api/sensible-defaults "Sensible defaults")
+      * [ Multi-targets animation  ](https://animejs.com/documentation/web-animation-api/improvements-to-the-web-animation-api/multi-targets-animation "Multi-targets animation")
+      * [ Default units  ](https://animejs.com/documentation/web-animation-api/improvements-to-the-web-animation-api/default-units "Default units")
+      * [ Function based values  ](https://animejs.com/documentation/web-animation-api/improvements-to-the-web-animation-api/function-based-values "Function based values")
+      * [ Individual transforms  ](https://animejs.com/documentation/web-animation-api/improvements-to-the-web-animation-api/individual-css-transforms "Individual CSS transforms")
+      * [ Individual property params  ](https://animejs.com/documentation/web-animation-api/improvements-to-the-web-animation-api/individual-property-parameters "Individual property parameters")
+      * [ Spring and custom easings  ](https://animejs.com/documentation/web-animation-api/improvements-to-the-web-animation-api/spring-and-custom-easings "Spring and custom easings")
+    * [ API differences  ](https://animejs.com/documentation/web-animation-api/api-differences-with-native-waapi "API differences with native WAAPI")
+      * [ iterations  ](https://animejs.com/documentation/web-animation-api/api-differences-with-native-waapi/iterations "iterations")
+      * [ direction  ](https://animejs.com/documentation/web-animation-api/api-differences-with-native-waapi/direction "direction")
+      * [ easing  ](https://animejs.com/documentation/web-animation-api/api-differences-with-native-waapi/easing "easing")
+      * [ finished  ](https://animejs.com/documentation/web-animation-api/api-differences-with-native-waapi/finished "finished")
+    * [ convertEase()  ](https://animejs.com/documentation/web-animation-api/waapi-convertease "waapi.convertEase\(\)")
+  * [ Engine  ](https://animejs.com/documentation/engine "Engine")
+    * [ Parameters  ](https://animejs.com/documentation/engine/engine-parameters "Engine parameters")
+      * [ timeUnit  ](https://animejs.com/documentation/engine/engine-parameters/timeunit-seconds-milliseconds "timeUnit \(seconds / milliseconds\)")
+      * [ speed  ](https://animejs.com/documentation/engine/engine-parameters/speed "speed")
+      * [ fps  ](https://animejs.com/documentation/engine/engine-parameters/fps "fps")
+      * [ precision  ](https://animejs.com/documentation/engine/engine-parameters/precision "precision")
+      * [ pauseOnDocumentHidden  ](https://animejs.com/documentation/engine/engine-parameters/pauseondocumenthidden "pauseOnDocumentHidden")
+    * [ Methods  ](https://animejs.com/documentation/engine/engine-methods "Engine methods")
+      * [ update()  ](https://animejs.com/documentation/engine/engine-methods/update "update\(\)")
+      * [ pause()  ](https://animejs.com/documentation/engine/engine-methods/pause "pause\(\)")
+      * [ resume()  ](https://animejs.com/documentation/engine/engine-methods/resume "resume\(\)")
+    * [ Properties  ](https://animejs.com/documentation/engine/engine-properties "Engine properties")
+    * [ Engine defaults  ](https://animejs.com/documentation/engine/engine-defaults "Engine defaults")
+
+
+[Animation](https://animejs.com/documentation/animation "Animation")  [ Targets ](https://animejs.com/documentation/animation/targets "Targets")
+[Since 1.0.0](https://github.com/juliangarnier/anime/releases/tag/v1.0.0)
+#  [ DOM Elements ](https://animejs.com/documentation/animation/targets/dom-elements "DOM Elements")
+Targets one or multiple DOM Elements.
+## Accepts
+  * `HTMLElement`
+  * `SVGElement`
+  * `SVGGeometryElement`
+  * `NodeList`
+
+
+## DOM Elements code example
+JavaScript HTML
+```
+import { animate } from 'animejs';
+
+const $demo = document.querySelector('#selector-demo');
+const $squares = $demo.querySelectorAll('.square');
+
+animate($demo, { scale: .75 });
+animate($squares, { x: '23rem' });
+```
+```
+<div id="selector-demo">
+  <div class="medium row">
+    <div class="square"></div>
+  </div>
+  <div class="medium row">
+    <div class="square"></div>
+  </div>
+  <div class="medium row">
+    <div class="square"></div>
+  </div>
+</div>
+```
+
+**Previous** **Next**
+  * [CSS Selector](https://animejs.com/documentation/animation/targets/css-selector "CSS Selector")
+  * [](https://animejs.com/documentation/animation/targets/javascript-objects "JavaScript Objects")
+
+
+Anime.js is only possible thanks to our incredible sponsors:
+[ ![Ice Open Network](https://animejs.com/media/pages/gold-sponsors/5deab89833-1751881002/ice-open-network-logomark.svg) Ice Open Network ](https://ice.io/?ref=animejs "Ice Open Network")
+### Funding goal
+21%
+[![](https://avatars.githubusercontent.com/u/1432275?v=4)brayanirving](https://github.com/brayanirving)[![Simone Paglino](https://avatars.githubusercontent.com/u/25704836?u=15626cb21cf4da11561cbf5ec6e35c51d421966c&v=4)Simone Paglino](https://github.com/simone-paglino)[![](https://avatars.githubusercontent.com/u/11381341?v=4)bparrillo](https://github.com/bparrillo)[![Richard Davey](https://avatars.githubusercontent.com/u/164476?v=4)Richard Davey](https://github.com/photonstorm)[![Sameer Anand](https://avatars.githubusercontent.com/u/3168008?u=4422940354967b4eea463af560ea24c327cbc8fe&v=4)Sameer Anand](https://github.com/sameerxanand)[![Eric Van Holtz](https://avatars.githubusercontent.com/u/1682225?u=4ac7fe0fd8598fba95224fc1a67db24d3a99b1aa&v=4)Eric Van Holtz](https://github.com/vonscriptor)[![Matvey Levinson](https://avatars.githubusercontent.com/u/12140030?v=4)Matvey Levinson](https://github.com/matveyson)[![Justin Hall](https://avatars.githubusercontent.com/u/223952?u=9b1d118c9ae2e32bd312ae4477769287e28f9aa8&v=4)Justin Hall](https://github.com/jhalljhall)[![Ricardo Gonzalez](https://avatars.githubusercontent.com/u/30808859?u=a7a495be11f99ca9b492c88f647760cbfb7a687b&v=4)Ricardo Gonzalez](https://github.com/BGS-RGonzalez)[![Stephane Demotte](https://avatars.githubusercontent.com/u/2158130?u=5adde8fd6a285602abcda956c80ee909529d7c5e&v=4)Stephane Demotte](https://github.com/stephanedemotte)[![Zaid Al Kazemi](https://avatars.githubusercontent.com/u/84647728?u=0da38d40520d88563af56c87f2c0ba7fbb8080c1&v=4)Zaid Al Kazemi](https://github.com/zalkazemi)[![](https://avatars.githubusercontent.com/u/1121725?v=4)Eketol](https://github.com/Eketol)[![](https://avatars.githubusercontent.com/u/171258970?v=4)devqrofertas](https://github.com/devqrofertas)[![](https://avatars.githubusercontent.com/u/4291354?u=d62b6917e998cb98640c1b6d0c102c656b2ada17&v=4)satoshionoda](https://github.com/satoshionoda)[![Edoardo Zambonini](https://avatars.githubusercontent.com/u/6562343?u=7b81aedb74d8490393202c938b8f2db41298d4ed&v=4)Edoardo Zambonini](https://github.com/think-ed)[![Atle Selbek](https://avatars.githubusercontent.com/u/7033186?v=4)Atle Selbek](https://github.com/Nolux)[![Henrik Stridsman](https://avatars.githubusercontent.com/u/40425150?v=4)Henrik Stridsman](https://github.com/henrik377)[![Makio64](https://avatars.githubusercontent.com/u/213351?v=4)Makio64](https://github.com/Makio64)[![Firtina Ozbalikchi](https://avatars.githubusercontent.com/u/108406948?u=4e695dfe8ef2f72ca672205defae6179538cad6f&v=4)Firtina Ozbalikchi](https://github.com/firtoz)[![João Paquim](https://avatars.githubusercontent.com/u/1531031?v=4)João Paquim](https://github.com/jpaquim)[![Zeus](https://avatars.githubusercontent.com/u/16010431?u=01b37593be7de0e7ae6e52e9dc0777a76b7dd6d4&v=4)Zeus](https://github.com/ice-zeus)[![InfoPilot-io](https://avatars.githubusercontent.com/u/157612716?v=4)InfoPilot-io](https://github.com/InfoPilot-io)[![Arjun Samir Patel](https://avatars.githubusercontent.com/u/47369740?u=40fa0c9e30f2eda57346c7edb52c4c2777b4a096&v=4)Arjun Samir Patel](https://github.com/arjunsamir)[![Eemil Zhang](https://avatars.githubusercontent.com/u/38159584?u=79f868e086fb87ba66f9c2f8ba6cdad1803384ee&v=4)Eemil Zhang](https://github.com/EemilZhang)[![](https://avatars.githubusercontent.com/u/5958748?u=87676a2ce8c8737a070dfbe6a00162d82cbbfa74&v=4)Hech](https://github.com/Hech)[![Stefan](https://avatars.githubusercontent.com/u/5545171?u=ba1b5f5376949d6ab5a451c1587de028768904b1&v=4)Stefan](https://github.com/okydk)[![Nicolaj Andersen](https://avatars.githubusercontent.com/u/24498666?u=ff20853719d64b605ca829dbd6e5e4cdc48c342d&v=4)Nicolaj Andersen](https://github.com/nicolaj-spartan-dk)[![](https://avatars.githubusercontent.com/u/17936291?v=4)jamesd256](https://github.com/jamesd256)[![Luke Jackson](https://avatars.githubusercontent.com/u/1457604?u=d9d97c4fd4fa68499276f5f578c19961ebcdac8d&v=4)Luke Jackson](https://github.com/lukejacksonn)[![](https://avatars.githubusercontent.com/u/374134?v=4)yellow1912](https://github.com/yellow1912)[![Oliver Tacke](https://avatars.githubusercontent.com/u/16688047?u=37490b86ccfb7a60b3dfdea411ee196ece08d456&v=4)Oliver Tacke](https://github.com/otacke)[![Dylan](https://avatars.githubusercontent.com/u/107817481?u=cfb66d78c84e423f4a0c950473f1a98e8be44fc6&v=4)Dylan](https://github.com/dyl-kh)[![Tuomo Kulomaa](https://avatars.githubusercontent.com/u/29172317?u=d583bdd937c8f8187f172a2fd81f3a04f642d2e2&v=4)Tuomo Kulomaa](https://github.com/TuomoKu)[![Sören Meier](https://avatars.githubusercontent.com/u/16178877?u=739b6e357c3c58a0bf10f929bc0a2580e849daa1&v=4)Sören Meier](https://github.com/soerenmeier)[![Fedor Parfenov](https://avatars.githubusercontent.com/u/10249425?u=6880e6a2efa0ec0b0f5998eb1786a5a1aaff8e79&v=4)Fedor Parfenov](https://github.com/fvpDev)[![Aaron Kenton](https://avatars.githubusercontent.com/u/8131304?v=4)Aaron Kenton](https://github.com/lightwalkernet)[![LambdaTest](https://avatars.githubusercontent.com/u/171592363?u=96606606a45fa170427206199014f2a5a2a4920b&v=4)LambdaTest](https://github.com/LambdaTest-Inc)[![Astral_rider](https://avatars.githubusercontent.com/u/47975771?u=6dc0328cb90cd8b70a428e431ba28368a361e691&v=4)Astral_rider](https://github.com/Aurora-creeper)[![Tim Kang](https://avatars.githubusercontent.com/u/8601493?u=4ee62b87479fbfb7ea8b5e20ed910c3824b1c310&v=4)Tim Kang](https://github.com/illestrater)[![Aaron Iker](https://avatars.githubusercontent.com/u/4730431?u=810f2f1b1e34cf036d1f43380dcadc4d64b0b2de&v=4)Aaron Iker](https://github.com/aaroniker)[![](https://avatars.githubusercontent.com/u/105914?v=4)beysim](https://github.com/beysim)[![](https://avatars.githubusercontent.com/u/217863722?v=4)emvibrand](https://github.com/emvibrand)[![Vitalii Nevidomyi](https://avatars.githubusercontent.com/u/335118?v=4)Vitalii Nevidomyi](https://github.com/nevidomy)[![EJ Fox](https://avatars.githubusercontent.com/u/530073?u=bf427304a7d55633534bfeb538451933e6cc71a4&v=4)EJ Fox](https://github.com/ejfox)[![Artisann](https://avatars.githubusercontent.com/u/37394584?u=0a4171427e4f16d8fe0a1e57af04c43e21ab6ed0&v=4)Artisann](https://github.com/ImArtisann)[![Fabian Fuchs](https://avatars.githubusercontent.com/u/78906517?u=924a27cbee3db7e0ece5cc1509921402e1445e74&v=4)Fabian Fuchs](https://github.com/FabulousCodingFox)[![Luis Bizarro](https://avatars.githubusercontent.com/u/12835911?u=1c443ddc1e1c72b26b8bed2413e68f632c0a9cca&v=4)Luis Bizarro](https://github.com/bizarro)[![Sikriti Dakua](https://avatars.githubusercontent.com/u/38714423?u=fd32f0f31a466f8de51d5d13008019cbd93843f2&v=4)Sikriti Dakua](https://github.com/devloop01)[![Sam Muirhead](https://avatars.githubusercontent.com/u/15368010?u=d27a3d5bc457e9e1c48a8bd9e501cafe01b8daec&v=4)Sam Muirhead](https://github.com/cameralibre)[![Mohaimin Al Aoun](https://avatars.githubusercontent.com/u/11583167?u=e7860d173192813c7d0fffeda817f1c7652daa2e&v=4)Mohaimin Al Aoun](https://github.com/mohaiminalaoun)
+Help the project survive, [become a sponsor](https://github.com/sponsors/juliangarnier). 
+##  Documentation 
+##  Getting started 
+##  Installation 
+```
+  npm i animejs
+  
+```
+
+```
+  npm i animejs
+  
+```
+
+##  Imports 
+```
+  import { animate } from 'animejs'
+  
+```
+
+```
+  import { animate } from 'animejs'
+  
+```
+
+##  Using with vanilla JS 
+rotations: 0
+rotations: 0
+##  Using with React 
+rotations: 0
+rotations: 0
+##  Timer 
+```
+      current time
+      0
+    
+```
+
+```
+      callback fired
+      0
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+```
+      callback fired
+      0
+    
+```
+
+##  Timer playback settings 
+##  delay 
+```
+      current time
+      0
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+##  duration 
+```
+      current time
+      0
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+##  loop 
+```
+      loops count
+      0
+    
+```
+
+```
+      iteration time
+      0
+    
+```
+
+```
+      loops count
+      0
+    
+```
+
+```
+      iteration time
+      0
+    
+```
+
+##  loopDelay 
+```
+      loops count
+      0
+    
+```
+
+```
+      iteration time
+      0
+    
+```
+
+```
+      loops count
+      0
+    
+```
+
+```
+      iteration time
+      0
+    
+```
+
+##  alternate 
+```
+      loops count
+      0
+    
+```
+
+```
+      iteration time
+      0
+    
+```
+
+```
+      loops count
+      0
+    
+```
+
+```
+      iteration time
+      0
+    
+```
+
+##  reversed 
+```
+      iteration time
+      0
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+```
+      iteration time
+      0
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+##  autoplay 
+```
+      current time
+      0
+    
+```
+
+Play
+```
+      current time
+      0
+    
+```
+
+Play
+##  frameRate 
+```
+      fps
+      60
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+```
+      fps
+      60
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+##  playbackRate 
+```
+      speed
+      2.0
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+```
+      speed
+      2.0
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+##  Timer callbacks 
+##  onBegin 
+```
+      began
+      false
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+```
+      began
+      false
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+##  onComplete 
+```
+      completed
+      false
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+```
+      completed
+      false
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+##  onUpdate 
+```
+      updates
+      0
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+```
+      updates
+      0
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+##  onLoop 
+```
+      loops
+      0
+    
+```
+
+```
+      iteration time
+      0
+    
+```
+
+```
+      loops
+      0
+    
+```
+
+```
+      iteration time
+      0
+    
+```
+
+##  onPause 
+```
+      paused
+      0
+    
+```
+
+```
+      elapsed time
+      0
+    
+```
+
+Resume Pause
+```
+      paused
+      0
+    
+```
+
+```
+      elapsed time
+      0
+    
+```
+
+Resume Pause
+##  then() 
+```
+      promise status
+      pending
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+```
+      promise status
+      pending
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+##  Timer methods 
+##  play() 
+```
+      iteration time
+      0
+    
+```
+
+Play
+```
+      iteration time
+      0
+    
+```
+
+Play
+##  reverse() 
+```
+      iteration time
+      0
+    
+```
+
+Reverse
+```
+      iteration time
+      0
+    
+```
+
+Reverse
+##  pause() 
+```
+      current time
+      0
+    
+```
+
+Pause
+```
+      current time
+      0
+    
+```
+
+Pause
+##  restart() 
+```
+      current time
+      0
+    
+```
+
+Restart
+```
+      current time
+      0
+    
+```
+
+Restart
+##  alternate() 
+```
+      iteration time
+      0
+    
+```
+
+Alternate
+```
+      iteration time
+      0
+    
+```
+
+Alternate
+##  resume() 
+```
+      iteration time
+      0
+    
+```
+
+Resume Pause Alternate
+```
+      iteration time
+      0
+    
+```
+
+Resume Pause Alternate
+##  complete() 
+```
+      current time
+      0
+    
+```
+
+Complete
+```
+      current time
+      0
+    
+```
+
+Complete
+##  cancel() 
+```
+      current time
+      0
+    
+```
+
+Play Cancel
+```
+      current time
+      0
+    
+```
+
+Play Cancel
+##  revert() 
+```
+      current time
+      0
+    
+```
+
+Play Revert
+```
+      current time
+      0
+    
+```
+
+Play Revert
+##  seek() 
+```
+      current time
+      0
+    
+```
+
+Play
+```
+      current time
+      0
+    
+```
+
+Play
+##  stretch() 
+```
+      duration
+      2000
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+```
+      duration
+      2000
+    
+```
+
+```
+      current time
+      0
+    
+```
+
+##  Timer properties 
+##  Animation 
+## HELLO WORLD
+## HELLO WORLD
+##  Targets 
+##  CSS Selector 
+##  DOM Elements 
+##  JavaScript Objects  JS
+```
+  {"x":0,"y":0}
+
+```
+
+```
+  {"x":0,"y":0}
+
+```
+
+##  Array of targets 
+```
+  {"x":"0"}
+
+```
+
+```
+  {"x":"0"}
+
+```
+
+##  Animatable properties 
+##  CSS Properties 
+##  CSS transforms 
+JS / WAAPI
+WAAPI
+JS / WAAPI
+WAAPI
+##  CSS Variables  JS
+##  JavaScript Object properties  JS
+```
+  {"number":1337,"unit":"42%"}
+
+```
+
+```
+  {"number":1337,"unit":"42%"}
+
+```
+
+##  HTML Attributes  JS
+```
+  
+  
+
+```
+
+```
+  
+  
+
+```
+
+##  SVG Attributes  JS
+##  Tween value types 
+##  Numerical value 
+##  Unit conversion value 
+##  Relative value  JS
++ 90° - 90° × .5
++ 90° - 90° × .5
+##  Color value 
+##  Color function value  WAAPI
+##  CSS variable  WAAPI
+##  Function based value 
+##  Tween parameters 
+##  to 
+##  from 
+##  delay 
+##  duration 
+##  ease 
+all: 'inQuad'
+all: eases.outQuad
+x: createSpring()  
+rotate: 'inQuad'
+all: 'inQuad'
+all: eases.outQuad
+x: createSpring()  
+rotate: 'inQuad'
+##  composition  JS
+none  
+  
+
+replace  
+  
+
+blend  
+  
+
+  
+  
+(Hover the squares)
+none  
+  
+
+replace  
+  
+
+blend  
+  
+
+  
+  
+(Hover the squares)
+##  modifier  JS
+utils.round(0)
+v => v % 17
+v => Math.cos(v) / 2
+utils.round(0)
+v => v % 17
+v => Math.cos(v) / 2
+##  Keyframes 
+##  Tween values keyframes 
+##  Tween parameters keyframes  JS
+##  Duration based keyframes  JS
+##  Percentage based keyframes  JS
+##  Animation playback settings 
+##  delay 
+##  duration 
+duration: 0
+duration: 500
+duration: 2000
+duration: 0
+duration: 500
+duration: 2000
+##  loop 
+loop: 3
+loop: 3, alternate: true
+loop: 3, reversed: true
+loop: true
+loop: 3
+loop: 3, alternate: true
+loop: 3, reversed: true
+loop: true
+##  loopDelay  JS
+##  alternate 
+alternate: false
+alternate: true
+alternate: true, reversed: true
+alternate: false
+alternate: true
+alternate: true, reversed: true
+##  reversed 
+reversed: false
+reversed: true
+reversed: false
+reversed: true
+##  autoplay 
+autoplay: true
+autoplay: false
+autoplay: true
+autoplay: false
+##  frameRate  JS
+```
+    fps
+    60
+  
+```
+
+```
+    fps
+    60
+  
+```
+
+##  playbackRate 
+```
+    speed
+    1.00
+  
+```
+
+```
+    speed
+    1.00
+  
+```
+
+##  playbackEase  JS
+##  Animation callbacks 
+##  onBegin  JS
+```
+    began
+    false
+  
+```
+
+```
+    began
+    false
+  
+```
+
+##  onComplete 
+```
+    completed
+    false
+  
+```
+
+```
+    completed
+    false
+  
+```
+
+##  onBeforeUpdate  JS
+```
+    updates
+    0
+  
+```
+
+```
+    updates
+    0
+  
+```
+
+##  onUpdate  JS
+```
+    updates
+    0
+  
+```
+
+```
+    updates
+    0
+  
+```
+
+##  onRender  JS
+```
+    renders
+    0
+  
+```
+
+```
+    renders
+    0
+  
+```
+
+##  onLoop  JS
+```
+    loops
+    0
+  
+```
+
+```
+    loops
+    0
+  
+```
+
+##  onPause  JS
+```
+    paused
+    0
+  
+```
+
+Animate x Pause anim Remove target
+```
+    paused
+    0
+  
+```
+
+Animate x Pause anim Remove target
+##  then() 
+```
+    promise status
+    pending
+  
+```
+
+```
+    promise status
+    pending
+  
+```
+
+##  Animation methods 
+##  play() 
+Play
+Play
+##  reverse() 
+Reverse
+Reverse
+##  pause() 
+Pause
+Pause
+##  restart() 
+Restart
+Restart
+##  alternate() 
+Alternate
+Alternate
+##  resume() 
+Pause Alternate Resume
+Pause Alternate Resume
+##  complete() 
+Complete
+Complete
+##  cancel() 
+Cancel Play
+Cancel Play
+##  revert() 
+Revert Restart
+Revert Restart
+##  seek() 
+Play
+Play
+##  stretch()  JS
+```
+  total duration
+  0
+
+```
+
+```
+  total duration
+  0
+
+```
+
+##  refresh()  JS
+Refresh & Restart
+Refresh & Restart
+##  Animation properties 
+##  Timeline 
+##  Add timers 
+```
+      timer 01
+      0
+    
+```
+
+```
+      timer 02
+      0
+    
+```
+
+```
+      timer 03
+      0
+    
+```
+
+```
+      timer 01
+      0
+    
+```
+
+```
+      timer 02
+      0
+    
+```
+
+```
+      timer 03
+      0
+    
+```
+
+##  Add animations 
+##  Sync WAAPI animations 
+##  Sync timelines 
+##  Call functions 
+```
+      function A
+      --
+    
+```
+
+```
+      function B
+      --
+    
+```
+
+```
+      function C
+      --
+    
+```
+
+```
+      function A
+      --
+    
+```
+
+```
+      function B
+      --
+    
+```
+
+```
+      function C
+      --
+    
+```
+
+##  Time position 
+##  Timeline playback settings 
+##  defaults 
+##  delay 
+```
+    current time
+    0
+  
+```
+
+```
+    current time
+    0
+  
+```
+
+##  loop 
+```
+    loops
+    0
+  
+```
+
+```
+    loops
+    0
+  
+```
+
+##  loopDelay 
+```
+    loops
+    0
+  
+```
+
+```
+    loops
+    0
+  
+```
+
+##  alternate 
+```
+    loops
+    0
+  
+```
+
+```
+    loops
+    0
+  
+```
+
+##  reversed 
+```
+    current time
+    0
+  
+```
+
+```
+    current time
+    0
+  
+```
+
+##  autoplay 
+```
+    paused
+    true
+  
+```
+
+Play
+```
+    paused
+    true
+  
+```
+
+Play
+##  frameRate 
+```
+    fps
+    60
+  
+```
+
+```
+    fps
+    60
+  
+```
+
+##  playbackRate 
+```
+    speed
+    2.0
+  
+```
+
+```
+    speed
+    2.0
+  
+```
+
+##  playbackEase 
+##  Timeline callbacks 
+##  onBegin 
+```
+    began
+    false
+  
+```
+
+```
+    began
+    false
+  
+```
+
+##  onComplete 
+```
+    completed
+    false
+  
+```
+
+```
+    completed
+    false
+  
+```
+
+##  onBeforeUpdate 
+```
+    updates
+    0
+  
+```
+
+```
+    updates
+    0
+  
+```
+
+##  onUpdate 
+```
+    updates
+    0
+  
+```
+
+```
+    updates
+    0
+  
+```
+
+##  onRender 
+```
+    renders
+    0
+  
+```
+
+```
+    renders
+    0
+  
+```
+
+##  onLoop 
+```
+    loops
+    0
+  
+```
+
+```
+    loops
+    0
+  
+```
+
+##  onPause 
+```
+    paused
+    0
+  
+```
+
+Create TL Pause TL Remove shapes
+```
+    paused
+    0
+  
+```
+
+Create TL Pause TL Remove shapes
+##  then() 
+```
+    promise status
+    pending
+  
+```
+
+```
+    promise status
+    pending
+  
+```
+
+##  Timeline methods 
+##  add() 
+```
+    value
+    0
+  
+```
+
+```
+    value
+    0
+  
+```
+
+##  set() 
+##  sync() 
+##  label() 
+##  remove() 
+Remove anim Remove target remove tween
+Remove anim Remove target remove tween
+##  call() 
+```
+      function A
+      --
+    
+```
+
+```
+      function B
+      --
+    
+```
+
+```
+      function C
+      --
+    
+```
+
+```
+      function A
+      --
+    
+```
+
+```
+      function B
+      --
+    
+```
+
+```
+      function C
+      --
+    
+```
+
+##  init() 
+##  play() 
+Play
+Play
+##  reverse() 
+Reverse
+Reverse
+##  pause() 
+Pause
+Pause
+##  restart() 
+Restart
+Restart
+##  alternate() 
+Alternate
+Alternate
+##  resume() 
+Pause Alternate Resume
+Pause Alternate Resume
+##  complete() 
+Complete
+Complete
+##  cancel() 
+Cancel Play
+Cancel Play
+##  revert() 
+Revert Restart
+Revert Restart
+##  seek() 
+Play
+Play
+##  stretch() 
+```
+    total duration
+    0
+  
+```
+
+```
+    total duration
+    0
+  
+```
+
+##  refresh() 
+Refresh & Restart
+Refresh & Restart
+##  Timeline properties 
+##  Animatable 
+Move cursor around
+Move cursor around
+##  Animatable settings 
+##  unit 
+Move cursor around
+Move cursor around
+##  duration 
+  
+  
+  
+Move cursor around
+  
+  
+  
+Move cursor around
+##  ease 
+linear
+outElastic
+linear
+outElastic
+##  modifier 
+snapped
+inverted
+snapped
+inverted
+##  Animatable methods 
+##  Getters 
+```
+        x
+        0
+      
+```
+
+```
+        y
+        0
+      
+```
+
+Move cursor around
+```
+        x
+        0
+      
+```
+
+```
+        y
+        0
+      
+```
+
+Move cursor around
+##  Setters 
+Move cursor around
+Move cursor around
+##  revert() 
+Revert
+Revert
+##  Animatable properties 
+##  Draggable 
+##  Draggable axes parameters 
+##  x 
+x enabled
+x disabled
+x enabled
+x disabled
+##  y 
+y enabled
+y disabled
+y enabled
+y disabled
+##  snap 
+##  modifier 
+##  mapTo 
+##  Draggable settings 
+##  trigger 
+##  container 
+##  containerPadding 
+##  containerFriction 
+##  releaseContainerFriction 
+##  releaseMass 
+##  releaseStiffness 
+##  releaseDamping 
+##  velocityMultiplier 
+##  minVelocity 
+##  maxVelocity 
+##  releaseEase 
+##  dragSpeed 
+##  scrollThreshold 
+##  scrollSpeed 
+##  cursor 
+##  Draggable callbacks 
+##  onGrab 
+```
+    grabs
+    0
+  
+```
+
+```
+    grabs
+    0
+  
+```
+
+##  onDrag 
+```
+    drags
+    0
+  
+```
+
+```
+    drags
+    0
+  
+```
+
+##  onUpdate 
+```
+    updates
+    0
+  
+```
+
+```
+    updates
+    0
+  
+```
+
+##  onRelease 
+```
+    releases
+    0
+  
+```
+
+```
+    releases
+    0
+  
+```
+
+##  onSnap 
+```
+    snaps
+    0
+  
+```
+
+```
+    snaps
+    0
+  
+```
+
+##  onSettle 
+```
+    stops
+    0
+  
+```
+
+```
+    stops
+    0
+  
+```
+
+##  onResize 
+```
+      resizes
+      0
+    
+```
+
+```
+      resizes
+      0
+    
+```
+
+##  onAfterResize 
+```
+      resizes
+      0
+    
+```
+
+```
+      resizes
+      0
+    
+```
+
+##  Draggable methods 
+##  disable() 
+Disable
+Disable
+##  enable() 
+Enable
+Enable
+##  setX() 
+Set random x
+Set random x
+##  setY() 
+Set random y
+Set random y
+##  animateInView() 
+Animate in view
+Animate in view
+##  scrollInView() 
+Scroll in view
+Scroll in view
+##  stop() 
+Stop
+Stop
+##  reset() 
+Reset
+Reset
+##  revert() 
+Revert
+Revert
+##  refresh() 
+Refresh
+Refresh
+##  Draggable properties 
+##  ScrollObserver 
+scroll down
+```
+          timer
+          0
+        
+```
+
+scroll down
+```
+          timer
+          0
+        
+```
+
+##  ScrollObserver settings 
+##  container 
+scroll down
+scroll down
+##  target 
+scroll down
+```
+          timer
+          0
+        
+```
+
+scroll down
+```
+          timer
+          0
+        
+```
+
+##  debug 
+scroll down
+scroll up
+scroll down
+scroll up
+##  axis 
+scroll right →
+scroll right →
+##  repeat 
+scroll down
+```
+          repeat upddates
+          0
+        
+```
+
+```
+          no repeat updates
+          0
+        
+```
+
+scroll up
+scroll down
+```
+          repeat upddates
+          0
+        
+```
+
+```
+          no repeat updates
+          0
+        
+```
+
+scroll up
+##  ScrollObserver thresholds 
+##  Numeric values 
+scroll down
+scroll down
+##  Positions shorthands 
+scroll down
+scroll down
+##  Relative position values 
+scroll down
+scroll down
+##  Min max 
+##  ScrollObserver synchronisation modes 
+##  Method names 
+scroll down
+scroll down
+##  Playback progress 
+scroll down
+scroll down
+##  Smooth scroll 
+scroll down
+scroll down
+##  Eased scroll 
+scroll down
+scroll down
+##  ScrollObserver callbacks 
+##  onEnter 
+```
+          entered
+          0
+        
+```
+
+```
+          entered
+          0
+        
+```
+
+##  onEnterForward 
+```
+          entered
+          0
+        
+```
+
+```
+          entered
+          0
+        
+```
+
+##  onEnterBackward 
+```
+          entered
+          0
+        
+```
+
+```
+          entered
+          0
+        
+```
+
+##  onLeave 
+```
+          exits
+          0
+        
+```
+
+```
+          exits
+          0
+        
+```
+
+##  onLeaveForward 
+```
+          exits
+          0
+        
+```
+
+```
+          exits
+          0
+        
+```
+
+##  onLeaveBackward 
+```
+          exits
+          0
+        
+```
+
+```
+          exits
+          0
+        
+```
+
+##  onUpdate 
+```
+          updates
+          0
+        
+```
+
+```
+          updates
+          0
+        
+```
+
+##  onSyncComplete 
+```
+          completions
+          0
+        
+```
+
+```
+          completions
+          0
+        
+```
+
+##  ScrollObserver methods 
+##  link() 
+scroll down
+scroll down
+##  refresh() 
+scroll down
+scroll down
+##  revert() 
+scroll down
+scroll down
+##  ScrollObserver properties 
+##  Scope 
+##  Add constructor function 
+##  Register method function 
+##  Scope parameters 
+##  root 
+outside scope
+inside scope
+outside scope
+outside scope
+inside scope
+outside scope
+##  defaults 
+scope 1
+scope 2
+scope 3
+scope 1
+scope 2
+scope 3
+##  mediaQueries 
+##  Scope methods 
+##  add() 
+##  addOnce() 
+##  keepTime() 
+##  revert() 
+Revert row 1 Revert row 2
+Revert row 1 Revert row 2
+##  refresh() 
+Refresh row 1 Refresh row 2
+Refresh row 1 Refresh row 2
+##  Scope properties 
+##  Stagger 
+##  Time staggering 
+delay: 0ms; duration: 500ms
+delay: 100ms; duration: 700ms
+delay: 200ms; duration: 900ms
+delay: 300ms; duration: 1100ms
+delay: 0ms; duration: 500ms
+delay: 100ms; duration: 700ms
+delay: 200ms; duration: 900ms
+delay: 300ms; duration: 1100ms
+##  Values staggering 
+##  Timeline positions staggering 
+##  Stagger value types 
+##  Numerical value 
+x: 0rem delay: 0ms
+x: 5.75rem delay: 100ms
+x: 11.5rem delay: 200ms
+x: 17.25rem delay: 300ms
+x: 0rem delay: 0ms
+x: 5.75rem delay: 100ms
+x: 11.5rem delay: 200ms
+x: 17.25rem delay: 300ms
+##  Range value 
+##  Stagger parameters 
+##  Stagger start 
+x: 14rem, delay: 500ms
+x: 15rem, delay: 600ms
+x: 16rem, delay: 700ms
+x: 17rem, delay: 700ms
+x: 14rem, delay: 500ms
+x: 15rem, delay: 600ms
+x: 16rem, delay: 700ms
+x: 17rem, delay: 700ms
+##  Stagger from 
+##  Stagger reversed 
+delay: 300ms
+delay: 200ms
+delay: 100ms
+delay: 0ms
+delay: 300ms
+delay: 200ms
+delay: 100ms
+delay: 0ms
+##  Stagger ease 
+##  Stagger grid 
+##  Stagger grid axis 
+##  Stagger modifier 
+##  Stagger use 
+data-index="2"
+data-index="0"
+data-index="3"
+data-index="1"
+data-index="2"
+data-index="0"
+data-index="3"
+data-index="1"
+##  Stagger total 
+data-index="0"
+data-index="0"
+data-index="1"
+data-index="1"
+data-index="0"
+data-index="0"
+data-index="1"
+data-index="1"
+##  SVG 
+##  morphTo() 
+##  createDrawable() 
+##  createMotionPath() 
+Suzuka
+Suzuka
+##  Text 
+##  split() 
+All-in-one text splitter  
+テキストスプリッター 
+All-in-one text splitter  
+テキストスプリッター 
+##  TextSplitter settings 
+##  lines 
+Split text by lines.  
+線で分割します。
+Split text by lines.  
+線で分割します。
+##  words 
+Split text by words.  
+単語ごとに分割します。
+Split text by words.  
+単語ごとに分割します。
+##  chars 
+Split text by chars.  
+文字ごとに分割します。
+Split text by chars.  
+文字ごとに分割します。
+##  debug 
+Split text by chars.  
+文字ごとに分割します。
+Toggle debug
+Split text by chars.  
+文字ごとに分割します。
+Toggle debug
+##  includeSpaces 
+Split text by words.  
+Include spaces or not.
+Toggle spaces
+Split text by words.  
+Include spaces or not.
+Toggle spaces
+##  accessible 
+Split text by words.  
+単語ごとに分割します。
+Toggle accessible
+Split text by words.  
+単語ごとに分割します。
+Toggle accessible
+##  Split parameters 
+##  class 
+Custom CSS class.
+Custom CSS class.
+##  wrap 
+Split and wrap text.
+Split and wrap text.
+##  clone 
+Split and clone text.
+Split and clone text.
+##  HTML template 
+Custom HTML template.
+Custom HTML template.
+##  TextSplitter methods 
+##  addEffect() 
+Hover the words to animate their color, then resize the text.
+Hover the words to animate their color, then resize the text.
+##  revert() 
+Split text by words.  
+単語ごとに分割します。
+Revert
+Split text by words.  
+単語ごとに分割します。
+Revert
+##  refresh() 
+Lorem ipsum dolor
+Add word Remove word
+Lorem ipsum dolor
+Add word Remove word
+##  TextSplitter properties 
+##  Utilities 
+##  $() 
+##  get() 
+##  set() 
+Set styles Revert styles
+Set styles Revert styles
+##  remove() 
+```
+  updates
+  --
+
+```
+
+Remove all first Remove x second
+```
+  updates
+  --
+
+```
+
+Remove all first Remove x second
+##  cleanInlineStyles() 
+Keep styles (default)
+Clean translateX and borderRadius
+Keep styles (default)
+Clean translateX and borderRadius
+##  keepTime() 
+Switch target
+Switch target
+##  random() 
+##  randomPick() 
+A
+B
+C
+D
+A
+B
+C
+D
+##  shuffle() 
+A
+B
+C
+D
+E
+F
+Shuffle
+A
+B
+C
+D
+E
+F
+Shuffle
+##  sync() 
+```
+    speed
+    1.00
+  
+```
+
+```
+    speed
+    1.00
+  
+```
+
+##  lerp() 
+input
+lerped
+lerped 15fps
+input
+lerped
+lerped 15fps
+##  round() 
+normal
+rounded (.1)
+normal
+rounded (.1)
+##  clamp() 
+normal
+clamped [.25,.75]
+normal
+clamped [.25,.75]
+##  snap() 
+normal
+snapped (.25)
+normal
+snapped (.25)
+##  wrap() 
+normal
+wrapped [-.25,.25]
+normal
+wrapped [-.25,.25]
+##  mapRange() 
+normal
+mapped [0,12] [0,1]
+normal
+mapped [0,12] [0,1]
+##  interpolate() 
+normal
+interpolated [0,12]
+normal
+interpolated [0,12]
+##  roundPad() 
+```
+    0.000
+  
+```
+
+```
+    0.000
+  
+```
+
+##  padStart() 
+```
+    0
+  
+```
+
+```
+    0
+  
+```
+
+##  padEnd() 
+```
+    0
+  
+```
+
+```
+    0
+  
+```
+
+##  degToRad() 
+degrees
+radians
+degrees
+radians
+##  radToDeg() 
+radians
+degrees
+radians
+degrees
+##  Chain-able utility functions 
+```
+    0
+  
+```
+
+```
+    0
+  
+```
+
+##  Web Animation API 
+## HELLO WAAPI
+## HELLO WAAPI
+##  When to use WAAPI 
+```
+  {"x": '0rem',"rotate":"0deg"}
+
+```
+
+```
+  {"x": '0rem',"rotate":"0deg"}
+
+```
+
+##  Hardware-accelerated animations 
+WAAPI
+JS
+Block CPU
+WAAPI
+JS
+Block CPU
+##  Improvements to the Web Animation API 
+##  Sensible defaults 
+##  Multi-targets animation 
+##  Default units 
+##  Function based values 
+##  Individual CSS transforms 
+##  Individual property parameters 
+##  Spring and custom easings 
+##  API differences with native WAAPI 
+##  iterations 
+##  direction 
+##  easing 
+##  finished 
+```
+    promise status
+    pending
+  
+```
+
+```
+    promise status
+    pending
+  
+```
+
+##  waapi.convertEase() 
+stiffness: 100
+stiffness: 150
+stiffness: 200
+stiffness: 100
+stiffness: 150
+stiffness: 200
+##  Engine 
+##  Engine parameters 
+##  timeUnit (seconds / milliseconds) 
+```
+      duration: 1
+      0
+    
+```
+
+```
+      duration: 1000
+      0
+    
+```
+
+milliseconds seconds
+```
+      duration: 1
+      0
+    
+```
+
+```
+      duration: 1000
+      0
+    
+```
+
+milliseconds seconds
+##  speed 
+##  fps 
+##  precision 
+##  pauseOnDocumentHidden 
+```
+      global time
+      0
+    
+```
+
+```
+      engine time
+      0
+    
+```
+
+● Enabled (Switch tab to see the effect)
+```
+      global time
+      0
+    
+```
+
+```
+      engine time
+      0
+    
+```
+
+● Enabled (Switch tab to see the effect)
+##  Engine methods 
+##  update() 
+##  pause() 
+Add animation Pause for 3 seconds
+Add animation Pause for 3 seconds
+##  resume() 
+Pause Resume
+Pause Resume
+##  Engine properties 
+##  Engine defaults 
+
