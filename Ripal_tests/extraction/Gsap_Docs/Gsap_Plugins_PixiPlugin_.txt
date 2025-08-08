@@ -1,0 +1,335 @@
+# GSAP Documentation: Plugins_PixiPlugin_
+                
+**URL:** https://gsap.com/docs/v3/Plugins/PixiPlugin/
+**Scraped:** 2025-08-08 13:00:55
+**Content Length:** 14455 characters
+**Processing Time:** 1.30 seconds
+
+---
+
+[GSAPGSAP](https://gsap.com/)Menu
+  * Tools
+    * [Core](https://gsap.com/core/)
+    * [Scroll](https://gsap.com/scroll/)
+    * [SVG](https://gsap.com/svg/)
+    * [UI](https://gsap.com/ui/)
+    * [Text](https://gsap.com/text/)
+    * [Installation](https://gsap.com/docs/v3/Installation)
+    * [Starter Templates](https://gsap.com/demos)
+    * [GSAP & React](https://gsap.com/resources/React)
+    * [Video Lessons](https://www.youtube.com/@GreenSockLearning)
+Professional-grade JavaScript animation for the modern web
+![](https://gsap.com/img/header-shapes.png)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Community](https://gsap.com/community/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [Docs](https://gsap.com/docs/v3)
+  * [Demos](https://gsap.com/demos)
+
+
+  * Notifications
+#### Notifications
+[Notification Settings](https://gsap.com/community/notifications/options)[View All](https://gsap.com/community/notifications/)
+  * Messages
+#### Messages
+[Compose new](https://gsap.com/community/messenger/compose)[Go to Inbox](https://gsap.com/community/messenger)
+  * Login/Create Account
+#### Sign In
+Login[Forgot your password?](https://gsap.com/community/lostpassword/)
+#### Why create an account?
+    * It's free
+    * Learn & share in the forums
+    * Keep up to date with GSAP
+[Create an Account](https://gsap.com/community/register)
+  * [My Account](https://gsap.com/community/account-dashboard)
+    * [Dashboard](https://gsap.com/community/account-dashboard)
+    * [Account Settings](https://gsap.com/community/settings)
+  * [Get GSAP](https://gsap.com/docs/v3/Installation)
+
+
+  * Tools
+    * [Core](https://gsap.com/core/)
+    * [Scroll](https://gsap.com/scroll/)
+    * [SVG](https://gsap.com/svg/)
+    * [UI](https://gsap.com/ui/)
+    * [Text](https://gsap.com/text/)
+  * [About](https://gsap.com/pricing/)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Community](https://gsap.com/community/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [Docs](https://gsap.com/docs/v3/)
+
+
+  * Login/Create Account
+
+
+  * [Dashboard](https://gsap.com/community/account-dashboard)
+  * [Account Settings](https://gsap.com/community/settings)
+  * [Messages](https://gsap.com/community/messenger/)
+  * [Notifications](https://gsap.com/community/notifications/)
+
+
+#### Sign In
+Login[Forgot your password?](https://gsap.com/community/lostpassword/)
+#### Not got an account?
+[Create an Account](https://gsap.com/community/register)
+  * [CodePen](https://codepen.io/GreenSock)
+  * [GitHub](https://github.com/greensock/GreenSock-JS/)
+  * [Facebook](https://www.facebook.com/greensock/)
+  * [LinkedIn](https://www.linkedin.com/company/greensock)
+  * [x](https://www.twitter.com/greensock/)
+
+
+![](https://gsap.com/img/header-shapes.png)
+[Skip to main content](https://gsap.com/docs/v3/Plugins/PixiPlugin/#__docusaurus_skipToContent_fallback)
+[](https://gsap.com/)[Docs](https://gsap.com/docs/v3/)[Learning](https://gsap.com/resources)
+[v3.13.0](https://gsap.com/docs/v3/Plugins/PixiPlugin/)
+  * [v3.13.0](https://gsap.com/docs/v3/Plugins/PixiPlugin/)
+  * [v2 - archived](https://www.gsap.com/archived-docs/)
+
+
+Search
+  * [docsHome](https://gsap.com/docs/v3/)
+  * Quick Start
+  * [Installation](https://gsap.com/docs/v3/Installation)
+  * [YouTube Channel](https://www.youtube.com/@GreenSockLearning)
+  * [Demos](https://gsap.com/demos)
+  * [Cheatsheet](https://gsap.com/cheatsheet)
+  * Fundamentals
+  * [GSAP](https://gsap.com/docs/v3/GSAP/)
+  * [Tween](https://gsap.com/docs/v3/GSAP/Tween)
+  * [Timeline](https://gsap.com/docs/v3/GSAP/Timeline)
+  * [CSS](https://gsap.com/docs/v3/GSAP/CorePlugins/CSS)
+  * [Easing](https://gsap.com/docs/v3/Eases)
+  * Plugins
+  * [What's a plugin?](https://gsap.com/docs/v3/Plugins)
+  * [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/)
+  * [ScrollSmoother](https://gsap.com/docs/v3/Plugins/ScrollSmoother/)
+  * [SplitText](https://gsap.com/docs/v3/Plugins/SplitText/)
+  * [Flip](https://gsap.com/docs/v3/Plugins/Flip/)
+  * [more plugins](https://gsap.com/docs/v3/Plugins/CSSRulePlugin/)
+    * [CSSRule](https://gsap.com/docs/v3/Plugins/CSSRulePlugin/)
+    * [Draggable](https://gsap.com/docs/v3/Plugins/Draggable/)
+    * [DrawSVG](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin)
+    * [Easel](https://gsap.com/docs/v3/Plugins/EaselPlugin)
+    * [GSDevTools](https://gsap.com/docs/v3/Plugins/GSDevTools)
+    * [Inertia](https://gsap.com/docs/v3/Plugins/InertiaPlugin/)
+    * [MorphSVG](https://gsap.com/docs/v3/Plugins/MorphSVGPlugin)
+    * [MotionPath](https://gsap.com/docs/v3/Plugins/MotionPathPlugin)
+    * [MotionPathHelper](https://gsap.com/docs/v3/Plugins/MotionPathHelper)
+    * [Observer](https://gsap.com/docs/v3/Plugins/Observer/)
+    * [Physics2D](https://gsap.com/docs/v3/Plugins/Physics2DPlugin)
+    * [PhysicsProps](https://gsap.com/docs/v3/Plugins/PhysicsPropsPlugin)
+    * [Pixi](https://gsap.com/docs/v3/Plugins/PixiPlugin/)
+      * [methods](https://gsap.com/docs/v3/Plugins/PixiPlugin/static.registerPIXI\(\))
+        * [PixiPlugin.registerPIXI()](https://gsap.com/docs/v3/Plugins/PixiPlugin/static.registerPIXI\(\))
+    * [ScrambleText](https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin)
+    * [ScrollTo](https://gsap.com/docs/v3/Plugins/ScrollToPlugin)
+    * [Text](https://gsap.com/docs/v3/Plugins/TextPlugin)
+  * Useful features & tools
+  * [Utility Methods](https://gsap.com/docs/v3/GSAP/UtilityMethods)
+  * [Staggers](https://gsap.com/resources/getting-started/Staggers)
+  * [Helper functions](https://gsap.com/docs/v3/HelperFunctions/)
+  * [React - useGSAP()](https://gsap.com/resources/React)
+  * [llms.txt](https://gsap.com/llms.txt)
+
+
+  * more plugins
+  * Pixi
+
+
+On this page
+# Pixi
+Quick Start
+#### CDN Link
+Copy
+```
+gsap.registerPlugin(PixiPlugin)  
+
+```
+
+#### Minimal usage
+```
+ gsap.to(graphics,{duration:2,pixi:{lineColor:"purple"}});  
+
+```
+
+PixiPlugin makes it much easier to animate things in [PixiJS](https://www.pixijs.com/), a popular canvas library that's extremely performant. Without the plugin, it's a tad cumbersome with certain properties because they're tucked inside sub-objects in PixiJS's API, like `object.position.x`, `object.scale.y`, `object.skew.x`, etc. Plus PixiJS defines rotational values in radians instead of degrees which isn't as intuitive for most developers and designers. PixiPlugin saves you a bunch of headaches:
+```
+//old way (without plugin):  
+gsap.to(pixiObject.scale,{x:2,y:1.5,duration:1});  
+gsap.to(pixiObject.skew,{x:(30*Math.PI)/180,duration:1});  
+gsap.to(pixiObject,{rotation:(60*Math.PI)/180,duration:1});  
+  
+//new way (with plugin):  
+gsap.to(pixiObject,{  
+pixi:{scaleX:2,scaleY:1.5,skewX:30,rotation:60},  
+duration:1,  
+});  
+
+```
+
+Notice **rotational values are defined in degrees, not radians**. Yay!
+Be sure to include the PixiPlugin correctly:
+```
+import*asPIXIfrom"pixi.js";  
+import{ gsap }from"gsap";  
+import{PixiPlugin}from"gsap/PixiPlugin";  
+  
+// register the plugin  
+gsap.registerPlugin(PixiPlugin);  
+  
+// give the plugin a reference to the PIXI object  
+PixiPlugin.registerPIXI(PIXI);  
+
+```
+
+## PixiJS examples[​](https://gsap.com/docs/v3/Plugins/PixiPlugin/#pixijs-examples "Direct link to PixiJS examples")
+There are a bunch of GSAP-based examples in the [PixiJS documentation here](https://pixijs.io/examples/#/gsap3-interaction/gsap3-basic.js)! It's a great place to start.
+## Colors[​](https://gsap.com/docs/v3/Plugins/PixiPlugin/#colors "Direct link to Colors")
+PixiJS requires that you define color-related values in a format like `0xFF0000` but with PixiPlugin, you can define them the same way you would in CSS, like `"red"`, `"#F00"`, `"#FF0000"`, `"rgb(255,0,0)"`, `"hsl(0, 100%, 50%)"`, or `0xFF0000`. You can even do relative HSL values! `"hsl(+=180, +=0%, +=0%)"`.
+```
+//named colors  
+gsap.to(graphics,{duration:2,pixi:{lineColor:"purple"}});  
+  
+//relative hsl() color that reduces brightness but leaves the hue and saturation the same:  
+gsap.to(graphics,{  
+duration:2,  
+pixi:{fillColor:"hsl(+=0, +=0%, -=30%)"},  
+});  
+
+```
+
+## ColorMatrixFilter[​](https://gsap.com/docs/v3/Plugins/PixiPlugin/#colormatrixfilter "Direct link to ColorMatrixFilter")
+Another big convenience is that PixiPlugin recognizes some special values like `saturation`, `brightness`, `contrast`, `hue`, and `colorize` (which all leverage a `ColorMatrixFilter` under the hood).
+```
+var image =newPIXI.Sprite.from(  
+"http://pixijs.github.io/examples/required/assets/panda.png"  
+);  
+app.stage.addChild(image);  
+  
+var tl = gsap.timeline({defaults:{duration:2}});  
+//colorize fully red. Change colorAmount to 0.5 to make it only halfway colorized, for example:  
+tl.to(image,{pixi:{colorize:"red",colorizeAmount:1}})  
+//change the hue 180 degrees (opposite)  
+.to(image,{pixi:{hue:180}})  
+//completely desaturate  
+.to(image,{pixi:{saturation:0}})  
+//blow out the brightness to double the normal amount  
+.to(image,{pixi:{brightness:2}})  
+//increase the contrast  
+.to(image,{pixi:{contrast:1.5}});  
+
+```
+
+#### loading...
+Or if you have a custom `ColorMatrixFilter`, just pass that in as the `colorMatrixFilter` property and it'll handle animating between states:
+```
+var filter =newPIXI.filters.ColorMatrixFilter();  
+filter.sepia();  
+gsap.to(image,{pixi:{colorMatrixFilter: filter },duration:2});  
+
+```
+
+## BlurFilter[​](https://gsap.com/docs/v3/Plugins/PixiPlugin/#blurfilter "Direct link to BlurFilter")
+PixiPlugin recognizes `blur`, `blurX`, and `blurY` properties, so it's very simple to apply a blur without having to create a new `BlurFilter` instance, add it to the filters array, and animate its properties separately.
+```
+//blur on both the x and y axis to a blur amount of 15  
+gsap.to(image,{pixi:{blurX:15,blurY:15},duration:2});  
+
+```
+
+## Directional rotation[​](https://gsap.com/docs/v3/Plugins/PixiPlugin/#directional-rotation "Direct link to Directional rotation")
+You can control which direction a rotation tween goes by appending a suffix for **clockwise** (`"_cw"`), **counter-clockwise** (`"_ccw"`), or the **shortest direction** (`"_short"`). For example, if the element's rotation is currently 170 degrees and you want to tween it to -170 degrees, a normal rotation tween would travel a total of 340 degrees in the counter-clockwise direction, but `rotation: "-170_short"` suffix, it would travel 20 degrees in the clockwise direction instead! Example:
+```
+gsap.to(element,{  
+pixi:{rotation:"-170_short"},  
+duration:2,  
+});  
+
+```
+
+Directional rotation capabilities were added in GSAP 3.2, so make sure you've got the latest update.
+## Other properties[​](https://gsap.com/docs/v3/Plugins/PixiPlugin/#other-properties "Direct link to Other properties")
+PixiPlugin can handle almost any other property as well - there is no pre-determined list of "allowed" properties. PixiPlugin simply improves developer ergonomics for anyone animating in PixiJS. Less code, fewer headaches, and faster production. For a full listing of properties that the PixiPlugin helps with, see [the PixiPlugin Typescript declarations](https://github.com/greensock/GSAP/blob/master/types/pixi-plugin.d.ts).
+##  **Methods**[​](https://gsap.com/docs/v3/Plugins/PixiPlugin/#methods "Direct link to methods")
+####  [PixiPlugin.registerPIXI](https://gsap.com/docs/v3/Plugins/PixiPlugin/static.registerPIXI\(\))( PIXI:Object ) ;
+| Registers the main PIXI library object with the PixiPlugin so that it can find the necessary classes/objects. You only need to register it once.   
+---|---  
+[Previous PhysicsProps](https://gsap.com/docs/v3/Plugins/PhysicsPropsPlugin)[Next PixiPlugin.registerPIXI()](https://gsap.com/docs/v3/Plugins/PixiPlugin/static.registerPIXI\(\))
+## Contents
+  * [PixiJS examples](https://gsap.com/docs/v3/Plugins/PixiPlugin/#pixijs-examples)
+  * [Colors](https://gsap.com/docs/v3/Plugins/PixiPlugin/#colors)
+  * [ColorMatrixFilter](https://gsap.com/docs/v3/Plugins/PixiPlugin/#colormatrixfilter)
+  * [BlurFilter](https://gsap.com/docs/v3/Plugins/PixiPlugin/#blurfilter)
+  * [Directional rotation](https://gsap.com/docs/v3/Plugins/PixiPlugin/#directional-rotation)
+  * [Other properties](https://gsap.com/docs/v3/Plugins/PixiPlugin/#other-properties)
+  * [**Methods**](https://gsap.com/docs/v3/Plugins/PixiPlugin/#methods)
+
+
+## [GSAP](https://gsap.com/)
+  * [Core](https://gsap.com/core/)
+  * [Docs](https://gsap.com/docs/v3)
+  * [All Plugins](https://gsap.com/docs/v3/Plugins/)
+
+
+## [Scroll](https://gsap.com/scroll/)
+  * [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger)
+  * [ScrollSmoother](https://gsap.com/docs/v3/Plugins/ScrollSmoother)
+  * [ScrollTo](https://gsap.com/docs/v3/Plugins/ScrollToPlugin)
+
+
+## [SVG](https://gsap.com/svg/)
+  * [DrawSVG](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin)
+  * [MorphSVG](https://gsap.com/docs/v3/Plugins/MorphSVGPlugin)
+  * [MotionPath](https://gsap.com/docs/v3/Plugins/MotionPathPlugin)
+  * [MotionPathHelper](https://gsap.com/docs/v3/Plugins/MotionPathHelper)
+
+
+## [UI](https://gsap.com/ui/)
+  * [Flip](https://gsap.com/docs/v3/Plugins/Flip)
+  * [Draggable](https://gsap.com/docs/v3/Plugins/Draggable)
+  * [Inertia](https://gsap.com/docs/v3/Plugins/InertiaPlugin)
+  * [Observer](https://gsap.com/docs/v3/Plugins/Observer)
+
+
+## [Text](https://gsap.com/text/)
+  * [SplitText](https://gsap.com/docs/v3/Plugins/SplitText)
+  * [ScrambleText](https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin)
+  * [Text Replace](https://gsap.com/docs/v3/Plugins/TextPlugin)
+
+
+## [Other](https://gsap.com/text/)
+  * [Physics2D](https://gsap.com/docs/v3/Plugins/Physics2DPlugin)
+  * [PhysicsProps](https://gsap.com/docs/v3/Plugins/PhysicsPropsPlugin)
+  * [GSDevTools](https://gsap.com/docs/v3/Plugins/GSDevTools)
+
+
+Keep in the loop with the GSAP® newsletter.
+Email *
+  
+
+## GSAP
+  * [Blog](https://gsap.com/blog/)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [GSAP & Webflow](https://gsap.com/pricing)
+  * [Contact Us](https://gsap.com/community/contact/)
+
+
+## Connect
+  * [Forums](https://gsap.com/community/)
+  * [Codepen](https://www.codepen.io/GreenSock)
+  * [LinkedIn](https://www.linkedin.com/company/greensock)
+  * [Bluesky](https://bsky.app/profile/gsap-greensock.bsky.social)
+  * [GitHub](https://github.com/greensock/GreenSock-JS)
+  * [X](https://www.twitter.com/greensock)
+
+
+©2025 GSAP - A Webflow Product. All rights reserved.
+[](https://webflow.com/)
+  * [ Privacy Policy.](https://gsap.com/community/privacy-policy/)
+  * [ Terms of Use.](https://gsap.com/community/terms-of-use/)
+
+
+

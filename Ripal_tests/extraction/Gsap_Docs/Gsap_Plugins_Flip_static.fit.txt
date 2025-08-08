@@ -1,0 +1,256 @@
+# GSAP Documentation: Plugins_Flip_static.fit
+                
+**URL:** https://gsap.com/docs/v3/Plugins/Flip/static.fit()
+**Scraped:** 2025-08-08 12:53:08
+**Content Length:** 12646 characters
+**Processing Time:** 1.17 seconds
+
+---
+
+[GSAPGSAP](https://gsap.com/)Menu
+  * Tools
+    * [Core](https://gsap.com/core/)
+    * [Scroll](https://gsap.com/scroll/)
+    * [SVG](https://gsap.com/svg/)
+    * [UI](https://gsap.com/ui/)
+    * [Text](https://gsap.com/text/)
+    * [Installation](https://gsap.com/docs/v3/Installation)
+    * [Starter Templates](https://gsap.com/demos)
+    * [GSAP & React](https://gsap.com/resources/React)
+    * [Video Lessons](https://www.youtube.com/@GreenSockLearning)
+Professional-grade JavaScript animation for the modern web
+![](https://gsap.com/img/header-shapes.png)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Community](https://gsap.com/community/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [Docs](https://gsap.com/docs/v3)
+  * [Demos](https://gsap.com/demos)
+
+
+  * Notifications
+#### Notifications
+[Notification Settings](https://gsap.com/community/notifications/options)[View All](https://gsap.com/community/notifications/)
+  * Messages
+#### Messages
+[Compose new](https://gsap.com/community/messenger/compose)[Go to Inbox](https://gsap.com/community/messenger)
+  * Login/Create Account
+#### Sign In
+Login[Forgot your password?](https://gsap.com/community/lostpassword/)
+#### Why create an account?
+    * It's free
+    * Learn & share in the forums
+    * Keep up to date with GSAP
+[Create an Account](https://gsap.com/community/register)
+  * [My Account](https://gsap.com/community/account-dashboard)
+    * [Dashboard](https://gsap.com/community/account-dashboard)
+    * [Account Settings](https://gsap.com/community/settings)
+  * [Get GSAP](https://gsap.com/docs/v3/Installation)
+
+
+  * Tools
+    * [Core](https://gsap.com/core/)
+    * [Scroll](https://gsap.com/scroll/)
+    * [SVG](https://gsap.com/svg/)
+    * [UI](https://gsap.com/ui/)
+    * [Text](https://gsap.com/text/)
+  * [About](https://gsap.com/pricing/)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Community](https://gsap.com/community/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [Docs](https://gsap.com/docs/v3/)
+
+
+  * Login/Create Account
+
+
+  * [Dashboard](https://gsap.com/community/account-dashboard)
+  * [Account Settings](https://gsap.com/community/settings)
+  * [Messages](https://gsap.com/community/messenger/)
+  * [Notifications](https://gsap.com/community/notifications/)
+
+
+#### Sign In
+Login[Forgot your password?](https://gsap.com/community/lostpassword/)
+#### Not got an account?
+[Create an Account](https://gsap.com/community/register)
+  * [CodePen](https://codepen.io/GreenSock)
+  * [GitHub](https://github.com/greensock/GreenSock-JS/)
+  * [Facebook](https://www.facebook.com/greensock/)
+  * [LinkedIn](https://www.linkedin.com/company/greensock)
+  * [x](https://www.twitter.com/greensock/)
+
+
+![](https://gsap.com/img/header-shapes.png)
+[Skip to main content](https://gsap.com/docs/v3/Plugins/Flip/static.fit\(\)/#__docusaurus_skipToContent_fallback)
+[](https://gsap.com/)[Docs](https://gsap.com/docs/v3/)[Learning](https://gsap.com/resources)
+[v3.13.0](https://gsap.com/docs/v3/Plugins/Flip/static.fit\(\))
+  * [v3.13.0](https://gsap.com/docs/v3/Plugins/Flip/static.fit\(\))
+  * [v2 - archived](https://www.gsap.com/archived-docs/)
+
+
+Search
+  * [docsHome](https://gsap.com/docs/v3/)
+  * Quick Start
+  * [Installation](https://gsap.com/docs/v3/Installation)
+  * [YouTube Channel](https://www.youtube.com/@GreenSockLearning)
+  * [Demos](https://gsap.com/demos)
+  * [Cheatsheet](https://gsap.com/cheatsheet)
+  * Fundamentals
+  * [GSAP](https://gsap.com/docs/v3/GSAP/)
+  * [Tween](https://gsap.com/docs/v3/GSAP/Tween)
+  * [Timeline](https://gsap.com/docs/v3/GSAP/Timeline)
+  * [CSS](https://gsap.com/docs/v3/GSAP/CorePlugins/CSS)
+  * [Easing](https://gsap.com/docs/v3/Eases)
+  * Plugins
+  * [What's a plugin?](https://gsap.com/docs/v3/Plugins)
+  * [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/)
+  * [ScrollSmoother](https://gsap.com/docs/v3/Plugins/ScrollSmoother/)
+  * [SplitText](https://gsap.com/docs/v3/Plugins/SplitText/)
+  * [Flip](https://gsap.com/docs/v3/Plugins/Flip/)
+    * [methods](https://gsap.com/docs/v3/Plugins/Flip/static.batch\(\))
+      * [Flip.batch()](https://gsap.com/docs/v3/Plugins/Flip/static.batch\(\))
+      * [Flip.fit()](https://gsap.com/docs/v3/Plugins/Flip/static.fit\(\))
+      * [Flip.from()](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\))
+      * [Flip.getState()](https://gsap.com/docs/v3/Plugins/Flip/static.getState\(\))
+      * [Flip.isFlipping()](https://gsap.com/docs/v3/Plugins/Flip/static.isFlipping\(\))
+      * [Flip.killFlipsOf()](https://gsap.com/docs/v3/Plugins/Flip/static.killFlipsOf\(\))
+      * [Flip.makeAbsolute()](https://gsap.com/docs/v3/Plugins/Flip/static.makeAbsolute\(\))
+      * [Flip.to()](https://gsap.com/docs/v3/Plugins/Flip/static.to\(\))
+  * [more plugins](https://gsap.com/docs/v3/Plugins/CSSRulePlugin/)
+  * Useful features & tools
+  * [Utility Methods](https://gsap.com/docs/v3/GSAP/UtilityMethods)
+  * [Staggers](https://gsap.com/resources/getting-started/Staggers)
+  * [Helper functions](https://gsap.com/docs/v3/HelperFunctions/)
+  * [React - useGSAP()](https://gsap.com/resources/React)
+  * [llms.txt](https://gsap.com/llms.txt)
+
+
+  * [Flip](https://gsap.com/docs/v3/Plugins/Flip/)
+  * methods
+  * Flip.fit()
+
+
+On this page
+# Flip.fit
+###  Flip.fit( targetToResize:String | Element, destinationTargetOrState:String | Element | FlipState, vars:Object ) ;
+Repositions/resizes one element so that it appears to fit exactly into the same area as another element. Using the `fitChild` special property, you can even scale/reposition an element so that one if its _child_ elements is used for the fitting calculations instead! By default it alters the transforms (x, y, rotation, and skewX) as well as the width and height of the element, but if you set `scale: true` it will use scaleX and scaleY instead of width and height.
+#### Parameters
+  * ####  **targetToResize** : String | Element
+The DOM element that should be resized/moved. Can be selector text like `".my-class"` or a reference to the Element itself.
+  * ####  **destinationTargetOrState** : String | Element | FlipState
+The DOM element or FlipState that should be fit into.
+  * ####  **vars** : Object
+The vars to use for the fit. This can contain standard tweening properties like `ease`, `duration`, `onComplete`, etc. as well as special settings like `absolute`, `fitChild`, `scale`, etc.
+
+
+### Details[​](https://gsap.com/docs/v3/Plugins/Flip/static.fit\(\)/#details "Direct link to Details")
+Repositions/resizes one element so that it appears to fit exactly into the same area as another element. Using the `fitChild` special property, you can even scale/reposition an element so that one if its _child_ elements is used for the fitting calculations instead! By default it alters the transforms (x, y, rotation, and skewX) as well as the width and height of the element, but if you set `scale: true` it will use scaleX and scaleY instead of width and height.
+Fitting will occur instantly unless you set a `duration` in the `vars` object in which case it will return a [gsap.to()](https://gsap.com/docs/v3/GSAP/gsap.to\(\)) tween. In fact, you can define almost any standard GSAP tween property there like `onComplete`, `delay`, `ease`, etc. For example:
+```
+// fit ".box1" into the same area in the viewport as ".box2" immediately:  
+Flip.fit('.box1','.box2');  
+  
+// or animate there instead:  
+Flip.fit('.box1','.box2',{  
+duration:1,  
+ease:'power1.inOut',  
+onComplete:()=>console.log('done!')  
+});  
+
+```
+
+You can even use a previously-recorded state object from [Flip.getState()](https://gsap.com/docs/v3/Plugins/Flip/static.getState\(\)) as the destination so that the target fits into the same position/size it was at that time!
+```
+// capture state  
+const state =Flip.getState(box1Element);  
+  
+// change state, like we'll put it into a different container:  
+newParent.appendChild(box1Element);  
+  
+// now fit it into where it was previously:  
+Flip.fit(box1Element, state);  
+
+```
+
+How cool is that?
+The `vars` object (3rd parameter) can define any of the following [optional] configuration properties **in addition to any standard tween properties like`duration` , `ease`, `onComplete`, etc.** which are described [elsewhere](https://gsap.com/docs/v3/GSAP/gsap.to\(\)):
+Property | Description  
+---|---  
+absolute | Boolean - if `true`, the target will have its `position` CSS property set to `absolute`. This can solve layout challenges with flex and grid layouts, for example.  
+fitChild | String | Element - to scale the element so that one of its _child_ elements fits instead, define that child like `fitChild: ".child-class"` (or reference the child Element itself). 
+#### loading...  
+getVars | Boolean - if `true`, no fitting will occur, but only a vars object will be returned that contains the necessary information for the proper fitting so that it could be passed, for example, to a tween or used separately. For example, if you just want to figure out what the x, y, scaleX, scaleY, rotation, and skewX would be to properly fit, you could do: `let vars = Flip.fit(".box1", ".box2", {scale: true, getVars: true});`  
+props | String - A comma delimited list of CSS properties (beyond the the standard ones that control position, dimensions, rotation, and skew) that should be changed to match the target's. For example, `"backgroundColor,color"`  
+scale | Boolean - by default, Flip.fit() will affect the `width` and `height` CSS properties to alter the size, but if you'd rather scale the element instead (typically better performance), set `scale: true`. The only exception to this behavior is if you define a `fitChild` in which case it will _always_ behave as if `scale: true` was defined (even if you omit it).  
+simple | Boolean - if `true`, Flip will skip the extra calculations that would be necessary to accommodate rotation/scale/skew in determining positions. It's like telling Flip _"I promise that there aren't any rotated/scaled/skewed containers for the Flipping elements"_ which makes things **faster**. In most cases, the performance difference isn't noticeable, but if you're fitting a _lot_ of elements it can help keep things snappy.  
+[Previous Flip.batch()](https://gsap.com/docs/v3/Plugins/Flip/static.batch\(\))[Next Flip.from()](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\))
+## Contents
+  * [Details](https://gsap.com/docs/v3/Plugins/Flip/static.fit\(\)/#details)
+
+
+## [GSAP](https://gsap.com/)
+  * [Core](https://gsap.com/core/)
+  * [Docs](https://gsap.com/docs/v3)
+  * [All Plugins](https://gsap.com/docs/v3/Plugins/)
+
+
+## [Scroll](https://gsap.com/scroll/)
+  * [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger)
+  * [ScrollSmoother](https://gsap.com/docs/v3/Plugins/ScrollSmoother)
+  * [ScrollTo](https://gsap.com/docs/v3/Plugins/ScrollToPlugin)
+
+
+## [SVG](https://gsap.com/svg/)
+  * [DrawSVG](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin)
+  * [MorphSVG](https://gsap.com/docs/v3/Plugins/MorphSVGPlugin)
+  * [MotionPath](https://gsap.com/docs/v3/Plugins/MotionPathPlugin)
+  * [MotionPathHelper](https://gsap.com/docs/v3/Plugins/MotionPathHelper)
+
+
+## [UI](https://gsap.com/ui/)
+  * [Flip](https://gsap.com/docs/v3/Plugins/Flip)
+  * [Draggable](https://gsap.com/docs/v3/Plugins/Draggable)
+  * [Inertia](https://gsap.com/docs/v3/Plugins/InertiaPlugin)
+  * [Observer](https://gsap.com/docs/v3/Plugins/Observer)
+
+
+## [Text](https://gsap.com/text/)
+  * [SplitText](https://gsap.com/docs/v3/Plugins/SplitText)
+  * [ScrambleText](https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin)
+  * [Text Replace](https://gsap.com/docs/v3/Plugins/TextPlugin)
+
+
+## [Other](https://gsap.com/text/)
+  * [Physics2D](https://gsap.com/docs/v3/Plugins/Physics2DPlugin)
+  * [PhysicsProps](https://gsap.com/docs/v3/Plugins/PhysicsPropsPlugin)
+  * [GSDevTools](https://gsap.com/docs/v3/Plugins/GSDevTools)
+
+
+Keep in the loop with the GSAP® newsletter.
+Email *
+  
+
+## GSAP
+  * [Blog](https://gsap.com/blog/)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [GSAP & Webflow](https://gsap.com/pricing)
+  * [Contact Us](https://gsap.com/community/contact/)
+
+
+## Connect
+  * [Forums](https://gsap.com/community/)
+  * [Codepen](https://www.codepen.io/GreenSock)
+  * [LinkedIn](https://www.linkedin.com/company/greensock)
+  * [Bluesky](https://bsky.app/profile/gsap-greensock.bsky.social)
+  * [GitHub](https://github.com/greensock/GreenSock-JS)
+  * [X](https://www.twitter.com/greensock)
+
+
+©2025 GSAP - A Webflow Product. All rights reserved.
+[](https://webflow.com/)
+  * [ Privacy Policy.](https://gsap.com/community/privacy-policy/)
+  * [ Terms of Use.](https://gsap.com/community/terms-of-use/)
+
+
+

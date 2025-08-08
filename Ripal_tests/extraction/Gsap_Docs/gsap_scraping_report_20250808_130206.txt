@@ -1,0 +1,238 @@
+# GSAP Documentation Scraping Report
+    
+**Generated:** 2025-08-08 13:02:06
+**Total URLs:** 75
+**Successful:** 75
+**Failed:** 0
+**Empty/Warning:** 0
+
+## ✅ Successfully Scraped (75)
+- Plugins_InertiaPlugin_static.getVelocity (10466 chars, 4.42s)
+- Plugins_InertiaPlugin_static.isTracking (9737 chars, 2.14s)
+- Plugins_InertiaPlugin_static.track (12927 chars, 1.23s)
+- Plugins_InertiaPlugin_static.untrack (9742 chars, 1.25s)
+- Plugins_InertiaPlugin_VelocityTracker_ (12893 chars, 0.99s)
+- Plugins_InertiaPlugin_VelocityTracker_.target (10206 chars, 1.19s)
+- Plugins_MorphSVGPlugin (33492 chars, 1.30s)
+- Plugins_MorphSVGPlugin_static.defaultRender (11032 chars, 1.19s)
+- Plugins_MorphSVGPlugin_static.defaultType (9662 chars, 1.21s)
+- Plugins_MorphSVGPlugin_static.defaultUpdateTarget (9943 chars, 1.18s)
+- Plugins_MorphSVGPlugin_static.convertToPath (11824 chars, 1.20s)
+- Plugins_MorphSVGPlugin_static.rawPathToString (11405 chars, 1.19s)
+- Plugins_MorphSVGPlugin_static.stringToRawPath (11460 chars, 1.30s)
+- Plugins_MotionPathPlugin (29115 chars, 1.84s)
+- Plugins_MotionPathPlugin_static.arrayToRawPath (14707 chars, 1.23s)
+- Plugins_MotionPathPlugin_static.convertCoordinates_ (13598 chars, 0.91s)
+- Plugins_MotionPathPlugin_static.convertToPath (11221 chars, 1.23s)
+- Plugins_MotionPathPlugin_static.getAlignMatrix (14603 chars, 1.44s)
+- Plugins_MotionPathPlugin_static.getGlobalMatrix (13392 chars, 1.32s)
+- Plugins_MotionPathPlugin_static.getLength (10752 chars, 1.40s)
+- Plugins_MotionPathPlugin_static.getPositionOnPath (12246 chars, 1.22s)
+- Plugins_MotionPathPlugin_static.getRawPath (12061 chars, 1.23s)
+- Plugins_MotionPathPlugin_static.getRelativePosition (13938 chars, 1.25s)
+- Plugins_MotionPathPlugin_methods_static-pointsToSegment (11438 chars, 1.41s)
+- Plugins_MotionPathPlugin_static.rawPathToString (11799 chars, 1.18s)
+- Plugins_MotionPathPlugin_static.sliceRawPath (12643 chars, 1.32s)
+- Plugins_MotionPathPlugin_static.stringToRawPath (11721 chars, 1.30s)
+- MotionPathHelper_kill (9304 chars, 1.29s)
+- MotionPathHelper_static.editPath (12053 chars, 1.75s)
+- Plugins_Observer_ (32276 chars, 1.03s)
+- Plugins_Observer_deltaX (10576 chars, 1.28s)
+- Plugins_Observer_deltaY (10573 chars, 1.15s)
+- Plugins_Observer_event (10592 chars, 1.17s)
+- Plugins_Observer_isDragging (10378 chars, 2.29s)
+- Plugins_Observer_isEnabled (10644 chars, 1.42s)
+- Plugins_Observer_isPressed (10110 chars, 1.85s)
+- Plugins_Observer_startX (10407 chars, 1.92s)
+- Plugins_Observer_startY (10412 chars, 22.11s)
+- Plugins_Observer_target (9929 chars, 8.06s)
+- Plugins_Observer_static.isTouch (10482 chars, 2.47s)
+- Plugins_Observer_vars (10030 chars, 1.75s)
+- Plugins_Observer_velocityX (10428 chars, 1.67s)
+- Plugins_Observer_velocityX (10428 chars, 0.46s)
+- Plugins_Observer_velocityY (10419 chars, 2.53s)
+- Plugins_Observer_x (10262 chars, 2.03s)
+- Plugins_Observer_y (10258 chars, 1.97s)
+- Plugins_Observer_disable (10342 chars, 1.41s)
+- Plugins_Observer_enable (10427 chars, 1.76s)
+- Plugins_Observer_kill (10522 chars, 1.48s)
+- Plugins_Observer_static.create (20582 chars, 2.81s)
+- Plugins_Observer_static.getAll (10684 chars, 1.26s)
+- Plugins_Observer_static.getById (10863 chars, 1.36s)
+- Plugins_Physics2DPlugin (13240 chars, 1.43s)
+- Plugins_PhysicsPropsPlugin (10623 chars, 1.25s)
+- Plugins_PixiPlugin_ (14455 chars, 1.30s)
+- Plugins_PixiPlugin_static.registerPIXI (9957 chars, 1.55s)
+- Plugins_ScrambleTextPlugin (12960 chars, 1.31s)
+- Plugins_ScrollToPlugin (11374 chars, 1.31s)
+- Plugins_ScrollToPlugin_config (9225 chars, 1.51s)
+- Plugins_TextPlugin (12912 chars, 1.80s)
+- https:__gsap.com_resources_getting-started_Staggers (15481 chars, 2.18s)
+- https:__gsap.com_resources_getting-started_timelines (12231 chars, 1.99s)
+- https:__gsap.com_resources_getting-started_control (10766 chars, 1.65s)
+- https:__gsap.com_resources_getting-started_timelines (12231 chars, 0.49s)
+- https:__gsap.com_resources_st-mistakes (18426 chars, 2.68s)
+- https:__gsap.com_resources_conflict (9978 chars, 1.85s)
+- https:__gsap.com_resources_fouc (8172 chars, 1.85s)
+- https:__gsap.com_resources_immediaterender (8750 chars, 1.33s)
+- https:__gsap.com_resources_mistakes (26406 chars, 1.44s)
+- https:__gsap.com_resources_position-parameter (16927 chars, 1.44s)
+- https:__gsap.com_resources_keyframes (12892 chars, 1.48s)
+- https:__gsap.com_resources_frameworks (11690 chars, 1.69s)
+- https:__gsap.com_resources_React (20305 chars, 1.37s)
+- https:__gsap.com_resources_react-basics (17738 chars, 1.22s)
+- https:__gsap.com_resources_react-basics (17738 chars, 0.52s)
+
+## 📁 Generated Files
+- Gsap_Docs\Gsap_Plugins_InertiaPlugin_static.getVelocity.txt
+- Gsap_Docs\Gsap_Plugins_InertiaPlugin_static.isTracking.txt
+- Gsap_Docs\Gsap_Plugins_InertiaPlugin_static.track.txt
+- Gsap_Docs\Gsap_Plugins_InertiaPlugin_static.untrack.txt
+- Gsap_Docs\Gsap_Plugins_InertiaPlugin_VelocityTracker_.txt
+- Gsap_Docs\Gsap_Plugins_InertiaPlugin_VelocityTracker_.target.txt
+- Gsap_Docs\Gsap_Plugins_MorphSVGPlugin.txt
+- Gsap_Docs\Gsap_Plugins_MorphSVGPlugin_static.defaultRender.txt
+- Gsap_Docs\Gsap_Plugins_MorphSVGPlugin_static.defaultType.txt
+- Gsap_Docs\Gsap_Plugins_MorphSVGPlugin_static.defaultUpdateTarget.txt
+- Gsap_Docs\Gsap_Plugins_MorphSVGPlugin_static.convertToPath.txt
+- Gsap_Docs\Gsap_Plugins_MorphSVGPlugin_static.rawPathToString.txt
+- Gsap_Docs\Gsap_Plugins_MorphSVGPlugin_static.stringToRawPath.txt
+- Gsap_Docs\Gsap_Plugins_MotionPathPlugin.txt
+- Gsap_Docs\Gsap_Plugins_MotionPathPlugin_static.arrayToRawPath.txt
+- Gsap_Docs\Gsap_Plugins_MotionPathPlugin_static.convertCoordinates_.txt
+- Gsap_Docs\Gsap_Plugins_MotionPathPlugin_static.convertToPath.txt
+- Gsap_Docs\Gsap_Plugins_MotionPathPlugin_static.getAlignMatrix.txt
+- Gsap_Docs\Gsap_Plugins_MotionPathPlugin_static.getGlobalMatrix.txt
+- Gsap_Docs\Gsap_Plugins_MotionPathPlugin_static.getLength.txt
+- Gsap_Docs\Gsap_Plugins_MotionPathPlugin_static.getPositionOnPath.txt
+- Gsap_Docs\Gsap_Plugins_MotionPathPlugin_static.getRawPath.txt
+- Gsap_Docs\Gsap_Plugins_MotionPathPlugin_static.getRelativePosition.txt
+- Gsap_Docs\Gsap_Plugins_MotionPathPlugin_methods_static-pointsToSegment.txt
+- Gsap_Docs\Gsap_Plugins_MotionPathPlugin_static.rawPathToString.txt
+- Gsap_Docs\Gsap_Plugins_MotionPathPlugin_static.sliceRawPath.txt
+- Gsap_Docs\Gsap_Plugins_MotionPathPlugin_static.stringToRawPath.txt
+- Gsap_Docs\Gsap_MotionPathHelper_kill.txt
+- Gsap_Docs\Gsap_MotionPathHelper_static.editPath.txt
+- Gsap_Docs\Gsap_Plugins_Observer_.txt
+- Gsap_Docs\Gsap_Plugins_Observer_deltaX.txt
+- Gsap_Docs\Gsap_Plugins_Observer_deltaY.txt
+- Gsap_Docs\Gsap_Plugins_Observer_event.txt
+- Gsap_Docs\Gsap_Plugins_Observer_isDragging.txt
+- Gsap_Docs\Gsap_Plugins_Observer_isEnabled.txt
+- Gsap_Docs\Gsap_Plugins_Observer_isPressed.txt
+- Gsap_Docs\Gsap_Plugins_Observer_startX.txt
+- Gsap_Docs\Gsap_Plugins_Observer_startY.txt
+- Gsap_Docs\Gsap_Plugins_Observer_target.txt
+- Gsap_Docs\Gsap_Plugins_Observer_static.isTouch.txt
+- Gsap_Docs\Gsap_Plugins_Observer_vars.txt
+- Gsap_Docs\Gsap_Plugins_Observer_velocityX.txt
+- Gsap_Docs\Gsap_Plugins_Observer_velocityX.txt
+- Gsap_Docs\Gsap_Plugins_Observer_velocityY.txt
+- Gsap_Docs\Gsap_Plugins_Observer_x.txt
+- Gsap_Docs\Gsap_Plugins_Observer_y.txt
+- Gsap_Docs\Gsap_Plugins_Observer_disable.txt
+- Gsap_Docs\Gsap_Plugins_Observer_enable.txt
+- Gsap_Docs\Gsap_Plugins_Observer_kill.txt
+- Gsap_Docs\Gsap_Plugins_Observer_static.create.txt
+- Gsap_Docs\Gsap_Plugins_Observer_static.getAll.txt
+- Gsap_Docs\Gsap_Plugins_Observer_static.getById.txt
+- Gsap_Docs\Gsap_Plugins_Physics2DPlugin.txt
+- Gsap_Docs\Gsap_Plugins_PhysicsPropsPlugin.txt
+- Gsap_Docs\Gsap_Plugins_PixiPlugin_.txt
+- Gsap_Docs\Gsap_Plugins_PixiPlugin_static.registerPIXI.txt
+- Gsap_Docs\Gsap_Plugins_ScrambleTextPlugin.txt
+- Gsap_Docs\Gsap_Plugins_ScrollToPlugin.txt
+- Gsap_Docs\Gsap_Plugins_ScrollToPlugin_config.txt
+- Gsap_Docs\Gsap_Plugins_TextPlugin.txt
+- Gsap_Docs\Gsap_https:__gsap.com_resources_getting-started_Staggers.txt
+- Gsap_Docs\Gsap_https:__gsap.com_resources_getting-started_timelines.txt
+- Gsap_Docs\Gsap_https:__gsap.com_resources_getting-started_control.txt
+- Gsap_Docs\Gsap_https:__gsap.com_resources_getting-started_timelines.txt
+- Gsap_Docs\Gsap_https:__gsap.com_resources_st-mistakes.txt
+- Gsap_Docs\Gsap_https:__gsap.com_resources_conflict.txt
+- Gsap_Docs\Gsap_https:__gsap.com_resources_fouc.txt
+- Gsap_Docs\Gsap_https:__gsap.com_resources_immediaterender.txt
+- Gsap_Docs\Gsap_https:__gsap.com_resources_mistakes.txt
+- Gsap_Docs\Gsap_https:__gsap.com_resources_position-parameter.txt
+- Gsap_Docs\Gsap_https:__gsap.com_resources_keyframes.txt
+- Gsap_Docs\Gsap_https:__gsap.com_resources_frameworks.txt
+- Gsap_Docs\Gsap_https:__gsap.com_resources_React.txt
+- Gsap_Docs\Gsap_https:__gsap.com_resources_react-basics.txt
+- Gsap_Docs\Gsap_https:__gsap.com_resources_react-basics.txt
+
+## 🔗 Original URLs
+1. ✅ https://gsap.com/docs/v3/Plugins/InertiaPlugin/static.getVelocity()
+2. ✅ https://gsap.com/docs/v3/Plugins/InertiaPlugin/static.isTracking()
+3. ✅ https://gsap.com/docs/v3/Plugins/InertiaPlugin/static.track()
+4. ✅ https://gsap.com/docs/v3/Plugins/InertiaPlugin/static.untrack()
+5. ✅ https://gsap.com/docs/v3/Plugins/InertiaPlugin/VelocityTracker/
+6. ✅ https://gsap.com/docs/v3/Plugins/InertiaPlugin/VelocityTracker/.target
+7. ✅ https://gsap.com/docs/v3/Plugins/MorphSVGPlugin
+8. ✅ https://gsap.com/docs/v3/Plugins/MorphSVGPlugin/static.defaultRender
+9. ✅ https://gsap.com/docs/v3/Plugins/MorphSVGPlugin/static.defaultType
+10. ✅ https://gsap.com/docs/v3/Plugins/MorphSVGPlugin/static.defaultUpdateTarget
+11. ✅ https://gsap.com/docs/v3/Plugins/MorphSVGPlugin/static.convertToPath
+12. ✅ https://gsap.com/docs/v3/Plugins/MorphSVGPlugin/static.rawPathToString
+13. ✅ https://gsap.com/docs/v3/Plugins/MorphSVGPlugin/static.stringToRawPath
+14. ✅ https://gsap.com/docs/v3/Plugins/MotionPathPlugin
+15. ✅ https://gsap.com/docs/v3/Plugins/MotionPathPlugin/static.arrayToRawPath()
+16. ✅ https://gsap.com/docs/v3/Plugins/MotionPathPlugin/static.convertCoordinates()/
+17. ✅ https://gsap.com/docs/v3/Plugins/MotionPathPlugin/static.convertToPath()
+18. ✅ https://gsap.com/docs/v3/Plugins/MotionPathPlugin/static.getAlignMatrix()
+19. ✅ https://gsap.com/docs/v3/Plugins/MotionPathPlugin/static.getGlobalMatrix()
+20. ✅ https://gsap.com/docs/v3/Plugins/MotionPathPlugin/static.getLength()
+21. ✅ https://gsap.com/docs/v3/Plugins/MotionPathPlugin/static.getPositionOnPath()
+22. ✅ https://gsap.com/docs/v3/Plugins/MotionPathPlugin/static.getRawPath()
+23. ✅ https://gsap.com/docs/v3/Plugins/MotionPathPlugin/static.getRelativePosition()
+24. ✅ https://gsap.com/docs/v3/Plugins/MotionPathPlugin/methods/static-pointsToSegment
+25. ✅ https://gsap.com/docs/v3/Plugins/MotionPathPlugin/static.rawPathToString()
+26. ✅ https://gsap.com/docs/v3/Plugins/MotionPathPlugin/static.sliceRawPath()
+27. ✅ https://gsap.com/docs/v3/Plugins/MotionPathPlugin/static.stringToRawPath()
+28. ✅ https://gsap.com/docs/v3/MotionPathHelper/kill()
+29. ✅ https://gsap.com/docs/v3/MotionPathHelper/static.editPath()
+30. ✅ https://gsap.com/docs/v3/Plugins/Observer/
+31. ✅ https://gsap.com/docs/v3/Plugins/Observer/deltaX
+32. ✅ https://gsap.com/docs/v3/Plugins/Observer/deltaY
+33. ✅ https://gsap.com/docs/v3/Plugins/Observer/event
+34. ✅ https://gsap.com/docs/v3/Plugins/Observer/isDragging
+35. ✅ https://gsap.com/docs/v3/Plugins/Observer/isEnabled
+36. ✅ https://gsap.com/docs/v3/Plugins/Observer/isPressed
+37. ✅ https://gsap.com/docs/v3/Plugins/Observer/startX
+38. ✅ https://gsap.com/docs/v3/Plugins/Observer/startY
+39. ✅ https://gsap.com/docs/v3/Plugins/Observer/target
+40. ✅ https://gsap.com/docs/v3/Plugins/Observer/static.isTouch
+41. ✅ https://gsap.com/docs/v3/Plugins/Observer/vars
+42. ✅ https://gsap.com/docs/v3/Plugins/Observer/velocityX
+43. ✅ https://gsap.com/docs/v3/Plugins/Observer/velocityX
+44. ✅ https://gsap.com/docs/v3/Plugins/Observer/velocityY
+45. ✅ https://gsap.com/docs/v3/Plugins/Observer/x
+46. ✅ https://gsap.com/docs/v3/Plugins/Observer/y
+47. ✅ https://gsap.com/docs/v3/Plugins/Observer/disable()
+48. ✅ https://gsap.com/docs/v3/Plugins/Observer/enable()
+49. ✅ https://gsap.com/docs/v3/Plugins/Observer/kill()
+50. ✅ https://gsap.com/docs/v3/Plugins/Observer/static.create()
+51. ✅ https://gsap.com/docs/v3/Plugins/Observer/static.getAll()
+52. ✅ https://gsap.com/docs/v3/Plugins/Observer/static.getById()
+53. ✅ https://gsap.com/docs/v3/Plugins/Physics2DPlugin
+54. ✅ https://gsap.com/docs/v3/Plugins/PhysicsPropsPlugin
+55. ✅ https://gsap.com/docs/v3/Plugins/PixiPlugin/
+56. ✅ https://gsap.com/docs/v3/Plugins/PixiPlugin/static.registerPIXI()
+57. ✅ https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin
+58. ✅ https://gsap.com/docs/v3/Plugins/ScrollToPlugin
+59. ✅ https://gsap.com/docs/v3/Plugins/ScrollToPlugin/config()
+60. ✅ https://gsap.com/docs/v3/Plugins/TextPlugin
+61. ✅ https://gsap.com/resources/getting-started/Staggers
+62. ✅ https://gsap.com/resources/getting-started/timelines
+63. ✅ https://gsap.com/resources/getting-started/control
+64. ✅ https://gsap.com/resources/getting-started/timelines
+65. ✅ https://gsap.com/resources/st-mistakes
+66. ✅ https://gsap.com/resources/conflict
+67. ✅ https://gsap.com/resources/fouc
+68. ✅ https://gsap.com/resources/immediaterender
+69. ✅ https://gsap.com/resources/mistakes
+70. ✅ https://gsap.com/resources/position-parameter
+71. ✅ https://gsap.com/resources/keyframes
+72. ✅ https://gsap.com/resources/frameworks
+73. ✅ https://gsap.com/resources/React
+74. ✅ https://gsap.com/resources/react-basics
+75. ✅ https://gsap.com/resources/react-basics

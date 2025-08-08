@@ -1,0 +1,658 @@
+# GSAP Documentation Scraping Report
+    
+**Generated:** 2025-08-08 12:56:45
+**Total URLs:** 215
+**Successful:** 215
+**Failed:** 0
+**Empty/Warning:** 0
+
+## ✅ Successfully Scraped (215)
+- GSAP_ (17447 chars, 3.90s)
+- GSAP_gsap.effects (12907 chars, 2.34s)
+- GSAP_gsap.globalTimeline (11823 chars, 2.23s)
+- GSAP_gsap.ticker (19755 chars, 2.32s)
+- GSAP_gsap.utils (14067 chars, 2.26s)
+- GSAP_gsap.version (9549 chars, 1.38s)
+- GSAP_gsap.config (11505 chars, 1.27s)
+- GSAP_gsap.context (15755 chars, 1.49s)
+- GSAP_gsap.defaults (9798 chars, 1.35s)
+- GSAP_gsap.delayedCall (10822 chars, 1.32s)
+- GSAP_gsap.exportRoot (11348 chars, 1.41s)
+- GSAP_gsap.from (28670 chars, 1.22s)
+- GSAP_gsap.fromTo (28311 chars, 1.24s)
+- GSAP_gsap.getById (10822 chars, 1.21s)
+- GSAP_gsap.getProperty (12098 chars, 1.36s)
+- GSAP_gsap.getTweensOf (10959 chars, 1.48s)
+- GSAP_gsap.isTweening (9833 chars, 1.35s)
+- GSAP_gsap.killTweensOf (10589 chars, 1.20s)
+- GSAP_gsap.matchMedia (22938 chars, 1.34s)
+- GSAP_gsap.matchMediaRefresh (10196 chars, 1.26s)
+- GSAP_gsap.parseEase (10301 chars, 1.21s)
+- GSAP_gsap.quickSetter (14210 chars, 1.37s)
+- GSAP_gsap.quickTo (14013 chars, 1.15s)
+- GSAP_gsap.registerEase (9766 chars, 1.30s)
+- GSAP_gsap.registerEffect (12793 chars, 1.42s)
+- GSAP_gsap.registerPlugin (11212 chars, 1.30s)
+- GSAP_gsap.set (10310 chars, 1.12s)
+- GSAP_gsap.timeline (28748 chars, 1.39s)
+- GSAP_gsap.to (28054 chars, 1.24s)
+- GSAP_gsap.updateRoot (9878 chars, 1.15s)
+- GSAP_CorePlugins_Attributes (11174 chars, 1.37s)
+- GSAP_CorePlugins_EndArray (10114 chars, 1.38s)
+- GSAP_CorePlugins_Modifiers (14836 chars, 1.32s)
+- GSAP_CorePlugins_Snap (11432 chars, 1.17s)
+- GSAP_Tween_data (9685 chars, 1.15s)
+- GSAP_Tween_ratio (10865 chars, 1.27s)
+- GSAP_Tween_scrollTrigger (10220 chars, 1.47s)
+- GSAP_Tween_vars (18891 chars, 1.34s)
+- GSAP_Tween_delay (11228 chars, 1.49s)
+- GSAP_Tween_duration (10983 chars, 1.31s)
+- GSAP_Tween_endTime (10737 chars, 1.36s)
+- GSAP_Tween_eventCallback (12400 chars, 1.30s)
+- GSAP_Tween_globalTime (10712 chars, 1.29s)
+- GSAP_Tween_invalidate (11278 chars, 1.77s)
+- GSAP_Tween_isActive (11382 chars, 2.08s)
+- GSAP_Tween_iteration (10645 chars, 1.17s)
+- GSAP_Tween_kill (12010 chars, 1.46s)
+- GSAP_Tween_pause (11274 chars, 1.26s)
+- GSAP_Tween_paused (11737 chars, 1.30s)
+- GSAP_Tween_play (11852 chars, 1.38s)
+- GSAP_Tween_repeat (11246 chars, 1.27s)
+- GSAP_Tween_repeatDelay (11184 chars, 1.43s)
+- GSAP_Tween_restart (10830 chars, 1.17s)
+- GSAP_Tween_resume (10259 chars, 1.27s)
+- GSAP_Tween_reverse (12751 chars, 1.26s)
+- GSAP_Tween_reversed (11207 chars, 1.34s)
+- GSAP_Tween_revert (11874 chars, 1.38s)
+- GSAP_Tween_seek (10933 chars, 1.30s)
+- GSAP_Tween_startTime (11324 chars, 1.36s)
+- GSAP_Tween_targets (9772 chars, 1.23s)
+- GSAP_Tween_then (10465 chars, 1.34s)
+- GSAP_Tween_time (11724 chars, 1.24s)
+- GSAP_Tween_timeScale (11288 chars, 1.34s)
+- GSAP_Tween_totalDuration (11088 chars, 1.34s)
+- GSAP_Tween_totalProgress (11129 chars, 2.11s)
+- GSAP_Tween_totalTime (11905 chars, 1.18s)
+- GSAP_Tween_yoyo (11600 chars, 1.25s)
+- GSAP_CorePlugins_CSS (29370 chars, 1.43s)
+- Eases (11122 chars, 1.41s)
+- Eases_CustomBounce (12690 chars, 1.23s)
+- Eases_CustomEase (15846 chars, 1.63s)
+- Eases_CustomWiggle (11731 chars, 1.24s)
+- Eases_ExpoScaleEase (9990 chars, 1.29s)
+- Eases_RoughEase (10762 chars, 1.45s)
+- Eases_SlowMo (10930 chars, 1.32s)
+- Eases_SteppedEase (8097 chars, 1.35s)
+- Plugins_ScrollTrigger (68842 chars, 2.51s)
+- Plugins_ScrollTrigger_animation (13295 chars, 1.41s)
+- Plugins_ScrollTrigger_direction (12115 chars, 1.36s)
+- Plugins_ScrollTrigger_end (12239 chars, 1.33s)
+- Plugins_ScrollTrigger_isActive (12145 chars, 1.38s)
+- Plugins_ScrollTrigger_static.isTouch (12152 chars, 1.35s)
+- Plugins_ScrollTrigger_pin (12192 chars, 1.35s)
+- Plugins_ScrollTrigger_progress (12145 chars, 1.35s)
+- Plugins_ScrollTrigger_scroller (12263 chars, 1.32s)
+- Plugins_ScrollTrigger_start (12260 chars, 1.38s)
+- Plugins_ScrollTrigger_trigger (12774 chars, 1.43s)
+- Plugins_ScrollTrigger_vars (12619 chars, 1.30s)
+- Plugins_ScrollTrigger_disable (12314 chars, 1.33s)
+- Plugins_ScrollTrigger_enable (11738 chars, 2.21s)
+- Plugins_ScrollTrigger_getTween (13153 chars, 1.34s)
+- Plugins_ScrollTrigger_getVelocity (12329 chars, 1.33s)
+- Plugins_ScrollTrigger_kill (12853 chars, 1.35s)
+- Plugins_ScrollTrigger_labelToScroll_ (12529 chars, 2.00s)
+- Plugins_ScrollTrigger_next (12037 chars, 2.17s)
+- Plugins_ScrollTrigger_previous (12324 chars, 1.24s)
+- Plugins_ScrollTrigger_refresh (14226 chars, 1.23s)
+- Plugins_ScrollTrigger_scroll (12996 chars, 1.36s)
+- Plugins_ScrollTrigger_static.addEventListener (13873 chars, 1.39s)
+- Plugins_ScrollTrigger_static.batch (20735 chars, 1.23s)
+- Plugins_ScrollTrigger_static.clearMatchMedia (12126 chars, 1.20s)
+- Plugins_ScrollTrigger_static.clearScrollMemory (12854 chars, 1.18s)
+- Plugins_ScrollTrigger_static.config (14631 chars, 1.28s)
+- Plugins_ScrollTrigger_static.create (13344 chars, 1.35s)
+- Plugins_ScrollTrigger_static.defaults (12616 chars, 1.33s)
+- Plugins_ScrollTrigger_static.getAll (12065 chars, 1.22s)
+- Plugins_ScrollTrigger_static.getById (12484 chars, 1.15s)
+- Plugins_ScrollTrigger_static.isInViewport (13685 chars, 1.22s)
+- Plugins_ScrollTrigger_static.isScrolling (12824 chars, 1.24s)
+- Plugins_ScrollTrigger_static.killAll (12047 chars, 1.17s)
+- Plugins_ScrollTrigger_static.matchMedia (19342 chars, 1.29s)
+- Plugins_ScrollTrigger_static.maxScroll (12738 chars, 2.11s)
+- Plugins_ScrollTrigger_static.normalizeScroll (21251 chars, 1.41s)
+- Plugins_ScrollTrigger_static.observe (14711 chars, 1.21s)
+- Plugins_ScrollTrigger_static.positionInViewport (14150 chars, 1.30s)
+- Plugins_ScrollTrigger_static.refresh (16633 chars, 1.25s)
+- Plugins_ScrollTrigger_static.removeEventListener (13265 chars, 1.31s)
+- Plugins_ScrollTrigger_static.saveStyles (13293 chars, 1.19s)
+- Plugins_ScrollTrigger_static.scrollerProxy (18388 chars, 1.40s)
+- Plugins_ScrollTrigger_static.snapDirectional (13237 chars, 2.35s)
+- Plugins_ScrollTrigger_static.sort (15290 chars, 1.30s)
+- Plugins_ScrollTrigger_static.update (13145 chars, 1.40s)
+- Plugins_ScrollSmoother_ (27886 chars, 1.04s)
+- Plugins_ScrollSmoother_progress (9127 chars, 1.22s)
+- Plugins_ScrollSmoother_scrollTrigger (9026 chars, 1.27s)
+- Plugins_ScrollSmoother_vars (8849 chars, 1.44s)
+- Plugins_ScrollSmoother_content (9725 chars, 1.17s)
+- Plugins_ScrollSmoother_effects (12810 chars, 2.28s)
+- Plugins_ScrollSmoother_getVelocity (9083 chars, 1.36s)
+- Plugins_ScrollSmoother_kill (8723 chars, 1.32s)
+- Plugins_ScrollSmoother_offset (9876 chars, 1.28s)
+- Plugins_ScrollSmoother_paused (9606 chars, 1.38s)
+- Plugins_ScrollSmoother_scrollTo (12001 chars, 1.43s)
+- Plugins_ScrollSmoother_scrollTop (10138 chars, 1.26s)
+- Plugins_ScrollSmoother_smooth (9465 chars, 1.32s)
+- Plugins_ScrollSmoother_static.create (15221 chars, 1.38s)
+- Plugins_ScrollSmoother_static.get (9091 chars, 1.37s)
+- Plugins_ScrollSmoother_wrapper (9733 chars, 1.51s)
+- Plugins_SplitText_ (32142 chars, 1.02s)
+- Plugins_SplitText_chars (8135 chars, 1.26s)
+- Plugins_SplitText_isSplit (8228 chars, 1.36s)
+- Plugins_SplitText_lines (8140 chars, 1.33s)
+- Plugins_SplitText_masks (8385 chars, 1.29s)
+- Plugins_SplitText_vars (8909 chars, 1.27s)
+- Plugins_SplitText_words (8129 chars, 1.23s)
+- Plugins_SplitText_revert (8032 chars, 1.30s)
+- Plugins_SplitText_split (8620 chars, 1.34s)
+- Plugins_SplitText_split (8620 chars, 0.45s)
+- Plugins_Flip_ (32291 chars, 2.08s)
+- Plugins_Flip_static.batch (16534 chars, 1.26s)
+- Plugins_Flip_static.fit (12646 chars, 1.17s)
+- Plugins_Flip_static.from (22639 chars, 1.36s)
+- Plugins_Flip_static.getState (13015 chars, 1.28s)
+- Plugins_Flip_static.isFlipping (8628 chars, 1.31s)
+- Plugins_Flip_static.killFlipsOf (8623 chars, 1.17s)
+- Plugins_Flip_static.makeAbsolute (9203 chars, 1.29s)
+- Plugins_Flip_static.to (9479 chars, 1.16s)
+- Plugins_CSSRulePlugin_ (11572 chars, 0.93s)
+- Plugins_CSSRulePlugin_methods_static-getRule (9988 chars, 1.32s)
+- Plugins_Draggable_ (59476 chars, 1.13s)
+- Plugins_Draggable_autoScroll (12050 chars, 1.33s)
+- Plugins_Draggable_deltaX (11824 chars, 1.28s)
+- Plugins_Draggable_deltaY (11761 chars, 1.28s)
+- Plugins_Draggable_endRotation (12271 chars, 1.19s)
+- Plugins_Draggable_endX (12437 chars, 1.42s)
+- Plugins_Draggable_endY (12427 chars, 1.35s)
+- Plugins_Draggable_isPressed (11694 chars, 1.33s)
+- Plugins_Draggable_isThrowing (11795 chars, 1.24s)
+- Plugins_Draggable_lockAxis (12281 chars, 1.47s)
+- Plugins_Draggable_lockedAxis (12892 chars, 1.52s)
+- Plugins_Draggable_maxRotation (11928 chars, 1.50s)
+- Plugins_Draggable_maxX (12250 chars, 1.53s)
+- Plugins_Draggable_maxY (12246 chars, 1.47s)
+- Plugins_Draggable_minRotation (11925 chars, 1.53s)
+- Plugins_Draggable_minX (12250 chars, 1.45s)
+- Plugins_Draggable_minY (12248 chars, 1.45s)
+- Plugins_Draggable_pointerEvent (11920 chars, 1.40s)
+- Plugins_Draggable_pointerX (11998 chars, 1.38s)
+- Plugins_Draggable_pointerY (11986 chars, 2.17s)
+- Plugins_Draggable_rotation (12378 chars, 2.31s)
+- Plugins_Draggable_startX (12147 chars, 1.47s)
+- Plugins_Draggable_startY (12083 chars, 1.60s)
+- Plugins_Draggable_target (11632 chars, 1.50s)
+- Plugins_Draggable_tween (12220 chars, 1.38s)
+- Plugins_Draggable_vars (11802 chars, 1.60s)
+- Plugins_Draggable_x (12473 chars, 1.38s)
+- Plugins_Draggable_y (12470 chars, 1.48s)
+- Plugins_Draggable_zIndex (12271 chars, 1.52s)
+- Plugins_Draggable_addEventListener (12666 chars, 1.52s)
+- Plugins_Draggable_applyBounds (12586 chars, 1.45s)
+- Plugins_Draggable_static.create (40719 chars, 1.59s)
+- Plugins_Draggable_disable (12118 chars, 1.44s)
+- Plugins_Draggable_enable (11985 chars, 1.38s)
+- Plugins_Draggable_enabled (12447 chars, 1.42s)
+- Plugins_Draggable_endDrag (12597 chars, 1.36s)
+- Plugins_Draggable_static.get (12814 chars, 1.54s)
+- Plugins_Draggable_getDirection (13329 chars, 1.46s)
+- Plugins_Draggable_static.hitTest (14692 chars, 1.59s)
+- Plugins_Draggable_kill (12696 chars, 1.40s)
+- Plugins_Draggable_startDrag (12824 chars, 1.41s)
+- Plugins_Draggable_static.timeSinceDrag (12846 chars, 1.42s)
+- Plugins_Draggable_update (13114 chars, 1.37s)
+- Plugins_DrawSVGPlugin (15759 chars, 1.34s)
+- Plugins_DrawSVGPlugin_static.getLength (9769 chars, 1.34s)
+- Plugins_DrawSVGPlugin_static.getPosition (9673 chars, 1.32s)
+- Plugins_EaselPlugin (11459 chars, 1.45s)
+- Plugins_GSDevTools (18105 chars, 1.26s)
+- Plugins_GSDevTools_static.create (9132 chars, 1.25s)
+- Plugins_InertiaPlugin_ (20474 chars, 0.96s)
+- Plugins_InertiaPlugin_static.getVelocity (10466 chars, 1.35s)
+- Plugins_InertiaPlugin_static.isTracking (9737 chars, 1.26s)
+- Plugins_InertiaPlugin_static.track (12927 chars, 1.33s)
+- Plugins_InertiaPlugin_static.untrack (9742 chars, 1.21s)
+- Plugins_InertiaPlugin_VelocityTracker_ (12893 chars, 1.03s)
+- Plugins_InertiaPlugin_ (20474 chars, 0.48s)
+
+## 📁 Generated Files
+- Gsap_Docs\Gsap_GSAP_.txt
+- Gsap_Docs\Gsap_GSAP_gsap.effects.txt
+- Gsap_Docs\Gsap_GSAP_gsap.globalTimeline.txt
+- Gsap_Docs\Gsap_GSAP_gsap.ticker.txt
+- Gsap_Docs\Gsap_GSAP_gsap.utils.txt
+- Gsap_Docs\Gsap_GSAP_gsap.version.txt
+- Gsap_Docs\Gsap_GSAP_gsap.config.txt
+- Gsap_Docs\Gsap_GSAP_gsap.context.txt
+- Gsap_Docs\Gsap_GSAP_gsap.defaults.txt
+- Gsap_Docs\Gsap_GSAP_gsap.delayedCall.txt
+- Gsap_Docs\Gsap_GSAP_gsap.exportRoot.txt
+- Gsap_Docs\Gsap_GSAP_gsap.from.txt
+- Gsap_Docs\Gsap_GSAP_gsap.fromTo.txt
+- Gsap_Docs\Gsap_GSAP_gsap.getById.txt
+- Gsap_Docs\Gsap_GSAP_gsap.getProperty.txt
+- Gsap_Docs\Gsap_GSAP_gsap.getTweensOf.txt
+- Gsap_Docs\Gsap_GSAP_gsap.isTweening.txt
+- Gsap_Docs\Gsap_GSAP_gsap.killTweensOf.txt
+- Gsap_Docs\Gsap_GSAP_gsap.matchMedia.txt
+- Gsap_Docs\Gsap_GSAP_gsap.matchMediaRefresh.txt
+- Gsap_Docs\Gsap_GSAP_gsap.parseEase.txt
+- Gsap_Docs\Gsap_GSAP_gsap.quickSetter.txt
+- Gsap_Docs\Gsap_GSAP_gsap.quickTo.txt
+- Gsap_Docs\Gsap_GSAP_gsap.registerEase.txt
+- Gsap_Docs\Gsap_GSAP_gsap.registerEffect.txt
+- Gsap_Docs\Gsap_GSAP_gsap.registerPlugin.txt
+- Gsap_Docs\Gsap_GSAP_gsap.set.txt
+- Gsap_Docs\Gsap_GSAP_gsap.timeline.txt
+- Gsap_Docs\Gsap_GSAP_gsap.to.txt
+- Gsap_Docs\Gsap_GSAP_gsap.updateRoot.txt
+- Gsap_Docs\Gsap_GSAP_CorePlugins_Attributes.txt
+- Gsap_Docs\Gsap_GSAP_CorePlugins_EndArray.txt
+- Gsap_Docs\Gsap_GSAP_CorePlugins_Modifiers.txt
+- Gsap_Docs\Gsap_GSAP_CorePlugins_Snap.txt
+- Gsap_Docs\Gsap_GSAP_Tween_data.txt
+- Gsap_Docs\Gsap_GSAP_Tween_ratio.txt
+- Gsap_Docs\Gsap_GSAP_Tween_scrollTrigger.txt
+- Gsap_Docs\Gsap_GSAP_Tween_vars.txt
+- Gsap_Docs\Gsap_GSAP_Tween_delay.txt
+- Gsap_Docs\Gsap_GSAP_Tween_duration.txt
+- Gsap_Docs\Gsap_GSAP_Tween_endTime.txt
+- Gsap_Docs\Gsap_GSAP_Tween_eventCallback.txt
+- Gsap_Docs\Gsap_GSAP_Tween_globalTime.txt
+- Gsap_Docs\Gsap_GSAP_Tween_invalidate.txt
+- Gsap_Docs\Gsap_GSAP_Tween_isActive.txt
+- Gsap_Docs\Gsap_GSAP_Tween_iteration.txt
+- Gsap_Docs\Gsap_GSAP_Tween_kill.txt
+- Gsap_Docs\Gsap_GSAP_Tween_pause.txt
+- Gsap_Docs\Gsap_GSAP_Tween_paused.txt
+- Gsap_Docs\Gsap_GSAP_Tween_play.txt
+- Gsap_Docs\Gsap_GSAP_Tween_repeat.txt
+- Gsap_Docs\Gsap_GSAP_Tween_repeatDelay.txt
+- Gsap_Docs\Gsap_GSAP_Tween_restart.txt
+- Gsap_Docs\Gsap_GSAP_Tween_resume.txt
+- Gsap_Docs\Gsap_GSAP_Tween_reverse.txt
+- Gsap_Docs\Gsap_GSAP_Tween_reversed.txt
+- Gsap_Docs\Gsap_GSAP_Tween_revert.txt
+- Gsap_Docs\Gsap_GSAP_Tween_seek.txt
+- Gsap_Docs\Gsap_GSAP_Tween_startTime.txt
+- Gsap_Docs\Gsap_GSAP_Tween_targets.txt
+- Gsap_Docs\Gsap_GSAP_Tween_then.txt
+- Gsap_Docs\Gsap_GSAP_Tween_time.txt
+- Gsap_Docs\Gsap_GSAP_Tween_timeScale.txt
+- Gsap_Docs\Gsap_GSAP_Tween_totalDuration.txt
+- Gsap_Docs\Gsap_GSAP_Tween_totalProgress.txt
+- Gsap_Docs\Gsap_GSAP_Tween_totalTime.txt
+- Gsap_Docs\Gsap_GSAP_Tween_yoyo.txt
+- Gsap_Docs\Gsap_GSAP_CorePlugins_CSS.txt
+- Gsap_Docs\Gsap_Eases.txt
+- Gsap_Docs\Gsap_Eases_CustomBounce.txt
+- Gsap_Docs\Gsap_Eases_CustomEase.txt
+- Gsap_Docs\Gsap_Eases_CustomWiggle.txt
+- Gsap_Docs\Gsap_Eases_ExpoScaleEase.txt
+- Gsap_Docs\Gsap_Eases_RoughEase.txt
+- Gsap_Docs\Gsap_Eases_SlowMo.txt
+- Gsap_Docs\Gsap_Eases_SteppedEase.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_animation.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_direction.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_end.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_isActive.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.isTouch.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_pin.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_progress.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_scroller.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_start.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_trigger.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_vars.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_disable.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_enable.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_getTween.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_getVelocity.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_kill.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_labelToScroll_.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_next.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_previous.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_refresh.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_scroll.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.addEventListener.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.batch.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.clearMatchMedia.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.clearScrollMemory.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.config.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.create.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.defaults.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.getAll.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.getById.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.isInViewport.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.isScrolling.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.killAll.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.matchMedia.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.maxScroll.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.normalizeScroll.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.observe.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.positionInViewport.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.refresh.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.removeEventListener.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.saveStyles.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.scrollerProxy.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.snapDirectional.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.sort.txt
+- Gsap_Docs\Gsap_Plugins_ScrollTrigger_static.update.txt
+- Gsap_Docs\Gsap_Plugins_ScrollSmoother_.txt
+- Gsap_Docs\Gsap_Plugins_ScrollSmoother_progress.txt
+- Gsap_Docs\Gsap_Plugins_ScrollSmoother_scrollTrigger.txt
+- Gsap_Docs\Gsap_Plugins_ScrollSmoother_vars.txt
+- Gsap_Docs\Gsap_Plugins_ScrollSmoother_content.txt
+- Gsap_Docs\Gsap_Plugins_ScrollSmoother_effects.txt
+- Gsap_Docs\Gsap_Plugins_ScrollSmoother_getVelocity.txt
+- Gsap_Docs\Gsap_Plugins_ScrollSmoother_kill.txt
+- Gsap_Docs\Gsap_Plugins_ScrollSmoother_offset.txt
+- Gsap_Docs\Gsap_Plugins_ScrollSmoother_paused.txt
+- Gsap_Docs\Gsap_Plugins_ScrollSmoother_scrollTo.txt
+- Gsap_Docs\Gsap_Plugins_ScrollSmoother_scrollTop.txt
+- Gsap_Docs\Gsap_Plugins_ScrollSmoother_smooth.txt
+- Gsap_Docs\Gsap_Plugins_ScrollSmoother_static.create.txt
+- Gsap_Docs\Gsap_Plugins_ScrollSmoother_static.get.txt
+- Gsap_Docs\Gsap_Plugins_ScrollSmoother_wrapper.txt
+- Gsap_Docs\Gsap_Plugins_SplitText_.txt
+- Gsap_Docs\Gsap_Plugins_SplitText_chars.txt
+- Gsap_Docs\Gsap_Plugins_SplitText_isSplit.txt
+- Gsap_Docs\Gsap_Plugins_SplitText_lines.txt
+- Gsap_Docs\Gsap_Plugins_SplitText_masks.txt
+- Gsap_Docs\Gsap_Plugins_SplitText_vars.txt
+- Gsap_Docs\Gsap_Plugins_SplitText_words.txt
+- Gsap_Docs\Gsap_Plugins_SplitText_revert.txt
+- Gsap_Docs\Gsap_Plugins_SplitText_split.txt
+- Gsap_Docs\Gsap_Plugins_SplitText_split.txt
+- Gsap_Docs\Gsap_Plugins_Flip_.txt
+- Gsap_Docs\Gsap_Plugins_Flip_static.batch.txt
+- Gsap_Docs\Gsap_Plugins_Flip_static.fit.txt
+- Gsap_Docs\Gsap_Plugins_Flip_static.from.txt
+- Gsap_Docs\Gsap_Plugins_Flip_static.getState.txt
+- Gsap_Docs\Gsap_Plugins_Flip_static.isFlipping.txt
+- Gsap_Docs\Gsap_Plugins_Flip_static.killFlipsOf.txt
+- Gsap_Docs\Gsap_Plugins_Flip_static.makeAbsolute.txt
+- Gsap_Docs\Gsap_Plugins_Flip_static.to.txt
+- Gsap_Docs\Gsap_Plugins_CSSRulePlugin_.txt
+- Gsap_Docs\Gsap_Plugins_CSSRulePlugin_methods_static-getRule.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_autoScroll.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_deltaX.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_deltaY.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_endRotation.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_endX.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_endY.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_isPressed.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_isThrowing.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_lockAxis.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_lockedAxis.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_maxRotation.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_maxX.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_maxY.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_minRotation.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_minX.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_minY.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_pointerEvent.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_pointerX.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_pointerY.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_rotation.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_startX.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_startY.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_target.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_tween.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_vars.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_x.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_y.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_zIndex.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_addEventListener.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_applyBounds.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_static.create.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_disable.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_enable.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_enabled.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_endDrag.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_static.get.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_getDirection.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_static.hitTest.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_kill.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_startDrag.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_static.timeSinceDrag.txt
+- Gsap_Docs\Gsap_Plugins_Draggable_update.txt
+- Gsap_Docs\Gsap_Plugins_DrawSVGPlugin.txt
+- Gsap_Docs\Gsap_Plugins_DrawSVGPlugin_static.getLength.txt
+- Gsap_Docs\Gsap_Plugins_DrawSVGPlugin_static.getPosition.txt
+- Gsap_Docs\Gsap_Plugins_EaselPlugin.txt
+- Gsap_Docs\Gsap_Plugins_GSDevTools.txt
+- Gsap_Docs\Gsap_Plugins_GSDevTools_static.create.txt
+- Gsap_Docs\Gsap_Plugins_InertiaPlugin_.txt
+- Gsap_Docs\Gsap_Plugins_InertiaPlugin_static.getVelocity.txt
+- Gsap_Docs\Gsap_Plugins_InertiaPlugin_static.isTracking.txt
+- Gsap_Docs\Gsap_Plugins_InertiaPlugin_static.track.txt
+- Gsap_Docs\Gsap_Plugins_InertiaPlugin_static.untrack.txt
+- Gsap_Docs\Gsap_Plugins_InertiaPlugin_VelocityTracker_.txt
+- Gsap_Docs\Gsap_Plugins_InertiaPlugin_.txt
+
+## 🔗 Original URLs
+1. ✅ https://gsap.com/docs/v3/GSAP/
+2. ✅ https://gsap.com/docs/v3/GSAP/gsap.effects
+3. ✅ https://gsap.com/docs/v3/GSAP/gsap.globalTimeline
+4. ✅ https://gsap.com/docs/v3/GSAP/gsap.ticker
+5. ✅ https://gsap.com/docs/v3/GSAP/gsap.utils
+6. ✅ https://gsap.com/docs/v3/GSAP/gsap.version
+7. ✅ https://gsap.com/docs/v3/GSAP/gsap.config()
+8. ✅ https://gsap.com/docs/v3/GSAP/gsap.context()
+9. ✅ https://gsap.com/docs/v3/GSAP/gsap.defaults()
+10. ✅ https://gsap.com/docs/v3/GSAP/gsap.delayedCall()
+11. ✅ https://gsap.com/docs/v3/GSAP/gsap.exportRoot()
+12. ✅ https://gsap.com/docs/v3/GSAP/gsap.from()
+13. ✅ https://gsap.com/docs/v3/GSAP/gsap.fromTo()
+14. ✅ https://gsap.com/docs/v3/GSAP/gsap.getById()
+15. ✅ https://gsap.com/docs/v3/GSAP/gsap.getProperty()
+16. ✅ https://gsap.com/docs/v3/GSAP/gsap.getTweensOf()
+17. ✅ https://gsap.com/docs/v3/GSAP/gsap.isTweening()
+18. ✅ https://gsap.com/docs/v3/GSAP/gsap.killTweensOf()
+19. ✅ https://gsap.com/docs/v3/GSAP/gsap.matchMedia()
+20. ✅ https://gsap.com/docs/v3/GSAP/gsap.matchMediaRefresh()
+21. ✅ https://gsap.com/docs/v3/GSAP/gsap.parseEase()
+22. ✅ https://gsap.com/docs/v3/GSAP/gsap.quickSetter()
+23. ✅ https://gsap.com/docs/v3/GSAP/gsap.quickTo()
+24. ✅ https://gsap.com/docs/v3/GSAP/gsap.registerEase()
+25. ✅ https://gsap.com/docs/v3/GSAP/gsap.registerEffect()
+26. ✅ https://gsap.com/docs/v3/GSAP/gsap.registerPlugin()
+27. ✅ https://gsap.com/docs/v3/GSAP/gsap.set()
+28. ✅ https://gsap.com/docs/v3/GSAP/gsap.timeline()
+29. ✅ https://gsap.com/docs/v3/GSAP/gsap.to()
+30. ✅ https://gsap.com/docs/v3/GSAP/gsap.updateRoot()
+31. ✅ https://gsap.com/docs/v3/GSAP/CorePlugins/Attributes
+32. ✅ https://gsap.com/docs/v3/GSAP/CorePlugins/EndArray
+33. ✅ https://gsap.com/docs/v3/GSAP/CorePlugins/Modifiers
+34. ✅ https://gsap.com/docs/v3/GSAP/CorePlugins/Snap
+35. ✅ https://gsap.com/docs/v3/GSAP/Tween/data
+36. ✅ https://gsap.com/docs/v3/GSAP/Tween/ratio
+37. ✅ https://gsap.com/docs/v3/GSAP/Tween/scrollTrigger
+38. ✅ https://gsap.com/docs/v3/GSAP/Tween/vars
+39. ✅ https://gsap.com/docs/v3/GSAP/Tween/delay()
+40. ✅ https://gsap.com/docs/v3/GSAP/Tween/duration()
+41. ✅ https://gsap.com/docs/v3/GSAP/Tween/endTime()
+42. ✅ https://gsap.com/docs/v3/GSAP/Tween/eventCallback()
+43. ✅ https://gsap.com/docs/v3/GSAP/Tween/globalTime()
+44. ✅ https://gsap.com/docs/v3/GSAP/Tween/invalidate()
+45. ✅ https://gsap.com/docs/v3/GSAP/Tween/isActive()
+46. ✅ https://gsap.com/docs/v3/GSAP/Tween/iteration()
+47. ✅ https://gsap.com/docs/v3/GSAP/Tween/kill()
+48. ✅ https://gsap.com/docs/v3/GSAP/Tween/pause()
+49. ✅ https://gsap.com/docs/v3/GSAP/Tween/paused()
+50. ✅ https://gsap.com/docs/v3/GSAP/Tween/play()
+51. ✅ https://gsap.com/docs/v3/GSAP/Tween/repeat()
+52. ✅ https://gsap.com/docs/v3/GSAP/Tween/repeatDelay()
+53. ✅ https://gsap.com/docs/v3/GSAP/Tween/restart()
+54. ✅ https://gsap.com/docs/v3/GSAP/Tween/resume()
+55. ✅ https://gsap.com/docs/v3/GSAP/Tween/reverse()
+56. ✅ https://gsap.com/docs/v3/GSAP/Tween/reversed()
+57. ✅ https://gsap.com/docs/v3/GSAP/Tween/revert()
+58. ✅ https://gsap.com/docs/v3/GSAP/Tween/seek()
+59. ✅ https://gsap.com/docs/v3/GSAP/Tween/startTime()
+60. ✅ https://gsap.com/docs/v3/GSAP/Tween/targets()
+61. ✅ https://gsap.com/docs/v3/GSAP/Tween/then()
+62. ✅ https://gsap.com/docs/v3/GSAP/Tween/time()
+63. ✅ https://gsap.com/docs/v3/GSAP/Tween/timeScale()
+64. ✅ https://gsap.com/docs/v3/GSAP/Tween/totalDuration()
+65. ✅ https://gsap.com/docs/v3/GSAP/Tween/totalProgress()
+66. ✅ https://gsap.com/docs/v3/GSAP/Tween/totalTime()
+67. ✅ https://gsap.com/docs/v3/GSAP/Tween/yoyo()
+68. ✅ https://gsap.com/docs/v3/GSAP/CorePlugins/CSS
+69. ✅ https://gsap.com/docs/v3/Eases
+70. ✅ https://gsap.com/docs/v3/Eases/CustomBounce
+71. ✅ https://gsap.com/docs/v3/Eases/CustomEase
+72. ✅ https://gsap.com/docs/v3/Eases/CustomWiggle
+73. ✅ https://gsap.com/docs/v3/Eases/ExpoScaleEase
+74. ✅ https://gsap.com/docs/v3/Eases/RoughEase
+75. ✅ https://gsap.com/docs/v3/Eases/SlowMo
+76. ✅ https://gsap.com/docs/v3/Eases/SteppedEase
+77. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger
+78. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/animation
+79. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/direction
+80. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/end
+81. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/isActive
+82. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.isTouch
+83. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/pin
+84. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/progress
+85. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/scroller
+86. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/start
+87. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/trigger
+88. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/vars
+89. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/disable()
+90. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/enable()
+91. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/getTween()
+92. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/getVelocity()
+93. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/kill()
+94. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/labelToScroll()/
+95. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/next()
+96. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/previous()
+97. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/refresh()
+98. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/scroll()
+99. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.addEventListener()
+100. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.batch()
+101. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.clearMatchMedia()
+102. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.clearScrollMemory()
+103. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.config()
+104. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.create()
+105. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.defaults()
+106. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.getAll()
+107. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.getById()
+108. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.isInViewport()
+109. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.isScrolling()
+110. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.killAll()
+111. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.matchMedia()
+112. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.maxScroll()
+113. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.normalizeScroll()
+114. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.observe()
+115. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.positionInViewport()
+116. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.refresh()
+117. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.removeEventListener()
+118. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.saveStyles()
+119. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.scrollerProxy()
+120. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.snapDirectional()
+121. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.sort()
+122. ✅ https://gsap.com/docs/v3/Plugins/ScrollTrigger/static.update()
+123. ✅ https://gsap.com/docs/v3/Plugins/ScrollSmoother/
+124. ✅ https://gsap.com/docs/v3/Plugins/ScrollSmoother/progress
+125. ✅ https://gsap.com/docs/v3/Plugins/ScrollSmoother/scrollTrigger
+126. ✅ https://gsap.com/docs/v3/Plugins/ScrollSmoother/vars
+127. ✅ https://gsap.com/docs/v3/Plugins/ScrollSmoother/content()
+128. ✅ https://gsap.com/docs/v3/Plugins/ScrollSmoother/effects()
+129. ✅ https://gsap.com/docs/v3/Plugins/ScrollSmoother/getVelocity()
+130. ✅ https://gsap.com/docs/v3/Plugins/ScrollSmoother/kill()
+131. ✅ https://gsap.com/docs/v3/Plugins/ScrollSmoother/offset()
+132. ✅ https://gsap.com/docs/v3/Plugins/ScrollSmoother/paused()
+133. ✅ https://gsap.com/docs/v3/Plugins/ScrollSmoother/scrollTo()
+134. ✅ https://gsap.com/docs/v3/Plugins/ScrollSmoother/scrollTop()
+135. ✅ https://gsap.com/docs/v3/Plugins/ScrollSmoother/smooth()
+136. ✅ https://gsap.com/docs/v3/Plugins/ScrollSmoother/static.create()
+137. ✅ https://gsap.com/docs/v3/Plugins/ScrollSmoother/static.get()
+138. ✅ https://gsap.com/docs/v3/Plugins/ScrollSmoother/wrapper()
+139. ✅ https://gsap.com/docs/v3/Plugins/SplitText/
+140. ✅ https://gsap.com/docs/v3/Plugins/SplitText/chars
+141. ✅ https://gsap.com/docs/v3/Plugins/SplitText/isSplit
+142. ✅ https://gsap.com/docs/v3/Plugins/SplitText/lines
+143. ✅ https://gsap.com/docs/v3/Plugins/SplitText/masks
+144. ✅ https://gsap.com/docs/v3/Plugins/SplitText/vars
+145. ✅ https://gsap.com/docs/v3/Plugins/SplitText/words
+146. ✅ https://gsap.com/docs/v3/Plugins/SplitText/revert()
+147. ✅ https://gsap.com/docs/v3/Plugins/SplitText/split()
+148. ✅ https://gsap.com/docs/v3/Plugins/SplitText/split()
+149. ✅ https://gsap.com/docs/v3/Plugins/Flip/
+150. ✅ https://gsap.com/docs/v3/Plugins/Flip/static.batch()
+151. ✅ https://gsap.com/docs/v3/Plugins/Flip/static.fit()
+152. ✅ https://gsap.com/docs/v3/Plugins/Flip/static.from()
+153. ✅ https://gsap.com/docs/v3/Plugins/Flip/static.getState()
+154. ✅ https://gsap.com/docs/v3/Plugins/Flip/static.isFlipping()
+155. ✅ https://gsap.com/docs/v3/Plugins/Flip/static.killFlipsOf()
+156. ✅ https://gsap.com/docs/v3/Plugins/Flip/static.makeAbsolute()
+157. ✅ https://gsap.com/docs/v3/Plugins/Flip/static.to()
+158. ✅ https://gsap.com/docs/v3/Plugins/CSSRulePlugin/
+159. ✅ https://gsap.com/docs/v3/Plugins/CSSRulePlugin/methods/static-getRule()
+160. ✅ https://gsap.com/docs/v3/Plugins/Draggable/
+161. ✅ https://gsap.com/docs/v3/Plugins/Draggable/autoScroll
+162. ✅ https://gsap.com/docs/v3/Plugins/Draggable/deltaX
+163. ✅ https://gsap.com/docs/v3/Plugins/Draggable/deltaY
+164. ✅ https://gsap.com/docs/v3/Plugins/Draggable/endRotation
+165. ✅ https://gsap.com/docs/v3/Plugins/Draggable/endX
+166. ✅ https://gsap.com/docs/v3/Plugins/Draggable/endY
+167. ✅ https://gsap.com/docs/v3/Plugins/Draggable/isPressed
+168. ✅ https://gsap.com/docs/v3/Plugins/Draggable/isThrowing
+169. ✅ https://gsap.com/docs/v3/Plugins/Draggable/lockAxis
+170. ✅ https://gsap.com/docs/v3/Plugins/Draggable/lockedAxis
+171. ✅ https://gsap.com/docs/v3/Plugins/Draggable/maxRotation
+172. ✅ https://gsap.com/docs/v3/Plugins/Draggable/maxX
+173. ✅ https://gsap.com/docs/v3/Plugins/Draggable/maxY
+174. ✅ https://gsap.com/docs/v3/Plugins/Draggable/minRotation
+175. ✅ https://gsap.com/docs/v3/Plugins/Draggable/minX
+176. ✅ https://gsap.com/docs/v3/Plugins/Draggable/minY
+177. ✅ https://gsap.com/docs/v3/Plugins/Draggable/pointerEvent
+178. ✅ https://gsap.com/docs/v3/Plugins/Draggable/pointerX
+179. ✅ https://gsap.com/docs/v3/Plugins/Draggable/pointerY
+180. ✅ https://gsap.com/docs/v3/Plugins/Draggable/rotation
+181. ✅ https://gsap.com/docs/v3/Plugins/Draggable/startX
+182. ✅ https://gsap.com/docs/v3/Plugins/Draggable/startY
+183. ✅ https://gsap.com/docs/v3/Plugins/Draggable/target
+184. ✅ https://gsap.com/docs/v3/Plugins/Draggable/tween
+185. ✅ https://gsap.com/docs/v3/Plugins/Draggable/vars
+186. ✅ https://gsap.com/docs/v3/Plugins/Draggable/x
+187. ✅ https://gsap.com/docs/v3/Plugins/Draggable/y
+188. ✅ https://gsap.com/docs/v3/Plugins/Draggable/zIndex
+189. ✅ https://gsap.com/docs/v3/Plugins/Draggable/addEventListener()
+190. ✅ https://gsap.com/docs/v3/Plugins/Draggable/applyBounds()
+191. ✅ https://gsap.com/docs/v3/Plugins/Draggable/static.create()
+192. ✅ https://gsap.com/docs/v3/Plugins/Draggable/disable()
+193. ✅ https://gsap.com/docs/v3/Plugins/Draggable/enable()
+194. ✅ https://gsap.com/docs/v3/Plugins/Draggable/enabled()
+195. ✅ https://gsap.com/docs/v3/Plugins/Draggable/endDrag()
+196. ✅ https://gsap.com/docs/v3/Plugins/Draggable/static.get()
+197. ✅ https://gsap.com/docs/v3/Plugins/Draggable/getDirection()
+198. ✅ https://gsap.com/docs/v3/Plugins/Draggable/static.hitTest()
+199. ✅ https://gsap.com/docs/v3/Plugins/Draggable/kill()
+200. ✅ https://gsap.com/docs/v3/Plugins/Draggable/startDrag()
+201. ✅ https://gsap.com/docs/v3/Plugins/Draggable/static.timeSinceDrag()
+202. ✅ https://gsap.com/docs/v3/Plugins/Draggable/update()
+203. ✅ https://gsap.com/docs/v3/Plugins/DrawSVGPlugin
+204. ✅ https://gsap.com/docs/v3/Plugins/DrawSVGPlugin/static.getLength()
+205. ✅ https://gsap.com/docs/v3/Plugins/DrawSVGPlugin/static.getPosition()
+206. ✅ https://gsap.com/docs/v3/Plugins/EaselPlugin
+207. ✅ https://gsap.com/docs/v3/Plugins/GSDevTools
+208. ✅ https://gsap.com/docs/v3/Plugins/GSDevTools/static.create()
+209. ✅ https://gsap.com/docs/v3/Plugins/InertiaPlugin/
+210. ✅ https://gsap.com/docs/v3/Plugins/InertiaPlugin/static.getVelocity()
+211. ✅ https://gsap.com/docs/v3/Plugins/InertiaPlugin/static.isTracking()
+212. ✅ https://gsap.com/docs/v3/Plugins/InertiaPlugin/static.track()
+213. ✅ https://gsap.com/docs/v3/Plugins/InertiaPlugin/static.untrack()
+214. ✅ https://gsap.com/docs/v3/Plugins/InertiaPlugin/VelocityTracker/
+215. ✅ https://gsap.com/docs/v3/Plugins/InertiaPlugin/

@@ -1,0 +1,375 @@
+# GSAP Documentation: GSAP_
+                
+**URL:** https://gsap.com/docs/v3/GSAP/
+**Scraped:** 2025-08-08 12:44:38
+**Content Length:** 17447 characters
+**Processing Time:** 3.90 seconds
+
+---
+
+[GSAPGSAP](https://gsap.com/)Menu
+  * Tools
+    * [Core](https://gsap.com/core/)
+    * [Scroll](https://gsap.com/scroll/)
+    * [SVG](https://gsap.com/svg/)
+    * [UI](https://gsap.com/ui/)
+    * [Text](https://gsap.com/text/)
+    * [Installation](https://gsap.com/docs/v3/Installation)
+    * [Starter Templates](https://gsap.com/demos)
+    * [GSAP & React](https://gsap.com/resources/React)
+    * [Video Lessons](https://www.youtube.com/@GreenSockLearning)
+Professional-grade JavaScript animation for the modern web
+![](https://gsap.com/img/header-shapes.png)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Community](https://gsap.com/community/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [Docs](https://gsap.com/docs/v3)
+  * [Demos](https://gsap.com/demos)
+
+
+  * Notifications
+#### Notifications
+[Notification Settings](https://gsap.com/community/notifications/options)[View All](https://gsap.com/community/notifications/)
+  * Messages
+#### Messages
+[Compose new](https://gsap.com/community/messenger/compose)[Go to Inbox](https://gsap.com/community/messenger)
+  * Login/Create Account
+#### Sign In
+Login[Forgot your password?](https://gsap.com/community/lostpassword/)
+#### Why create an account?
+    * It's free
+    * Learn & share in the forums
+    * Keep up to date with GSAP
+[Create an Account](https://gsap.com/community/register)
+  * [My Account](https://gsap.com/community/account-dashboard)
+    * [Dashboard](https://gsap.com/community/account-dashboard)
+    * [Account Settings](https://gsap.com/community/settings)
+  * [Get GSAP](https://gsap.com/docs/v3/Installation)
+
+
+  * Tools
+    * [Core](https://gsap.com/core/)
+    * [Scroll](https://gsap.com/scroll/)
+    * [SVG](https://gsap.com/svg/)
+    * [UI](https://gsap.com/ui/)
+    * [Text](https://gsap.com/text/)
+  * [About](https://gsap.com/pricing/)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Community](https://gsap.com/community/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [Docs](https://gsap.com/docs/v3/)
+
+
+  * Login/Create Account
+
+
+  * [Dashboard](https://gsap.com/community/account-dashboard)
+  * [Account Settings](https://gsap.com/community/settings)
+  * [Messages](https://gsap.com/community/messenger/)
+  * [Notifications](https://gsap.com/community/notifications/)
+
+
+#### Sign In
+Login[Forgot your password?](https://gsap.com/community/lostpassword/)
+#### Not got an account?
+[Create an Account](https://gsap.com/community/register)
+  * [CodePen](https://codepen.io/GreenSock)
+  * [GitHub](https://github.com/greensock/GreenSock-JS/)
+  * [Facebook](https://www.facebook.com/greensock/)
+  * [LinkedIn](https://www.linkedin.com/company/greensock)
+  * [x](https://www.twitter.com/greensock/)
+
+
+![](https://gsap.com/img/header-shapes.png)
+[Skip to main content](https://gsap.com/docs/v3/GSAP/#__docusaurus_skipToContent_fallback)
+[](https://gsap.com/)[Docs](https://gsap.com/docs/v3/)[Learning](https://gsap.com/resources)
+[v3.13.0](https://gsap.com/docs/v3/GSAP/)
+  * [v3.13.0](https://gsap.com/docs/v3/GSAP/)
+  * [v2 - archived](https://www.gsap.com/archived-docs/)
+
+
+Search
+  * [docsHome](https://gsap.com/docs/v3/)
+  * Quick Start
+  * [Installation](https://gsap.com/docs/v3/Installation)
+  * [YouTube Channel](https://www.youtube.com/@GreenSockLearning)
+  * [Demos](https://gsap.com/demos)
+  * [Cheatsheet](https://gsap.com/cheatsheet)
+  * Fundamentals
+  * [GSAP](https://gsap.com/docs/v3/GSAP/)
+    * [properties](https://gsap.com/docs/v3/GSAP/gsap.effects)
+      * [gsap.effects](https://gsap.com/docs/v3/GSAP/gsap.effects)
+      * [gsap.globalTimeline](https://gsap.com/docs/v3/GSAP/gsap.globalTimeline)
+      * [gsap.ticker](https://gsap.com/docs/v3/GSAP/gsap.ticker)
+      * [gsap.utils](https://gsap.com/docs/v3/GSAP/gsap.utils)
+      * [gsap.version](https://gsap.com/docs/v3/GSAP/gsap.version)
+    * [methods](https://gsap.com/docs/v3/GSAP/gsap.config\(\))
+      * [gsap.config()](https://gsap.com/docs/v3/GSAP/gsap.config\(\))
+      * [gsap.context()](https://gsap.com/docs/v3/GSAP/gsap.context\(\))
+      * [gsap.defaults()](https://gsap.com/docs/v3/GSAP/gsap.defaults\(\))
+      * [gsap.delayedCall()](https://gsap.com/docs/v3/GSAP/gsap.delayedCall\(\))
+      * [gsap.exportRoot()](https://gsap.com/docs/v3/GSAP/gsap.exportRoot\(\))
+      * [gsap.from()](https://gsap.com/docs/v3/GSAP/gsap.from\(\))
+      * [gsap.fromTo()](https://gsap.com/docs/v3/GSAP/gsap.fromTo\(\))
+      * [gsap.getById()](https://gsap.com/docs/v3/GSAP/gsap.getById\(\))
+      * [gsap.getProperty()](https://gsap.com/docs/v3/GSAP/gsap.getProperty\(\))
+      * [gsap.getTweensOf()](https://gsap.com/docs/v3/GSAP/gsap.getTweensOf\(\))
+      * [gsap.isTweening()](https://gsap.com/docs/v3/GSAP/gsap.isTweening\(\))
+      * [gsap.killTweensOf()](https://gsap.com/docs/v3/GSAP/gsap.killTweensOf\(\))
+      * [gsap.matchMedia()](https://gsap.com/docs/v3/GSAP/gsap.matchMedia\(\))
+      * [gsap.matchMediaRefresh()](https://gsap.com/docs/v3/GSAP/gsap.matchMediaRefresh\(\))
+      * [gsap.parseEase()](https://gsap.com/docs/v3/GSAP/gsap.parseEase\(\))
+      * [gsap.quickSetter()](https://gsap.com/docs/v3/GSAP/gsap.quickSetter\(\))
+      * [gsap.quickTo()](https://gsap.com/docs/v3/GSAP/gsap.quickTo\(\))
+      * [gsap.registerEase()](https://gsap.com/docs/v3/GSAP/gsap.registerEase\(\))
+      * [gsap.registerEffect()](https://gsap.com/docs/v3/GSAP/gsap.registerEffect\(\))
+      * [gsap.registerPlugin()](https://gsap.com/docs/v3/GSAP/gsap.registerPlugin\(\))
+      * [gsap.set()](https://gsap.com/docs/v3/GSAP/gsap.set\(\))
+      * [gsap.timeline()](https://gsap.com/docs/v3/GSAP/gsap.timeline\(\))
+      * [gsap.to()](https://gsap.com/docs/v3/GSAP/gsap.to\(\))
+      * [gsap.updateRoot()](https://gsap.com/docs/v3/GSAP/gsap.updateRoot\(\))
+    * [Internal Plugins](https://gsap.com/docs/v3/GSAP/CorePlugins/Attributes)
+  * [Tween](https://gsap.com/docs/v3/GSAP/Tween)
+  * [Timeline](https://gsap.com/docs/v3/GSAP/Timeline)
+  * [CSS](https://gsap.com/docs/v3/GSAP/CorePlugins/CSS)
+  * [Easing](https://gsap.com/docs/v3/Eases)
+  * Plugins
+  * [What's a plugin?](https://gsap.com/docs/v3/Plugins)
+  * [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/)
+  * [ScrollSmoother](https://gsap.com/docs/v3/Plugins/ScrollSmoother/)
+  * [SplitText](https://gsap.com/docs/v3/Plugins/SplitText/)
+  * [Flip](https://gsap.com/docs/v3/Plugins/Flip/)
+  * [more plugins](https://gsap.com/docs/v3/Plugins/CSSRulePlugin/)
+  * Useful features & tools
+  * [Utility Methods](https://gsap.com/docs/v3/GSAP/UtilityMethods)
+  * [Staggers](https://gsap.com/resources/getting-started/Staggers)
+  * [Helper functions](https://gsap.com/docs/v3/HelperFunctions/)
+  * [React - useGSAP()](https://gsap.com/resources/React)
+  * [llms.txt](https://gsap.com/llms.txt)
+
+
+  * GSAP
+
+
+On this page
+# GSAP
+Quick Start
+or via a package manager like npm
+```
+npm install gsap  
+
+```
+
+```
+import{ gsap }from"gsap"  
+
+```
+
+#### Minimal usage
+```
+// This is a Tween  
+gsap.to(".box",{rotation:27,x:100,duration:1});  
+  
+// And this is a Timeline, containing three sequenced tweens  
+let tl = gsap.timeline();  
+tl.to("#green",{duration:1,x:786})  
+.to("#blue",{duration:2,x:786})  
+.to("#orange",{duration:1,x:786})  
+  
+
+```
+
+The `gsap` object serves as the access point for most of GSAP's functionality. It's just a generic object with various methods and properties that create and control [Tweens](https://gsap.com/docs/v3/GSAP/Tween) and [Timelines](https://gsap.com/docs/v3/GSAP/Timeline), two of the most important concepts to understand.
+For a quick overview of the GSAP object, check out this video from the ["GSAP 3 Express" course](https://courses.snorkl.tv/courses/gsap-3-express?ref=44f484) by Snorkl.tv - one of the best ways to learn the basics.
+To get the most out of GSAP, it's crucial that you understand what Tweens and Timelines are:
+### What's a Tween?[​](https://gsap.com/docs/v3/GSAP/#whats-a-tween "Direct link to What's a Tween?")
+A [Tween](https://gsap.com/docs/v3/GSAP/Tween) is what does all the animation work - think of it like a **high-performance property setter**. You feed in targets (the objects you want to animate), a duration, and any properties you want it to animate and then when the Tween's playhead moves to a new position, figures out what the property values should be at that point applies them accordingly.
+#### Common methods for creating a Tween:[​](https://gsap.com/docs/v3/GSAP/#common-methods-for-creating-a-tween "Direct link to Common methods for creating a Tween:")
+  * [gsap.to()](https://gsap.com/docs/v3/GSAP/gsap.to\(\))
+  * [gsap.from()](https://gsap.com/docs/v3/GSAP/gsap.from\(\))
+  * [gsap.fromTo()](https://gsap.com/docs/v3/GSAP/gsap.fromTo\(\))
+
+
+For simple animations (no fancy sequencing), the methods above are all you need! For example:
+```
+//rotate and move elements with a class of "box" ("x" is a shortcut for a translateX() transform) over the course of 1 second.  
+gsap.to(".box",{rotation:27,x:100,duration:1});  
+
+```
+
+#### loading...
+You can do basic sequencing by using the `delay` special property, but Timelines make sequencing and complex choreography much, much easier.
+### What's a Timeline?[​](https://gsap.com/docs/v3/GSAP/#whats-a-timeline "Direct link to What's a Timeline?")
+A [Timeline](https://gsap.com/docs/v3/GSAP/Timeline) is a **container for Tweens.** It's the ultimate sequencing tool that lets you position animations in time wherever you want and then control the whole sequence easily with methods like [pause()](https://gsap.com/docs/v3/GSAP/Timeline/pause\(\)), [play()](https://gsap.com/docs/v3/GSAP/Timeline/play\(\)), [progress()](https://gsap.com/docs/v3/GSAP/Timeline/progress\(\)), [reverse()](https://gsap.com/docs/v3/GSAP/Timeline/reverse\(\)), [timeScale()](https://gsap.com/docs/v3/GSAP/Timeline/timeScale\(\)), etc.
+Create as many Timelines as you want. You can even **nest them** which is fantastic for modularizing your animation code! Every animation (Tween and Timeline) gets placed onto a parent timeline (the [globalTimeline](https://gsap.com/docs/v3/GSAP/gsap.globalTimeline\(\)) by default). Moving a Timeline's playhead cascades down through its children so that the playheads stay aligned. A Timeline is purely about grouping things and coordinating time/playheads - it never actually sets properties on targets (Tweens handle that).
+0
+1
+2blueSpin
+3
+4
+Play
+#### Method for creating a Timeline:[​](https://gsap.com/docs/v3/GSAP/#method-for-creating-a-timeline "Direct link to Method for creating a Timeline:")
+  * [gsap.timeline()](https://gsap.com/docs/v3/GSAP/gsap.timeline\(\))
+
+
+GSAP's API lets you control virtually anything on-the-fly, such as the playhead position, the [startTime](https://gsap.com/docs/v3/GSAP/Tween/startTime\(\)) of any child, even play/pause/reverse the timeline or alter the timeScale itself.
+## Sequencing[​](https://gsap.com/docs/v3/GSAP/#sequencing "Direct link to Sequencing")
+First, create a Timeline:
+```
+var tl = gsap.timeline();  
+
+```
+
+Then add a tween using one of the convenience methods - [to()](https://gsap.com/docs/v3/GSAP/Timeline/to\(\)), [from()](https://gsap.com/docs/v3/GSAP/Timeline/from\(\)), or [fromTo()](https://gsap.com/docs/v3/GSAP/Timeline/fromTo\(\)):
+```
+tl.to(".box",{duration:2,x:100,opacity:0.5});  
+
+```
+
+Do that as many times as you want. Notice we're calling `.to()` **on the timeline instance** (the variable `tl` in this case), not the `gsap` object. This creates a tween and immediately puts it into that particular Timeline. `gsap.to()`, on the other hand, creates a standalone tween. By default, the animations will be sequenced one-after-the-other. You can even use method chaining to simplify your code like this:
+```
+//sequenced one-after-the-other  
+tl.to(".box1",{duration:2,x:100})//notice that there's no semicolon!  
+.to(".box2",{duration:1,y:200})  
+.to(".box3",{duration:3,rotation:360});  
+
+```
+
+#### loading...
+The whole GSAP platform is object-oriented and you could create individual tween instances with [gsap.to()](https://gsap.com/docs/v3/GSAP/gsap.to\(\)), for example, and then [timeline.add()](https://gsap.com/docs/v3/GSAP/Timeline/add\(\)) each one but it's just easier to call .to(), .from(), or .fromTo() directly on the Timeline instance to do the same thing in fewer steps.
+## Positioning[​](https://gsap.com/docs/v3/GSAP/#positioning "Direct link to Positioning")
+Define **exactly** where you want your animations to be placed into the timeline by using the optional [position parameter](https://gsap.com/resources/position-parameter/). A number indicates an absolute time (in seconds), or a string with a `"+="` or `"-="` prefix indicates an offset relative to the END of the timeline. For example, `"+=2"` would be 2 seconds after the end, creating a 2-second gap. `"-=2"` would create a 2-second overlap.
+0
+1
+2blueSpin
+3
+4
+Play
+### Labels[​](https://gsap.com/docs/v3/GSAP/#labels "Direct link to Labels")
+Use labels to mark certain spots on the timeline so that you can place animations there or navigate there during playback.
+0
+1
+2blueSpin
+3
+4
+Play
+```
+//add a label at exactly 3 seconds  
+tl.addLabel("step2",3)  
+  
+//then later, we can seek() to that spot:  
+tl.seek("step2");  
+
+```
+
+## Control methods[​](https://gsap.com/docs/v3/GSAP/#control-methods "Direct link to Control methods")
+[Tween](https://gsap.com/docs/v3/GSAP/Tween) and [Timeline](https://gsap.com/docs/v3/GSAP/Timeline) both extend an Animation class that exposes a myriad of useful methods and properties. Here are some of the most frequently used:
+```
+pause[](https://gsap.com/docs/v3/GSAP/Tween/pause\(\))()  
+play[](https://gsap.com/docs/v3/GSAP/Tween/play\(\))()  
+progress[](https://gsap.com/docs/v3/GSAP/Tween/progress\(\))()  
+restart[](https://gsap.com/docs/v3/GSAP/Tween/restart\(\))()  
+resume[](https://gsap.com/docs/v3/GSAP/Tween/resume\(\))()  
+reverse[](https://gsap.com/docs/v3/GSAP/Tween/reverse\(\))()  
+seek[](https://gsap.com/docs/v3/GSAP/Tween/seek\(\))()  
+time[](https://gsap.com/docs/v3/GSAP/Tween/time\(\))()  
+duration[](https://gsap.com/docs/v3/GSAP/Tween/duration\(\))()  
+timeScale[](https://gsap.com/docs/v3/GSAP/Tween/timeScale\(\))()  
+kill[](https://gsap.com/docs/v3/GSAP/Tween/kill\(\))()  
+
+```
+
+#### loading...
+Reference the Tween or Timeline instance with a variable, and then control it whenever you want:
+```
+//you only need to create a variable if you want to control it later...  
+var tween = gsap.to(...);  
+var tl = gsap.timeline();//"tl" short for timeline  
+tl.to(...).to(...);//add animations.  
+  
+//now we can control them...  
+tween.pause();  
+tween.timeScale(2);//double speed  
+tl.seek(3);//jump to 3 seconds in  
+tl.progress(0.5);//halfway through  
+...  
+  
+
+```
+
+[Previous Installation](https://gsap.com/docs/v3/Installation)[Next gsap.effects](https://gsap.com/docs/v3/GSAP/gsap.effects)
+## Contents
+  * [What's a Tween?](https://gsap.com/docs/v3/GSAP/#whats-a-tween)
+  * [What's a Timeline?](https://gsap.com/docs/v3/GSAP/#whats-a-timeline)
+  * [Sequencing](https://gsap.com/docs/v3/GSAP/#sequencing)
+  * [Positioning](https://gsap.com/docs/v3/GSAP/#positioning)
+    * [Labels](https://gsap.com/docs/v3/GSAP/#labels)
+  * [Control methods](https://gsap.com/docs/v3/GSAP/#control-methods)
+
+
+## [GSAP](https://gsap.com/)
+  * [Core](https://gsap.com/core/)
+  * [Docs](https://gsap.com/docs/v3)
+  * [All Plugins](https://gsap.com/docs/v3/Plugins/)
+
+
+## [Scroll](https://gsap.com/scroll/)
+  * [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger)
+  * [ScrollSmoother](https://gsap.com/docs/v3/Plugins/ScrollSmoother)
+  * [ScrollTo](https://gsap.com/docs/v3/Plugins/ScrollToPlugin)
+
+
+## [SVG](https://gsap.com/svg/)
+  * [DrawSVG](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin)
+  * [MorphSVG](https://gsap.com/docs/v3/Plugins/MorphSVGPlugin)
+  * [MotionPath](https://gsap.com/docs/v3/Plugins/MotionPathPlugin)
+  * [MotionPathHelper](https://gsap.com/docs/v3/Plugins/MotionPathHelper)
+
+
+## [UI](https://gsap.com/ui/)
+  * [Flip](https://gsap.com/docs/v3/Plugins/Flip)
+  * [Draggable](https://gsap.com/docs/v3/Plugins/Draggable)
+  * [Inertia](https://gsap.com/docs/v3/Plugins/InertiaPlugin)
+  * [Observer](https://gsap.com/docs/v3/Plugins/Observer)
+
+
+## [Text](https://gsap.com/text/)
+  * [SplitText](https://gsap.com/docs/v3/Plugins/SplitText)
+  * [ScrambleText](https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin)
+  * [Text Replace](https://gsap.com/docs/v3/Plugins/TextPlugin)
+
+
+## [Other](https://gsap.com/text/)
+  * [Physics2D](https://gsap.com/docs/v3/Plugins/Physics2DPlugin)
+  * [PhysicsProps](https://gsap.com/docs/v3/Plugins/PhysicsPropsPlugin)
+  * [GSDevTools](https://gsap.com/docs/v3/Plugins/GSDevTools)
+
+
+Keep in the loop with the GSAP® newsletter.
+Email *
+  
+
+## GSAP
+  * [Blog](https://gsap.com/blog/)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [GSAP & Webflow](https://gsap.com/pricing)
+  * [Contact Us](https://gsap.com/community/contact/)
+
+
+## Connect
+  * [Forums](https://gsap.com/community/)
+  * [Codepen](https://www.codepen.io/GreenSock)
+  * [LinkedIn](https://www.linkedin.com/company/greensock)
+  * [Bluesky](https://bsky.app/profile/gsap-greensock.bsky.social)
+  * [GitHub](https://github.com/greensock/GreenSock-JS)
+  * [X](https://www.twitter.com/greensock)
+
+
+©2025 GSAP - A Webflow Product. All rights reserved.
+[](https://webflow.com/)
+  * [ Privacy Policy.](https://gsap.com/community/privacy-policy/)
+  * [ Terms of Use.](https://gsap.com/community/terms-of-use/)
+
+
+

@@ -1,0 +1,300 @@
+# GSAP Documentation: Plugins_EaselPlugin
+                
+**URL:** https://gsap.com/docs/v3/Plugins/EaselPlugin
+**Scraped:** 2025-08-08 12:56:17
+**Content Length:** 11459 characters
+**Processing Time:** 1.45 seconds
+
+---
+
+[GSAPGSAP](https://gsap.com/)Menu
+  * Tools
+    * [Core](https://gsap.com/core/)
+    * [Scroll](https://gsap.com/scroll/)
+    * [SVG](https://gsap.com/svg/)
+    * [UI](https://gsap.com/ui/)
+    * [Text](https://gsap.com/text/)
+    * [Installation](https://gsap.com/docs/v3/Installation)
+    * [Starter Templates](https://gsap.com/demos)
+    * [GSAP & React](https://gsap.com/resources/React)
+    * [Video Lessons](https://www.youtube.com/@GreenSockLearning)
+Professional-grade JavaScript animation for the modern web
+![](https://gsap.com/img/header-shapes.png)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Community](https://gsap.com/community/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [Docs](https://gsap.com/docs/v3)
+  * [Demos](https://gsap.com/demos)
+
+
+  * Notifications
+#### Notifications
+[Notification Settings](https://gsap.com/community/notifications/options)[View All](https://gsap.com/community/notifications/)
+  * Messages
+#### Messages
+[Compose new](https://gsap.com/community/messenger/compose)[Go to Inbox](https://gsap.com/community/messenger)
+  * Login/Create Account
+#### Sign In
+Login[Forgot your password?](https://gsap.com/community/lostpassword/)
+#### Why create an account?
+    * It's free
+    * Learn & share in the forums
+    * Keep up to date with GSAP
+[Create an Account](https://gsap.com/community/register)
+  * [My Account](https://gsap.com/community/account-dashboard)
+    * [Dashboard](https://gsap.com/community/account-dashboard)
+    * [Account Settings](https://gsap.com/community/settings)
+  * [Get GSAP](https://gsap.com/docs/v3/Installation)
+
+
+  * Tools
+    * [Core](https://gsap.com/core/)
+    * [Scroll](https://gsap.com/scroll/)
+    * [SVG](https://gsap.com/svg/)
+    * [UI](https://gsap.com/ui/)
+    * [Text](https://gsap.com/text/)
+  * [About](https://gsap.com/pricing/)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Community](https://gsap.com/community/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [Docs](https://gsap.com/docs/v3/)
+
+
+  * Login/Create Account
+
+
+  * [Dashboard](https://gsap.com/community/account-dashboard)
+  * [Account Settings](https://gsap.com/community/settings)
+  * [Messages](https://gsap.com/community/messenger/)
+  * [Notifications](https://gsap.com/community/notifications/)
+
+
+#### Sign In
+Login[Forgot your password?](https://gsap.com/community/lostpassword/)
+#### Not got an account?
+[Create an Account](https://gsap.com/community/register)
+  * [CodePen](https://codepen.io/GreenSock)
+  * [GitHub](https://github.com/greensock/GreenSock-JS/)
+  * [Facebook](https://www.facebook.com/greensock/)
+  * [LinkedIn](https://www.linkedin.com/company/greensock)
+  * [x](https://www.twitter.com/greensock/)
+
+
+![](https://gsap.com/img/header-shapes.png)
+[Skip to main content](https://gsap.com/docs/v3/Plugins/EaselPlugin/#__docusaurus_skipToContent_fallback)
+[](https://gsap.com/)[Docs](https://gsap.com/docs/v3/)[Learning](https://gsap.com/resources)
+[v3.13.0](https://gsap.com/docs/v3/Plugins/EaselPlugin)
+  * [v3.13.0](https://gsap.com/docs/v3/Plugins/EaselPlugin)
+  * [v2 - archived](https://www.gsap.com/archived-docs/)
+
+
+Search
+  * [docsHome](https://gsap.com/docs/v3/)
+  * Quick Start
+  * [Installation](https://gsap.com/docs/v3/Installation)
+  * [YouTube Channel](https://www.youtube.com/@GreenSockLearning)
+  * [Demos](https://gsap.com/demos)
+  * [Cheatsheet](https://gsap.com/cheatsheet)
+  * Fundamentals
+  * [GSAP](https://gsap.com/docs/v3/GSAP/)
+  * [Tween](https://gsap.com/docs/v3/GSAP/Tween)
+  * [Timeline](https://gsap.com/docs/v3/GSAP/Timeline)
+  * [CSS](https://gsap.com/docs/v3/GSAP/CorePlugins/CSS)
+  * [Easing](https://gsap.com/docs/v3/Eases)
+  * Plugins
+  * [What's a plugin?](https://gsap.com/docs/v3/Plugins)
+  * [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/)
+  * [ScrollSmoother](https://gsap.com/docs/v3/Plugins/ScrollSmoother/)
+  * [SplitText](https://gsap.com/docs/v3/Plugins/SplitText/)
+  * [Flip](https://gsap.com/docs/v3/Plugins/Flip/)
+  * [more plugins](https://gsap.com/docs/v3/Plugins/CSSRulePlugin/)
+    * [CSSRule](https://gsap.com/docs/v3/Plugins/CSSRulePlugin/)
+    * [Draggable](https://gsap.com/docs/v3/Plugins/Draggable/)
+    * [DrawSVG](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin)
+    * [Easel](https://gsap.com/docs/v3/Plugins/EaselPlugin)
+    * [GSDevTools](https://gsap.com/docs/v3/Plugins/GSDevTools)
+    * [Inertia](https://gsap.com/docs/v3/Plugins/InertiaPlugin/)
+    * [MorphSVG](https://gsap.com/docs/v3/Plugins/MorphSVGPlugin)
+    * [MotionPath](https://gsap.com/docs/v3/Plugins/MotionPathPlugin)
+    * [MotionPathHelper](https://gsap.com/docs/v3/Plugins/MotionPathHelper)
+    * [Observer](https://gsap.com/docs/v3/Plugins/Observer/)
+    * [Physics2D](https://gsap.com/docs/v3/Plugins/Physics2DPlugin)
+    * [PhysicsProps](https://gsap.com/docs/v3/Plugins/PhysicsPropsPlugin)
+    * [Pixi](https://gsap.com/docs/v3/Plugins/PixiPlugin/)
+    * [ScrambleText](https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin)
+    * [ScrollTo](https://gsap.com/docs/v3/Plugins/ScrollToPlugin)
+    * [Text](https://gsap.com/docs/v3/Plugins/TextPlugin)
+  * Useful features & tools
+  * [Utility Methods](https://gsap.com/docs/v3/GSAP/UtilityMethods)
+  * [Staggers](https://gsap.com/resources/getting-started/Staggers)
+  * [Helper functions](https://gsap.com/docs/v3/HelperFunctions/)
+  * [React - useGSAP()](https://gsap.com/resources/React)
+  * [llms.txt](https://gsap.com/llms.txt)
+
+
+  * more plugins
+  * Easel
+
+
+On this page
+# Easel
+Quick Start
+#### CDN Link
+Copy
+```
+gsap.registerPlugin(EaselPlugin)  
+
+```
+
+#### Minimal usage
+```
+gsap.ticker.add(()=> stage.update());  
+  
+gsap.to(circle,{  
+duration:2,  
+scaleX:0.5,  
+scaleY:0.5,  
+easel:{tint:0x00ff00},  
+});  
+
+```
+
+### Description[​](https://gsap.com/docs/v3/Plugins/EaselPlugin/#description "Direct link to Description")
+Tweens special EaselJS-related properties for things like `saturation`, `contrast`, `tint`, `colorize`, `brightness`, `exposure`, and `hue` which leverage EaselJS's `ColorFilter` and `ColorMatrixFilter` (see [the EaselJS website](https://www.createjs.com/#!/EaselJS) for more information about EaselJS). You don't need the plugin to tween normal numeric properties of EaselJS objects (like `x` and `y`), but some filters or effects require special manipulation which is what EaselPlugin is for. Currently it only handles special properties related to `ColorFilter` and `ColorMatrixFilter`, and it can tween the `frame` property of a `MovieClip`.
+GreenSock's EaselPlugin exposes convenient properties that aren't a part of EaselJS's API like `tint`, `tintAmount`, `exposure`, and `brightness` for `ColorFilter`, as well as `saturation`, `hue`, `contrast`, `colorize`, and `colorizeAmount` for `ColorMatrixFilter`. Simply wrap the values that you'd like to tween in an `easel: {}` object. Here are some examples:
+```
+//setup stage and create a Shape into which we'll draw a circle later...  
+var canvas =document.getElementById("myCanvas"),  
+  stage =newcreatejs.Stage(canvas),  
+  circle =newcreatejs.Shape(),  
+  g = circle.graphics;  
+  
+//draw a red circle in the Shape  
+g.beginFill(createjs.Graphics.getRGB(255,0,0));  
+g.drawCircle(0,0,100);  
+g.endFill();  
+  
+//in order for the ColorFilter to work, we must cache() the circle  
+circle.cache(-100,-100,200,200);  
+  
+//place the circle at 200,200  
+circle.x=200;  
+circle.y=200;  
+  
+//add the circle to the stage  
+stage.addChild(circle);  
+  
+//setup a "tick" event listener so that the EaselJS stage gets updated on every frame/tick  
+gsap.ticker.add(()=> stage.update());  
+stage.update();  
+  
+//tween the tint of the circle to green and scale it to half-size  
+gsap.to(circle,{  
+duration:2,  
+scaleX:0.5,  
+scaleY:0.5,  
+easel:{tint:0x00ff00},  
+});  
+  
+//tween to a different tint that is only 50% (mixing with half of the original color) and animate the scale, position, and rotation simultaneously.  
+gsap.to(circle,{  
+duration:3,  
+scaleX:1.5,  
+scaleY:0.8,  
+x:250,  
+y:150,  
+rotation:180,  
+easel:{tint:"#0000FF",tintAmount:0.5},  
+delay:3,  
+ease:"elastic",  
+});  
+  
+//then animate the saturation down to 0  
+gsap.to(circle,{duration:2,easel:{saturation:0},delay:6});  
+
+```
+
+You can also tween any individual properties of the `ColorFilter` object like this:
+```
+gsap.to(circle,{  
+duration:3,  
+easel:{  
+colorFilter:{redMultiplier:0.5,blueMultiplier:0.8,greenOffset:100},  
+},  
+});  
+
+```
+
+Or you can tween things like the `exposure` of an image which is a value from 0-2 where 1 is normal exposure, 2 is completely overexposed (white) and 0 is completely underexposed (black). Or define a `brightness` value which uses the same concept: a value from 0-2. These effects can be very useful for images in particular.
+A common mistake is to forget to wrap EaselJS-related properties in an easel object which is essential for specifying your intent. You also must load the EaselJS's `ColorFilter` and/or `ColorMatrixFilter` JavaScript files.
+[Previous DrawSVGPlugin.getPosition()](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin/static.getPosition\(\))[Next GSDevTools](https://gsap.com/docs/v3/Plugins/GSDevTools)
+## Contents
+  * [Description](https://gsap.com/docs/v3/Plugins/EaselPlugin/#description)
+
+
+## [GSAP](https://gsap.com/)
+  * [Core](https://gsap.com/core/)
+  * [Docs](https://gsap.com/docs/v3)
+  * [All Plugins](https://gsap.com/docs/v3/Plugins/)
+
+
+## [Scroll](https://gsap.com/scroll/)
+  * [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger)
+  * [ScrollSmoother](https://gsap.com/docs/v3/Plugins/ScrollSmoother)
+  * [ScrollTo](https://gsap.com/docs/v3/Plugins/ScrollToPlugin)
+
+
+## [SVG](https://gsap.com/svg/)
+  * [DrawSVG](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin)
+  * [MorphSVG](https://gsap.com/docs/v3/Plugins/MorphSVGPlugin)
+  * [MotionPath](https://gsap.com/docs/v3/Plugins/MotionPathPlugin)
+  * [MotionPathHelper](https://gsap.com/docs/v3/Plugins/MotionPathHelper)
+
+
+## [UI](https://gsap.com/ui/)
+  * [Flip](https://gsap.com/docs/v3/Plugins/Flip)
+  * [Draggable](https://gsap.com/docs/v3/Plugins/Draggable)
+  * [Inertia](https://gsap.com/docs/v3/Plugins/InertiaPlugin)
+  * [Observer](https://gsap.com/docs/v3/Plugins/Observer)
+
+
+## [Text](https://gsap.com/text/)
+  * [SplitText](https://gsap.com/docs/v3/Plugins/SplitText)
+  * [ScrambleText](https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin)
+  * [Text Replace](https://gsap.com/docs/v3/Plugins/TextPlugin)
+
+
+## [Other](https://gsap.com/text/)
+  * [Physics2D](https://gsap.com/docs/v3/Plugins/Physics2DPlugin)
+  * [PhysicsProps](https://gsap.com/docs/v3/Plugins/PhysicsPropsPlugin)
+  * [GSDevTools](https://gsap.com/docs/v3/Plugins/GSDevTools)
+
+
+Keep in the loop with the GSAP® newsletter.
+Email *
+  
+
+## GSAP
+  * [Blog](https://gsap.com/blog/)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [GSAP & Webflow](https://gsap.com/pricing)
+  * [Contact Us](https://gsap.com/community/contact/)
+
+
+## Connect
+  * [Forums](https://gsap.com/community/)
+  * [Codepen](https://www.codepen.io/GreenSock)
+  * [LinkedIn](https://www.linkedin.com/company/greensock)
+  * [Bluesky](https://bsky.app/profile/gsap-greensock.bsky.social)
+  * [GitHub](https://github.com/greensock/GreenSock-JS)
+  * [X](https://www.twitter.com/greensock)
+
+
+©2025 GSAP - A Webflow Product. All rights reserved.
+[](https://webflow.com/)
+  * [ Privacy Policy.](https://gsap.com/community/privacy-policy/)
+  * [ Terms of Use.](https://gsap.com/community/terms-of-use/)
+
+
+

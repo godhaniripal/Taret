@@ -1,0 +1,315 @@
+# GSAP Documentation: Plugins_Flip_static.from
+                
+**URL:** https://gsap.com/docs/v3/Plugins/Flip/static.from()
+**Scraped:** 2025-08-08 12:53:11
+**Content Length:** 22639 characters
+**Processing Time:** 1.36 seconds
+
+---
+
+[GSAPGSAP](https://gsap.com/)Menu
+  * Tools
+    * [Core](https://gsap.com/core/)
+    * [Scroll](https://gsap.com/scroll/)
+    * [SVG](https://gsap.com/svg/)
+    * [UI](https://gsap.com/ui/)
+    * [Text](https://gsap.com/text/)
+    * [Installation](https://gsap.com/docs/v3/Installation)
+    * [Starter Templates](https://gsap.com/demos)
+    * [GSAP & React](https://gsap.com/resources/React)
+    * [Video Lessons](https://www.youtube.com/@GreenSockLearning)
+Professional-grade JavaScript animation for the modern web
+![](https://gsap.com/img/header-shapes.png)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Community](https://gsap.com/community/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [Docs](https://gsap.com/docs/v3)
+  * [Demos](https://gsap.com/demos)
+
+
+  * Notifications
+#### Notifications
+[Notification Settings](https://gsap.com/community/notifications/options)[View All](https://gsap.com/community/notifications/)
+  * Messages
+#### Messages
+[Compose new](https://gsap.com/community/messenger/compose)[Go to Inbox](https://gsap.com/community/messenger)
+  * Login/Create Account
+#### Sign In
+Login[Forgot your password?](https://gsap.com/community/lostpassword/)
+#### Why create an account?
+    * It's free
+    * Learn & share in the forums
+    * Keep up to date with GSAP
+[Create an Account](https://gsap.com/community/register)
+  * [My Account](https://gsap.com/community/account-dashboard)
+    * [Dashboard](https://gsap.com/community/account-dashboard)
+    * [Account Settings](https://gsap.com/community/settings)
+  * [Get GSAP](https://gsap.com/docs/v3/Installation)
+
+
+  * Tools
+    * [Core](https://gsap.com/core/)
+    * [Scroll](https://gsap.com/scroll/)
+    * [SVG](https://gsap.com/svg/)
+    * [UI](https://gsap.com/ui/)
+    * [Text](https://gsap.com/text/)
+  * [About](https://gsap.com/pricing/)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Community](https://gsap.com/community/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [Docs](https://gsap.com/docs/v3/)
+
+
+  * Login/Create Account
+
+
+  * [Dashboard](https://gsap.com/community/account-dashboard)
+  * [Account Settings](https://gsap.com/community/settings)
+  * [Messages](https://gsap.com/community/messenger/)
+  * [Notifications](https://gsap.com/community/notifications/)
+
+
+#### Sign In
+Login[Forgot your password?](https://gsap.com/community/lostpassword/)
+#### Not got an account?
+[Create an Account](https://gsap.com/community/register)
+  * [CodePen](https://codepen.io/GreenSock)
+  * [GitHub](https://github.com/greensock/GreenSock-JS/)
+  * [Facebook](https://www.facebook.com/greensock/)
+  * [LinkedIn](https://www.linkedin.com/company/greensock)
+  * [x](https://www.twitter.com/greensock/)
+
+
+![](https://gsap.com/img/header-shapes.png)
+[Skip to main content](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#__docusaurus_skipToContent_fallback)
+[](https://gsap.com/)[Docs](https://gsap.com/docs/v3/)[Learning](https://gsap.com/resources)
+[v3.13.0](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\))
+  * [v3.13.0](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\))
+  * [v2 - archived](https://www.gsap.com/archived-docs/)
+
+
+Search
+  * [docsHome](https://gsap.com/docs/v3/)
+  * Quick Start
+  * [Installation](https://gsap.com/docs/v3/Installation)
+  * [YouTube Channel](https://www.youtube.com/@GreenSockLearning)
+  * [Demos](https://gsap.com/demos)
+  * [Cheatsheet](https://gsap.com/cheatsheet)
+  * Fundamentals
+  * [GSAP](https://gsap.com/docs/v3/GSAP/)
+  * [Tween](https://gsap.com/docs/v3/GSAP/Tween)
+  * [Timeline](https://gsap.com/docs/v3/GSAP/Timeline)
+  * [CSS](https://gsap.com/docs/v3/GSAP/CorePlugins/CSS)
+  * [Easing](https://gsap.com/docs/v3/Eases)
+  * Plugins
+  * [What's a plugin?](https://gsap.com/docs/v3/Plugins)
+  * [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/)
+  * [ScrollSmoother](https://gsap.com/docs/v3/Plugins/ScrollSmoother/)
+  * [SplitText](https://gsap.com/docs/v3/Plugins/SplitText/)
+  * [Flip](https://gsap.com/docs/v3/Plugins/Flip/)
+    * [methods](https://gsap.com/docs/v3/Plugins/Flip/static.batch\(\))
+      * [Flip.batch()](https://gsap.com/docs/v3/Plugins/Flip/static.batch\(\))
+      * [Flip.fit()](https://gsap.com/docs/v3/Plugins/Flip/static.fit\(\))
+      * [Flip.from()](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\))
+      * [Flip.getState()](https://gsap.com/docs/v3/Plugins/Flip/static.getState\(\))
+      * [Flip.isFlipping()](https://gsap.com/docs/v3/Plugins/Flip/static.isFlipping\(\))
+      * [Flip.killFlipsOf()](https://gsap.com/docs/v3/Plugins/Flip/static.killFlipsOf\(\))
+      * [Flip.makeAbsolute()](https://gsap.com/docs/v3/Plugins/Flip/static.makeAbsolute\(\))
+      * [Flip.to()](https://gsap.com/docs/v3/Plugins/Flip/static.to\(\))
+  * [more plugins](https://gsap.com/docs/v3/Plugins/CSSRulePlugin/)
+  * Useful features & tools
+  * [Utility Methods](https://gsap.com/docs/v3/GSAP/UtilityMethods)
+  * [Staggers](https://gsap.com/resources/getting-started/Staggers)
+  * [Helper functions](https://gsap.com/docs/v3/HelperFunctions/)
+  * [React - useGSAP()](https://gsap.com/resources/React)
+  * [llms.txt](https://gsap.com/llms.txt)
+
+
+  * [Flip](https://gsap.com/docs/v3/Plugins/Flip/)
+  * methods
+  * Flip.from()
+
+
+On this page
+# Flip.from
+###  Flip.from( state:FlipState, vars:Object ) : Timeline
+Immediately moves/resizes the targets to match the provided `state` object, and then animates backwards to remove those offsets to end up at the current state. By default, `width` and `height` properties are used for the resizing, but you can set `scale: true` to scale instead (transform). It returns a timeline animation, so you can control it or add() other animations. 
+#### Parameters
+  * ####  **state** : FlipState
+A state obtained from [Flip.getState()](https://gsap.com/docs/v3/Plugins/Flip/static.getState\(\)).
+  * ####  **vars** : Object
+The vars to use for the from animation. You can use any standard tween special property like `ease`, `duration`, `onComplete`, etc.
+
+
+### Returns : Timeline[​](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#returns--timeline "Direct link to Returns : Timeline")
+A [timeline](https://gsap.com/docs/v3/GSAP/Timeline) animation
+### Details[​](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#details "Direct link to Details")
+Immediately moves/resizes the targets to match the provided `state` object, and then animates backwards to remove those offsets to end up at the current state. By default, `width` and `height` properties are used for the resizing, but you can set `scale: true` to scale instead (transform). It returns a timeline animation, so you can control it or add() other animations.
+## Usage[​](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#usage "Direct link to Usage")
+There are typically 3 steps to a "FLIP" animation:
+  1. ### Get the current state[​](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#get-the-current-state "Direct link to Get the current state")
+```
+// returns a state object containing data about the elements' current position/size/rotation in the viewport  
+const state =Flip.getState(".targets");  
+
+```
+
+This merely captures some data about the current state. Use selector text, an Element, an Array of Elements, or NodeList. [Flip.getState()](https://gsap.com/docs/v3/Plugins/Flip/static.getState\(\)) doesn't alter anything (unless there's an active flip animation affecting any of the targets in which case it will force it to completion to capture the final state accurately). By default, Flip only concerns itself with position, size, rotation, and skew. If you want your Flip animations to affect other CSS properties, you can define a configuration object with a comma-delimited list of `props`, like:
+```
+// record some extra properties (optional)  
+const state =Flip.getState(".targets",{props:"backgroundColor,color"});  
+
+```
+
+  2. ### Make your state changes[​](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#make-your-state-changes "Direct link to Make your state changes")
+Perform DOM edits, styling updates, add/remove classes, or whatever is necessary to get things in their final state. There's no need to do that through the plugin (unless you're [batching](https://gsap.com/docs/v3/Plugins/Flip/static.batch\(\))). For example, we'll toggle a class:
+```
+// make state changes. We'll toggle a class, for example:  
+element.classList.toggle("full-screen");  
+
+```
+
+  3. ### Call `Flip.from(state, options)`[​](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#call-flipfromstate-options "Direct link to call-flipfromstate-options")
+Flip will look at the `state` object, compare the recorded positions/sizes to the current ones, immediately reposition/resize them to _appear_ where they were in that previous state, and then animate the _removal_ of those offsets. You can specify almost any standard tween special properties like `duration`, `ease`, `onComplete`, etc. [Flip.from()](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)) returns a timeline that you can `add()` things to or control in any way:
+```
+// animate from the previous state to the current one:  
+Flip.from(state,{  
+duration:1,  
+ease:"power1.inOut",  
+absolute:true,  
+onComplete: myFunc,  
+});  
+
+```
+
+
+
+You can flip multiple elements at the same time. In fact, you can add a `stagger` to stagger their start times.
+## Special properties[​](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#special-properties "Direct link to Special properties")
+The `Flip.from()` options object (2nd parameter) can contain any of the following optional properties **in addition to any standard tween properties like`duration` , `ease`, `onComplete`, etc.** which are described [elsewhere](https://gsap.com/docs/v3/GSAP/gsap.to\(\)):
+Property | Description  
+---|---  
+absolute | **Boolean | String | Array | NodeList | Element** - specifies which of the targets should have `position: absolute` applied during the course of the FLIP animation. If `true`, **all** of the targets are affected, or use selector text like `".box"` (or an Array/NodeList of Elements, or even a single Element) to specify a subset of the targets. This can solve layout challenges with flex and grid layouts, for example. If things aren't behaving in a seamless way, try setting `absolute: true`. Beware, that `position: absolute` removes the elements from document flow, so things below can collapse. In that case, just define a subset that doesn't include the container element so it props the layout open. _(added in 3.9.0)_  
+absoluteOnLeave | **Boolean** - if `true`, any "leaving" Elements (ones passed to the `onLeave()`) will be set to `position: absolute` during the flip animation. This can be very useful when you set elements to `display: none` to hide them in the final state, but you want to animate them out (fade, scale, whatever). It's critical that they not affect layout but you still want them visible during the animation. _(added in 3.9.0)_  
+fade | **Boolean** - by default, if the target element associated with a particular `data-flip-id` in the previous state is a **different element** than the one with the same `data-flip-id` in the end state, it will get swapped immediately but if you'd prefer that they cross-fade, set `fade: true`. Again, this only applies when swapping elements. If the "swapping out" (leaving) element is `display: none` (CSS), obviously it won't be visible for fading but if you set the Flip to `absolute: true`, it will force the element to the previous display state _during_ the flip so that it can cross-fade. The reason `absolute: true` is necessary in this case is because otherwise the element would affect document flow and throw off the positioning of other elements but if it is `position: absolute` (CSS), it's removed from the document flow and won't contaminate positioning.  
+nested | **Boolean** - if the Flip has any _nested_ targets (like a parent and its child are both in the `targets`), set `nested: true` to have Flip perform extra calculations to prevent those movements from compounding. A parent's movement affects its children, so if both are mapped to end up 200px from their original position and Flip moves them both 200px, the child would end up moving 400px unless `nested: true` is set.  
+onEnter |  **Function** - A callback that's called if/when a target either isn't found in the original `state` or it was not in the document flow in that original state (like `display: none`), but it _IS_ in the document flow in the **end** state. Since there is no position/size data to compare to in the original state, it won't be included in the flip animation, but the callback receives an Array of the entering elements as a parameter so that you can animate them as you please (like fade them in). A ny animation returned by this callback will get added to the flip timeline so that it gets forced to completion if a competing flip interrupts it. For example: ```
+onEnter:elements=> gsap.fromTo(elements,{opacity:0},{opacity:1})  
+
+```
+  
+onLeave |  **Function** - A callback that's called if/when a target is in the original `state` but not the end state, or if it isn't in the document flow in the end state (like `display: none`). Since there is no position/size data to compare to in the end state, it won't be included in the flip animation, but the callback receives an Array of the leaving elements as a parameter so that you can animate them as you please (like fade them out). these elements won't be visible unless you also set `absolute: true` (otherwise, it'd throw off document flow). If `absolute: true` is set, it will force `display` to whatever it was in the previous state and then revert it back at the end of the flip. Any animation returned by this callback will get added to the flip timeline so that it gets forced to completion if a competing flip interrupts it. For example: ```
+onLeave:elements=> gsap.fromTo(elements,{opacity:1},{opacity:0})  
+
+```
+  
+props | **String** - a comma-delimited list of _camelCased_ CSS properties that should be included in the flip animation beyond the standard positioning/size/rotation/skew ones. For example, `"backgroundColor,color"`. This will only work, however, if the props exist in the `state` object (first parameter) because otherwise there's no corresponding data to pull from. By default, Flip will use the `props` that were captured in the state with [Flip.getState(targets, props)](https://gsap.com/docs/v3/Plugins/Flip/static.getState\(\)), so it's very rare that you'd need to define `props` in [Flip.from()](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)). It's only useful if you want to _LIMIT_ them to a subset of the ones captured in the state.  
+prune | **Boolean** - if `true`, Flip will remove any targets from the animation that match the previous state (position/size) in order to conserve resources. This requires a little more processing up-front, but it may improve performance during the animation when several get removed, plus it also makes staggering more intuitive since you may not want non-animating targets to be factored into the staggering. _(added in 3.9.0)_ |  
+scale | **Boolean** - by default, Flip will affect the `width` and `height` CSS properties to alter the size, but if you'd rather scale the element instead (typically better performance), set `scale: true`. | |  
+simple | **Boolean** - if `true`, Flip will skip the extra calculations that would be necessary to accommodate rotation/scale/skew in determining positions. It's like telling Flip _"I promise that there aren't any rotated/scaled/skewed containers for the Flipping elements"_ which makes things **faster**. In most cases, the performance difference isn't noticeable, but if you're flipping a lot of elements it can help keep things snappy. | | |  
+spin |  **Boolean | Number | Function** - if `true`, the elements will spin an extra 360 degrees during the flip animation which makes it look a little more fun. Or you can define a **number** of full rotations, including a negative number, so `-1` would spin in the opposite direction once. If you provide a **function** , it will be called once for each target so that you can return whatever value you'd like for each individual element's spin. This allows you to, for example, have certain targets spin one direction, other elements spin another direction, or return 0 to not spin at all. Sample code: ```
+Flip.from(state,{  
+spin:(index, target)=>{  
+if(target.classList.contains("clockwise")){  
+return1;  
+}elseif(target.classList.contains("counter-clockwise")){  
+return-1;  
+}else{  
+return0;  
+}  
+}  
+});  
+
+```
+  
+targets | **String | Element | Array | NodeList** - by default, Flip will use the targets from the `state` object (first parameter), but you can specify a subset of those as either selector text (`".class, #id"`), an Element, an Array of Elements, or a NodeList. If any of the targets provided is NOT found in the `state` object, it will be passed to the `onEnter` and _not_ included in the flip animation because there's no previous state from which to pull position/size data. |  
+toggleClass | **String** - adds a CSS class to the targets while the flip animation is in progress. For example `"flipping"`. | |  
+zIndex | **Number** - immediately sets the zIndex CSS property to this value for the entire course of the flip animation and then reverts at the end. This makes it easy to ensure that your flipping elements are on top of other elements during the animation, for example. | |  
+## Simple example[​](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#simple-example "Direct link to Simple example")
+#### loading...
+## Flex example[​](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#flex-example "Direct link to Flex example")
+#### loading...
+## How do I flip between two _different_ elements?[​](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#how-do-i-flip-between-two-different-elements "Direct link to how-do-i-flip-between-two-different-elements")
+Flip looks for a `data-flip-id` attribute on every element it interacts with (via [Flip.getState()](https://gsap.com/docs/v3/Plugins/Flip/static.getState\(\)) or [Flip.from()](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)), etc.) and if one isn't found, Flip assigns an incremented one automatically ("auto-1", "auto-2", etc.). It lets you correlate targets (the target with the `data-flip-id` of `"5"` in the "from" state gets matched up with the target with a `data-flip-id` of `"5"` in the end state). The `data-flip-id` can be any string, not just a number.
+So if you want to flip between two different targets, make sure the data-flip-id attribute in the end state matches the one in the "from" state. When Flip sees that there are two with the same value in the from/end state, it will automatically figure out which one is disappearing (typically with `display: none`) and base things off of that to "swap" the elements. If you want them to crossfade, simply set `fade: true`, otherwise they'll immediately swap. And it is typically best to set `absolute: true` so that when Flip alters the `display` value, it doesn't affect the document flow.
+#### loading...
+[Previous Flip.fit()](https://gsap.com/docs/v3/Plugins/Flip/static.fit\(\))[Next Flip.getState()](https://gsap.com/docs/v3/Plugins/Flip/static.getState\(\))
+## Contents
+  * [Returns : Timeline](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#returns--timeline)
+  * [Details](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#details)
+  * [Usage](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#usage)
+    * [Get the current state](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#get-the-current-state)
+    * [Make your state changes](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#make-your-state-changes)
+    * [Call `Flip.from(state, options)`](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#call-flipfromstate-options)
+  * [Special properties](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#special-properties)
+  * [Simple example](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#simple-example)
+  * [Flex example](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#flex-example)
+  * [How do I flip between two _different_ elements?](https://gsap.com/docs/v3/Plugins/Flip/static.from\(\)/#how-do-i-flip-between-two-different-elements)
+
+
+## [GSAP](https://gsap.com/)
+  * [Core](https://gsap.com/core/)
+  * [Docs](https://gsap.com/docs/v3)
+  * [All Plugins](https://gsap.com/docs/v3/Plugins/)
+
+
+## [Scroll](https://gsap.com/scroll/)
+  * [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger)
+  * [ScrollSmoother](https://gsap.com/docs/v3/Plugins/ScrollSmoother)
+  * [ScrollTo](https://gsap.com/docs/v3/Plugins/ScrollToPlugin)
+
+
+## [SVG](https://gsap.com/svg/)
+  * [DrawSVG](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin)
+  * [MorphSVG](https://gsap.com/docs/v3/Plugins/MorphSVGPlugin)
+  * [MotionPath](https://gsap.com/docs/v3/Plugins/MotionPathPlugin)
+  * [MotionPathHelper](https://gsap.com/docs/v3/Plugins/MotionPathHelper)
+
+
+## [UI](https://gsap.com/ui/)
+  * [Flip](https://gsap.com/docs/v3/Plugins/Flip)
+  * [Draggable](https://gsap.com/docs/v3/Plugins/Draggable)
+  * [Inertia](https://gsap.com/docs/v3/Plugins/InertiaPlugin)
+  * [Observer](https://gsap.com/docs/v3/Plugins/Observer)
+
+
+## [Text](https://gsap.com/text/)
+  * [SplitText](https://gsap.com/docs/v3/Plugins/SplitText)
+  * [ScrambleText](https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin)
+  * [Text Replace](https://gsap.com/docs/v3/Plugins/TextPlugin)
+
+
+## [Other](https://gsap.com/text/)
+  * [Physics2D](https://gsap.com/docs/v3/Plugins/Physics2DPlugin)
+  * [PhysicsProps](https://gsap.com/docs/v3/Plugins/PhysicsPropsPlugin)
+  * [GSDevTools](https://gsap.com/docs/v3/Plugins/GSDevTools)
+
+
+Keep in the loop with the GSAP® newsletter.
+Email *
+  
+
+## GSAP
+  * [Blog](https://gsap.com/blog/)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [GSAP & Webflow](https://gsap.com/pricing)
+  * [Contact Us](https://gsap.com/community/contact/)
+
+
+## Connect
+  * [Forums](https://gsap.com/community/)
+  * [Codepen](https://www.codepen.io/GreenSock)
+  * [LinkedIn](https://www.linkedin.com/company/greensock)
+  * [Bluesky](https://bsky.app/profile/gsap-greensock.bsky.social)
+  * [GitHub](https://github.com/greensock/GreenSock-JS)
+  * [X](https://www.twitter.com/greensock)
+
+
+©2025 GSAP - A Webflow Product. All rights reserved.
+[](https://webflow.com/)
+  * [ Privacy Policy.](https://gsap.com/community/privacy-policy/)
+  * [ Terms of Use.](https://gsap.com/community/terms-of-use/)
+
+
+

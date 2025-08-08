@@ -1,0 +1,254 @@
+# GSAP Documentation: GSAP_Tween_timeScale
+                
+**URL:** https://gsap.com/docs/v3/GSAP/Tween/timeScale()
+**Scraped:** 2025-08-08 12:48:09
+**Content Length:** 11288 characters
+**Processing Time:** 1.34 seconds
+
+---
+
+[GSAPGSAP](https://gsap.com/)Menu
+  * Tools
+    * [Core](https://gsap.com/core/)
+    * [Scroll](https://gsap.com/scroll/)
+    * [SVG](https://gsap.com/svg/)
+    * [UI](https://gsap.com/ui/)
+    * [Text](https://gsap.com/text/)
+    * [Installation](https://gsap.com/docs/v3/Installation)
+    * [Starter Templates](https://gsap.com/demos)
+    * [GSAP & React](https://gsap.com/resources/React)
+    * [Video Lessons](https://www.youtube.com/@GreenSockLearning)
+Professional-grade JavaScript animation for the modern web
+![](https://gsap.com/img/header-shapes.png)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Community](https://gsap.com/community/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [Docs](https://gsap.com/docs/v3)
+  * [Demos](https://gsap.com/demos)
+
+
+  * Notifications
+#### Notifications
+[Notification Settings](https://gsap.com/community/notifications/options)[View All](https://gsap.com/community/notifications/)
+  * Messages
+#### Messages
+[Compose new](https://gsap.com/community/messenger/compose)[Go to Inbox](https://gsap.com/community/messenger)
+  * Login/Create Account
+#### Sign In
+Login[Forgot your password?](https://gsap.com/community/lostpassword/)
+#### Why create an account?
+    * It's free
+    * Learn & share in the forums
+    * Keep up to date with GSAP
+[Create an Account](https://gsap.com/community/register)
+  * [My Account](https://gsap.com/community/account-dashboard)
+    * [Dashboard](https://gsap.com/community/account-dashboard)
+    * [Account Settings](https://gsap.com/community/settings)
+  * [Get GSAP](https://gsap.com/docs/v3/Installation)
+
+
+  * Tools
+    * [Core](https://gsap.com/core/)
+    * [Scroll](https://gsap.com/scroll/)
+    * [SVG](https://gsap.com/svg/)
+    * [UI](https://gsap.com/ui/)
+    * [Text](https://gsap.com/text/)
+  * [About](https://gsap.com/pricing/)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Community](https://gsap.com/community/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [Docs](https://gsap.com/docs/v3/)
+
+
+  * Login/Create Account
+
+
+  * [Dashboard](https://gsap.com/community/account-dashboard)
+  * [Account Settings](https://gsap.com/community/settings)
+  * [Messages](https://gsap.com/community/messenger/)
+  * [Notifications](https://gsap.com/community/notifications/)
+
+
+#### Sign In
+Login[Forgot your password?](https://gsap.com/community/lostpassword/)
+#### Not got an account?
+[Create an Account](https://gsap.com/community/register)
+  * [CodePen](https://codepen.io/GreenSock)
+  * [GitHub](https://github.com/greensock/GreenSock-JS/)
+  * [Facebook](https://www.facebook.com/greensock/)
+  * [LinkedIn](https://www.linkedin.com/company/greensock)
+  * [x](https://www.twitter.com/greensock/)
+
+
+![](https://gsap.com/img/header-shapes.png)
+[Skip to main content](https://gsap.com/docs/v3/GSAP/Tween/timeScale\(\)/#__docusaurus_skipToContent_fallback)
+[](https://gsap.com/)[Docs](https://gsap.com/docs/v3/)[Learning](https://gsap.com/resources)
+[v3.13.0](https://gsap.com/docs/v3/GSAP/Tween/timeScale\(\))
+  * [v3.13.0](https://gsap.com/docs/v3/GSAP/Tween/timeScale\(\))
+  * [v2 - archived](https://www.gsap.com/archived-docs/)
+
+
+Search
+  * [docsHome](https://gsap.com/docs/v3/)
+  * Quick Start
+  * [Installation](https://gsap.com/docs/v3/Installation)
+  * [YouTube Channel](https://www.youtube.com/@GreenSockLearning)
+  * [Demos](https://gsap.com/demos)
+  * [Cheatsheet](https://gsap.com/cheatsheet)
+  * Fundamentals
+  * [GSAP](https://gsap.com/docs/v3/GSAP/)
+  * [Tween](https://gsap.com/docs/v3/GSAP/Tween)
+    * [properties](https://gsap.com/docs/v3/GSAP/Tween/data)
+      * [.data](https://gsap.com/docs/v3/GSAP/Tween/data)
+      * [.ratio](https://gsap.com/docs/v3/GSAP/Tween/ratio)
+      * [.scrollTrigger](https://gsap.com/docs/v3/GSAP/Tween/scrollTrigger)
+      * [.vars](https://gsap.com/docs/v3/GSAP/Tween/vars)
+    * [methods](https://gsap.com/docs/v3/GSAP/Tween/delay\(\))
+      * [.delay()](https://gsap.com/docs/v3/GSAP/Tween/delay\(\))
+      * [.duration()](https://gsap.com/docs/v3/GSAP/Tween/duration\(\))
+      * [.endTime()](https://gsap.com/docs/v3/GSAP/Tween/endTime\(\))
+      * [.eventCallback()](https://gsap.com/docs/v3/GSAP/Tween/eventCallback\(\))
+      * [.globalTime()](https://gsap.com/docs/v3/GSAP/Tween/globalTime\(\))
+      * [.invalidate()](https://gsap.com/docs/v3/GSAP/Tween/invalidate\(\))
+      * [.isActive()](https://gsap.com/docs/v3/GSAP/Tween/isActive\(\))
+      * [.iteration()](https://gsap.com/docs/v3/GSAP/Tween/iteration\(\))
+      * [.kill()](https://gsap.com/docs/v3/GSAP/Tween/kill\(\))
+      * [.pause()](https://gsap.com/docs/v3/GSAP/Tween/pause\(\))
+      * [.paused()](https://gsap.com/docs/v3/GSAP/Tween/paused\(\))
+      * [.play()](https://gsap.com/docs/v3/GSAP/Tween/play\(\))
+      * [.progress()](https://gsap.com/docs/v3/GSAP/Tween/progress\(\))
+      * [.repeat()](https://gsap.com/docs/v3/GSAP/Tween/repeat\(\))
+      * [.repeatDelay()](https://gsap.com/docs/v3/GSAP/Tween/repeatDelay\(\))
+      * [.restart()](https://gsap.com/docs/v3/GSAP/Tween/restart\(\))
+      * [.resume()](https://gsap.com/docs/v3/GSAP/Tween/resume\(\))
+      * [.reverse()](https://gsap.com/docs/v3/GSAP/Tween/reverse\(\))
+      * [.reversed()](https://gsap.com/docs/v3/GSAP/Tween/reversed\(\))
+      * [.revert()](https://gsap.com/docs/v3/GSAP/Tween/revert\(\))
+      * [.seek()](https://gsap.com/docs/v3/GSAP/Tween/seek\(\))
+      * [.startTime()](https://gsap.com/docs/v3/GSAP/Tween/startTime\(\))
+      * [.targets()](https://gsap.com/docs/v3/GSAP/Tween/targets\(\))
+      * [.then()](https://gsap.com/docs/v3/GSAP/Tween/then\(\))
+      * [.time()](https://gsap.com/docs/v3/GSAP/Tween/time\(\))
+      * [.timeScale()](https://gsap.com/docs/v3/GSAP/Tween/timeScale\(\))
+      * [.totalDuration()](https://gsap.com/docs/v3/GSAP/Tween/totalDuration\(\))
+      * [.totalProgress()](https://gsap.com/docs/v3/GSAP/Tween/totalProgress\(\))
+      * [.totalTime()](https://gsap.com/docs/v3/GSAP/Tween/totalTime\(\))
+      * [.yoyo()](https://gsap.com/docs/v3/GSAP/Tween/yoyo\(\))
+  * [Timeline](https://gsap.com/docs/v3/GSAP/Timeline)
+  * [CSS](https://gsap.com/docs/v3/GSAP/CorePlugins/CSS)
+  * [Easing](https://gsap.com/docs/v3/Eases)
+  * Plugins
+  * [What's a plugin?](https://gsap.com/docs/v3/Plugins)
+  * [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/)
+  * [ScrollSmoother](https://gsap.com/docs/v3/Plugins/ScrollSmoother/)
+  * [SplitText](https://gsap.com/docs/v3/Plugins/SplitText/)
+  * [Flip](https://gsap.com/docs/v3/Plugins/Flip/)
+  * [more plugins](https://gsap.com/docs/v3/Plugins/CSSRulePlugin/)
+  * Useful features & tools
+  * [Utility Methods](https://gsap.com/docs/v3/GSAP/UtilityMethods)
+  * [Staggers](https://gsap.com/resources/getting-started/Staggers)
+  * [Helper functions](https://gsap.com/docs/v3/HelperFunctions/)
+  * [React - useGSAP()](https://gsap.com/resources/React)
+  * [llms.txt](https://gsap.com/llms.txt)
+
+
+  * [Tween](https://gsap.com/docs/v3/GSAP/Tween)
+  * methods
+  * .timeScale()
+
+
+On this page
+# timeScale
+###  timeScale( value:Number ) : [Number | self]
+Factor that's used to scale time in the animation where 1 = normal speed (the default), 0.5 = half speed, 2 = double speed, etc.
+#### Parameters
+  * ####  **value** : Number
+(default = `NaN`) - Omitting the parameter returns the current value (getter), whereas defining the parameter sets the value (setter) and returns the instance itself for easier chaining.
+
+
+### Returns : [Number | self][​](https://gsap.com/docs/v3/GSAP/Tween/timeScale\(\)/#returns--number--self "Direct link to Returns : \[Number | self\]")
+Omitting the parameter returns the current value (getter), whereas defining the parameter sets the value (setter) and returns the instance itself for easier chaining.
+### Details[​](https://gsap.com/docs/v3/GSAP/Tween/timeScale\(\)/#details "Direct link to Details")
+Factor that's used to scale time in the animation where 1 = normal speed (the default), 0.5 = half speed, 2 = double speed, -1 = go backwards at normal speed, etc. For example, if an animation's `duration` is 2 but its `timeScale` is 0.5, it will take 4 seconds to finish. If you nest that animation in a timeline whose `timeScale` is 0.5 as well, it would take 8 seconds to finish. You can even tween the `timeScale` to gradually slow it down or speed it up.
+This method serves as both a getter and setter. Omitting the parameter returns the current value (getter), whereas defining the parameter sets the value (setter) and returns the instance itself for easier chaining, like `myAnimation.timeScale(2).play(1);`
+```
+//gets current timeScale  
+var currentTimeScale = myAnimation.timeScale();  
+  
+//sets timeScale to half-speed  
+myAnimation.timeScale(0.5);  
+
+```
+
+[Previous .time()](https://gsap.com/docs/v3/GSAP/Tween/time\(\))[Next .totalDuration()](https://gsap.com/docs/v3/GSAP/Tween/totalDuration\(\))
+## Contents
+  * [Returns : [Number | self]](https://gsap.com/docs/v3/GSAP/Tween/timeScale\(\)/#returns--number--self)
+  * [Details](https://gsap.com/docs/v3/GSAP/Tween/timeScale\(\)/#details)
+
+
+## [GSAP](https://gsap.com/)
+  * [Core](https://gsap.com/core/)
+  * [Docs](https://gsap.com/docs/v3)
+  * [All Plugins](https://gsap.com/docs/v3/Plugins/)
+
+
+## [Scroll](https://gsap.com/scroll/)
+  * [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger)
+  * [ScrollSmoother](https://gsap.com/docs/v3/Plugins/ScrollSmoother)
+  * [ScrollTo](https://gsap.com/docs/v3/Plugins/ScrollToPlugin)
+
+
+## [SVG](https://gsap.com/svg/)
+  * [DrawSVG](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin)
+  * [MorphSVG](https://gsap.com/docs/v3/Plugins/MorphSVGPlugin)
+  * [MotionPath](https://gsap.com/docs/v3/Plugins/MotionPathPlugin)
+  * [MotionPathHelper](https://gsap.com/docs/v3/Plugins/MotionPathHelper)
+
+
+## [UI](https://gsap.com/ui/)
+  * [Flip](https://gsap.com/docs/v3/Plugins/Flip)
+  * [Draggable](https://gsap.com/docs/v3/Plugins/Draggable)
+  * [Inertia](https://gsap.com/docs/v3/Plugins/InertiaPlugin)
+  * [Observer](https://gsap.com/docs/v3/Plugins/Observer)
+
+
+## [Text](https://gsap.com/text/)
+  * [SplitText](https://gsap.com/docs/v3/Plugins/SplitText)
+  * [ScrambleText](https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin)
+  * [Text Replace](https://gsap.com/docs/v3/Plugins/TextPlugin)
+
+
+## [Other](https://gsap.com/text/)
+  * [Physics2D](https://gsap.com/docs/v3/Plugins/Physics2DPlugin)
+  * [PhysicsProps](https://gsap.com/docs/v3/Plugins/PhysicsPropsPlugin)
+  * [GSDevTools](https://gsap.com/docs/v3/Plugins/GSDevTools)
+
+
+Keep in the loop with the GSAP® newsletter.
+Email *
+  
+
+## GSAP
+  * [Blog](https://gsap.com/blog/)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [GSAP & Webflow](https://gsap.com/pricing)
+  * [Contact Us](https://gsap.com/community/contact/)
+
+
+## Connect
+  * [Forums](https://gsap.com/community/)
+  * [Codepen](https://www.codepen.io/GreenSock)
+  * [LinkedIn](https://www.linkedin.com/company/greensock)
+  * [Bluesky](https://bsky.app/profile/gsap-greensock.bsky.social)
+  * [GitHub](https://github.com/greensock/GreenSock-JS)
+  * [X](https://www.twitter.com/greensock)
+
+
+©2025 GSAP - A Webflow Product. All rights reserved.
+[](https://webflow.com/)
+  * [ Privacy Policy.](https://gsap.com/community/privacy-policy/)
+  * [ Terms of Use.](https://gsap.com/community/terms-of-use/)
+
+
+

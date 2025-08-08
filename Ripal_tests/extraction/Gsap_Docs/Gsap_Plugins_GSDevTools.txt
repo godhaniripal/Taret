@@ -1,0 +1,376 @@
+# GSAP Documentation: Plugins_GSDevTools
+                
+**URL:** https://gsap.com/docs/v3/Plugins/GSDevTools
+**Scraped:** 2025-08-08 12:56:20
+**Content Length:** 18105 characters
+**Processing Time:** 1.26 seconds
+
+---
+
+[GSAPGSAP](https://gsap.com/)Menu
+  * Tools
+    * [Core](https://gsap.com/core/)
+    * [Scroll](https://gsap.com/scroll/)
+    * [SVG](https://gsap.com/svg/)
+    * [UI](https://gsap.com/ui/)
+    * [Text](https://gsap.com/text/)
+    * [Installation](https://gsap.com/docs/v3/Installation)
+    * [Starter Templates](https://gsap.com/demos)
+    * [GSAP & React](https://gsap.com/resources/React)
+    * [Video Lessons](https://www.youtube.com/@GreenSockLearning)
+Professional-grade JavaScript animation for the modern web
+![](https://gsap.com/img/header-shapes.png)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Community](https://gsap.com/community/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [Docs](https://gsap.com/docs/v3)
+  * [Demos](https://gsap.com/demos)
+
+
+  * Notifications
+#### Notifications
+[Notification Settings](https://gsap.com/community/notifications/options)[View All](https://gsap.com/community/notifications/)
+  * Messages
+#### Messages
+[Compose new](https://gsap.com/community/messenger/compose)[Go to Inbox](https://gsap.com/community/messenger)
+  * Login/Create Account
+#### Sign In
+Login[Forgot your password?](https://gsap.com/community/lostpassword/)
+#### Why create an account?
+    * It's free
+    * Learn & share in the forums
+    * Keep up to date with GSAP
+[Create an Account](https://gsap.com/community/register)
+  * [My Account](https://gsap.com/community/account-dashboard)
+    * [Dashboard](https://gsap.com/community/account-dashboard)
+    * [Account Settings](https://gsap.com/community/settings)
+  * [Get GSAP](https://gsap.com/docs/v3/Installation)
+
+
+  * Tools
+    * [Core](https://gsap.com/core/)
+    * [Scroll](https://gsap.com/scroll/)
+    * [SVG](https://gsap.com/svg/)
+    * [UI](https://gsap.com/ui/)
+    * [Text](https://gsap.com/text/)
+  * [About](https://gsap.com/pricing/)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Community](https://gsap.com/community/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [Docs](https://gsap.com/docs/v3/)
+
+
+  * Login/Create Account
+
+
+  * [Dashboard](https://gsap.com/community/account-dashboard)
+  * [Account Settings](https://gsap.com/community/settings)
+  * [Messages](https://gsap.com/community/messenger/)
+  * [Notifications](https://gsap.com/community/notifications/)
+
+
+#### Sign In
+Login[Forgot your password?](https://gsap.com/community/lostpassword/)
+#### Not got an account?
+[Create an Account](https://gsap.com/community/register)
+  * [CodePen](https://codepen.io/GreenSock)
+  * [GitHub](https://github.com/greensock/GreenSock-JS/)
+  * [Facebook](https://www.facebook.com/greensock/)
+  * [LinkedIn](https://www.linkedin.com/company/greensock)
+  * [x](https://www.twitter.com/greensock/)
+
+
+![](https://gsap.com/img/header-shapes.png)
+[Skip to main content](https://gsap.com/docs/v3/Plugins/GSDevTools/#__docusaurus_skipToContent_fallback)
+[](https://gsap.com/)[Docs](https://gsap.com/docs/v3/)[Learning](https://gsap.com/resources)
+[v3.13.0](https://gsap.com/docs/v3/Plugins/GSDevTools)
+  * [v3.13.0](https://gsap.com/docs/v3/Plugins/GSDevTools)
+  * [v2 - archived](https://www.gsap.com/archived-docs/)
+
+
+Search
+  * [docsHome](https://gsap.com/docs/v3/)
+  * Quick Start
+  * [Installation](https://gsap.com/docs/v3/Installation)
+  * [YouTube Channel](https://www.youtube.com/@GreenSockLearning)
+  * [Demos](https://gsap.com/demos)
+  * [Cheatsheet](https://gsap.com/cheatsheet)
+  * Fundamentals
+  * [GSAP](https://gsap.com/docs/v3/GSAP/)
+  * [Tween](https://gsap.com/docs/v3/GSAP/Tween)
+  * [Timeline](https://gsap.com/docs/v3/GSAP/Timeline)
+  * [CSS](https://gsap.com/docs/v3/GSAP/CorePlugins/CSS)
+  * [Easing](https://gsap.com/docs/v3/Eases)
+  * Plugins
+  * [What's a plugin?](https://gsap.com/docs/v3/Plugins)
+  * [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/)
+  * [ScrollSmoother](https://gsap.com/docs/v3/Plugins/ScrollSmoother/)
+  * [SplitText](https://gsap.com/docs/v3/Plugins/SplitText/)
+  * [Flip](https://gsap.com/docs/v3/Plugins/Flip/)
+  * [more plugins](https://gsap.com/docs/v3/Plugins/CSSRulePlugin/)
+    * [CSSRule](https://gsap.com/docs/v3/Plugins/CSSRulePlugin/)
+    * [Draggable](https://gsap.com/docs/v3/Plugins/Draggable/)
+    * [DrawSVG](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin)
+    * [Easel](https://gsap.com/docs/v3/Plugins/EaselPlugin)
+    * [GSDevTools](https://gsap.com/docs/v3/Plugins/GSDevTools)
+      * [methods](https://gsap.com/docs/v3/Plugins/GSDevTools/static.create\(\))
+        * [GSDevTools.create()](https://gsap.com/docs/v3/Plugins/GSDevTools/static.create\(\))
+    * [Inertia](https://gsap.com/docs/v3/Plugins/InertiaPlugin/)
+    * [MorphSVG](https://gsap.com/docs/v3/Plugins/MorphSVGPlugin)
+    * [MotionPath](https://gsap.com/docs/v3/Plugins/MotionPathPlugin)
+    * [MotionPathHelper](https://gsap.com/docs/v3/Plugins/MotionPathHelper)
+    * [Observer](https://gsap.com/docs/v3/Plugins/Observer/)
+    * [Physics2D](https://gsap.com/docs/v3/Plugins/Physics2DPlugin)
+    * [PhysicsProps](https://gsap.com/docs/v3/Plugins/PhysicsPropsPlugin)
+    * [Pixi](https://gsap.com/docs/v3/Plugins/PixiPlugin/)
+    * [ScrambleText](https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin)
+    * [ScrollTo](https://gsap.com/docs/v3/Plugins/ScrollToPlugin)
+    * [Text](https://gsap.com/docs/v3/Plugins/TextPlugin)
+  * Useful features & tools
+  * [Utility Methods](https://gsap.com/docs/v3/GSAP/UtilityMethods)
+  * [Staggers](https://gsap.com/resources/getting-started/Staggers)
+  * [Helper functions](https://gsap.com/docs/v3/HelperFunctions/)
+  * [React - useGSAP()](https://gsap.com/resources/React)
+  * [llms.txt](https://gsap.com/llms.txt)
+
+
+  * more plugins
+  * GSDevTools
+
+
+On this page
+# GSDevTools
+Quick Start
+#### CDN Link
+Copy
+```
+gsap.registerPlugin(GSDevTools)  
+
+```
+
+#### Minimal usage
+```
+GSDevTools.create();  
+
+```
+
+## Description[​](https://gsap.com/docs/v3/Plugins/GSDevTools/#description "Direct link to Description")
+GSDevTools gives you a **visual UI** for interacting with and debugging [GSAP](https://gsap.com/docs/v3/GSAP/) animations, complete with advanced playback controls, keyboard shortcuts, global synchronization and more. Jump to specific scenes, set in/out points, play in slow motion to reveal intricate details, and even switch to a "minimal" mode on small screens. GSDevTools makes building and reviewing GSAP animations simply delightful.
+![](https://gsap.com/assets/images/GSDevTools-gui-683279c3022faec0481c1332043dd117.png)
+## Get Started[​](https://gsap.com/docs/v3/Plugins/GSDevTools/#get-started "Direct link to Get Started")
+  1. Import GSDevTools through a script tag or import the plugin from the GSAP package
+```
+<scriptsrc="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/GSDevTools.min.js"></script>  
+
+```
+
+```
+import{GSDevTools}from"gsap/GSDevTools";  
+
+```
+
+  2. Create a GSDevTools instance
+```
+GSDevTools.create();  
+
+```
+
+
+
+**_That's it!_**
+Though we suggest linking it to a particular animation instance because then GSDevTools doesn't need to worry all the global syncing of things. You can do that by setting the `animation` value of the dev tools instance:
+```
+var tl = gsap.timeline();  
+tl.to(...);// add your animations, etc.  
+  
+// link it to this specific timeline:  
+GSDevTools.create({animation: tl});  
+
+```
+
+The demo below shows GSDevTools running with its default settings. It automatically gives you control over every animation on the global timeline.
+#### loading...
+## Select an animation by id[​](https://gsap.com/docs/v3/Plugins/GSDevTools/#select-an-animation-by-id "Direct link to Select an animation by id")
+Any GSAP animation (tween or timeline) can be assigned an `id` (a string) which causes it to show up in the animation menu. That makes it easy to jump to any scene. Notice how the timeline _and_ each tween below have an `id` assigned:
+```
+//give the timeline and child tweens their own id.  
+var tl = gsap.timeline({id:"timeline"});  
+  
+tl.to(".orange",{duration:1,x:700,id:"orange"}).to(".green",{  
+duration:2,  
+x:700,  
+ease:"bounce",  
+id:"green",  
+});//give this tween an id  
+  
+gsap.to(".grey",{duration:1,x:700,rotation:360,delay:3,id:"grey"});  
+  
+//instantiate GSDevTools with default settings  
+GSDevTools.create();  
+
+```
+
+Now each id shows up in the animations menu (lower left).
+#### loading...
+## Persistence between refreshes[​](https://gsap.com/docs/v3/Plugins/GSDevTools/#persistence-between-refreshes "Direct link to Persistence between refreshes")
+For added convenience, when you manually set the in/out points, animation, `timeScale`, or looping state in the UI, they persist between refreshes! This means you can drag the in/out points to isolate a particular section and then tweak the code, hit refresh, and see the changes immediately within that cropped area. Any values set in the `GSDevTools.create({...})` method will override manual selections. Set `persist: false` to disable persistence. If you encounter persistence contamination (e.g. setting `timeScale` in one affects another), simply assign a unique `id` to the GSDevTools instance (the recorded values are segregated by `id`, session, and domain).
+## Config Object[​](https://gsap.com/docs/v3/Plugins/GSDevTools/#config-object "Direct link to Config Object")
+GSDevTools can be configured extensively. Optionally define any of these properties in the config object:
+### Property
+### Description
+  * #### animation[](https://gsap.com/docs/v3/Plugins/GSDevTools/#animation)
+[_String_ | _Animation_] - If you define an animation, like `animation: myTimeline`, `animation: myTween` or `animation: "id"`, that animation will be initially selected. By default, the global timeline is selected.
+  * #### container[](https://gsap.com/docs/v3/Plugins/GSDevTools/#container)
+[_String_ | _Element_] - Specify the container element for GSDevTools, like: `"#devTools"` or `document.getElementById ("devTools")`.
+  * #### css[](https://gsap.com/docs/v3/Plugins/GSDevTools/#css)
+[_Object_ | _String_] - The CSS you want on the outer div, like `{width: "50%", bottom: "30px"}` or a string of CSS like `"width: 50%; bottom: 30px"`.
+  * #### globalSync[](https://gsap.com/docs/v3/Plugins/GSDevTools/#globalSync)
+Boolean - Animations can be kept in context and synchronized with the root timeline (scrubbing one scrubs them all). To enable this, set `globalSync: true` to hook it to the global timeline.
+  * #### hideGlobalTimeline[](https://gsap.com/docs/v3/Plugins/GSDevTools/#hideGlobalTimeline)
+Boolean - If `true`, the Global Timeline will be removed from the animation menu.
+  * #### id[](https://gsap.com/docs/v3/Plugins/GSDevTools/#id)
+String - A unique string to identify the GSDevTools instance.
+  * #### inTime[](https://gsap.com/docs/v3/Plugins/GSDevTools/#inTime)
+[_Number_ | _String_] - Position of the in marker (time, in seconds, or label or animation `id`).
+  * #### keyboard[](https://gsap.com/docs/v3/Plugins/GSDevTools/#keyboard)
+Boolean - If `true` (the default), keyboard shortcuts will work. Note: Only one GSDevTools instance can listen for keyboard shortcuts.
+  * #### loop[](https://gsap.com/docs/v3/Plugins/GSDevTools/#loop)
+Boolean - Initial loop state.
+  * #### minimal[](https://gsap.com/docs/v3/Plugins/GSDevTools/#minimal)
+Boolean - If `true`, the UI will only show minimal controls (scrubber, play/pause, and timeScale). Note: When the screen is less than 600px it automatically switches to minimal mode anyway.
+  * #### outTime[](https://gsap.com/docs/v3/Plugins/GSDevTools/#outTime)
+[_Time_ | _Label_] - Position of the out marker (time, in seconds, or label, or animation `id`).
+  * #### paused[](https://gsap.com/docs/v3/Plugins/GSDevTools/#paused)
+Boolean - Initial paused state.
+  * #### persist[](https://gsap.com/docs/v3/Plugins/GSDevTools/#persist)
+Boolean - By default, GSDevTools remembers the in and out points, selected animation, timeScale, and looping state between refreshes in the same domain session, but you can disable that behavior by setting `persist: false`.
+  * #### timeScale[](https://gsap.com/docs/v3/Plugins/GSDevTools/#timeScale)
+Number - Initial `timeScale`.
+  * #### visibility[](https://gsap.com/docs/v3/Plugins/GSDevTools/#visibility)
+String - `"auto"` causes the controls to automatically hide when you roll off of them for about 1 second, and return when you move your mouse over the area again.
+
+
+## Keyboard Controls[​](https://gsap.com/docs/v3/Plugins/GSDevTools/#keyboard-controls "Direct link to Keyboard Controls")
+  * **SPACEBAR:** play/pause
+  * **UP/DOWN ARROWS:** increase/decrease timeScale
+  * **LEFT ARROW:** rewind
+  * **RIGHT ARROW:** jump to end
+  * **L:** toggle loop
+  * **I:** set the in point to current position of playhead
+  * **O:** set the out point to current position of playhead
+  * **H:** hide/show toggle
+
+
+## Tips and tricks[​](https://gsap.com/docs/v3/Plugins/GSDevTools/#tips-and-tricks "Direct link to Tips and tricks")
+  * It is almost always best to define an animation directly like `GSDevTools.create({ animation: yourAnimation... });` so that it doesn't need to worry about mergine all the global animations in.
+  * Clicking the GSAP logo (bottom right) gets you right to the [docs](https://gsap.com/docs/v3/)!
+  * Double-click on the in/out marker(s) to reset them both immediately.
+  * If the playback UI is obscuring part of your animation, just tap the "H" key to hide it (and again to bring it back) - you can still use all the keyboard shortcuts even when it's invisible.
+
+
+## Advanced demos[​](https://gsap.com/docs/v3/Plugins/GSDevTools/#advanced-demos "Direct link to Advanced demos")
+We purposefully chose very basic animations for the demos above, but here's one that illustrates how easy GSDevTools makes it to control and debug even complex animation sequences.
+#### loading...
+GSDevTools doesn't work with ScrollTrigger-driven animations because that would be logically impossible to have the scrollbar and the GSDevTools scrubber both control the same animation.
+##  **Methods**[​](https://gsap.com/docs/v3/Plugins/GSDevTools/#methods "Direct link to methods")
+####  [GSDevTools.create](https://gsap.com/docs/v3/Plugins/GSDevTools/static.create\(\))( config:Object ) : GSDevTools
+|   
+---|---  
+## FAQs[​](https://gsap.com/docs/v3/Plugins/GSDevTools/#faqs "Direct link to FAQs")
+#### Why is my Global Timeline 1000 seconds long?
+That means you've probably got an infinitely repeating animation somewhere. GSDevTools caps its duration at 1000 seconds. Scrubbing to Infinity is awkward.
+#### How do I kill/destroy/remove the dev tools instance?
+If you have a reference to the dev tools (it's probably easiest to give the dev tools instance an id, i.e.
+```
+GSDevTools.create({id:"main"})  
+
+```
+
+then you can kill the instance by using
+```
+GSDevTools.getById("main").kill()  
+
+```
+
+#### Does GSDevTools work with other animation libraries?
+Nope, it depends on some unique capabilities baked into the GSAP architecture.
+[Previous Easel](https://gsap.com/docs/v3/Plugins/EaselPlugin)[Next GSDevTools.create()](https://gsap.com/docs/v3/Plugins/GSDevTools/static.create\(\))
+## Contents
+  * [Description](https://gsap.com/docs/v3/Plugins/GSDevTools/#description)
+  * [Get Started](https://gsap.com/docs/v3/Plugins/GSDevTools/#get-started)
+  * [Select an animation by id](https://gsap.com/docs/v3/Plugins/GSDevTools/#select-an-animation-by-id)
+  * [Persistence between refreshes](https://gsap.com/docs/v3/Plugins/GSDevTools/#persistence-between-refreshes)
+  * [Config Object](https://gsap.com/docs/v3/Plugins/GSDevTools/#config-object)
+  * [Keyboard Controls](https://gsap.com/docs/v3/Plugins/GSDevTools/#keyboard-controls)
+  * [Tips and tricks](https://gsap.com/docs/v3/Plugins/GSDevTools/#tips-and-tricks)
+  * [Advanced demos](https://gsap.com/docs/v3/Plugins/GSDevTools/#advanced-demos)
+  * [**Methods**](https://gsap.com/docs/v3/Plugins/GSDevTools/#methods)
+  * [FAQs](https://gsap.com/docs/v3/Plugins/GSDevTools/#faqs)
+
+
+## [GSAP](https://gsap.com/)
+  * [Core](https://gsap.com/core/)
+  * [Docs](https://gsap.com/docs/v3)
+  * [All Plugins](https://gsap.com/docs/v3/Plugins/)
+
+
+## [Scroll](https://gsap.com/scroll/)
+  * [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger)
+  * [ScrollSmoother](https://gsap.com/docs/v3/Plugins/ScrollSmoother)
+  * [ScrollTo](https://gsap.com/docs/v3/Plugins/ScrollToPlugin)
+
+
+## [SVG](https://gsap.com/svg/)
+  * [DrawSVG](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin)
+  * [MorphSVG](https://gsap.com/docs/v3/Plugins/MorphSVGPlugin)
+  * [MotionPath](https://gsap.com/docs/v3/Plugins/MotionPathPlugin)
+  * [MotionPathHelper](https://gsap.com/docs/v3/Plugins/MotionPathHelper)
+
+
+## [UI](https://gsap.com/ui/)
+  * [Flip](https://gsap.com/docs/v3/Plugins/Flip)
+  * [Draggable](https://gsap.com/docs/v3/Plugins/Draggable)
+  * [Inertia](https://gsap.com/docs/v3/Plugins/InertiaPlugin)
+  * [Observer](https://gsap.com/docs/v3/Plugins/Observer)
+
+
+## [Text](https://gsap.com/text/)
+  * [SplitText](https://gsap.com/docs/v3/Plugins/SplitText)
+  * [ScrambleText](https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin)
+  * [Text Replace](https://gsap.com/docs/v3/Plugins/TextPlugin)
+
+
+## [Other](https://gsap.com/text/)
+  * [Physics2D](https://gsap.com/docs/v3/Plugins/Physics2DPlugin)
+  * [PhysicsProps](https://gsap.com/docs/v3/Plugins/PhysicsPropsPlugin)
+  * [GSDevTools](https://gsap.com/docs/v3/Plugins/GSDevTools)
+
+
+Keep in the loop with the GSAP® newsletter.
+Email *
+  
+
+## GSAP
+  * [Blog](https://gsap.com/blog/)
+  * [Showcase](https://gsap.com/showcase/)
+  * [Learn GSAP](https://gsap.com/resources/)
+  * [GSAP & Webflow](https://gsap.com/pricing)
+  * [Contact Us](https://gsap.com/community/contact/)
+
+
+## Connect
+  * [Forums](https://gsap.com/community/)
+  * [Codepen](https://www.codepen.io/GreenSock)
+  * [LinkedIn](https://www.linkedin.com/company/greensock)
+  * [Bluesky](https://bsky.app/profile/gsap-greensock.bsky.social)
+  * [GitHub](https://github.com/greensock/GreenSock-JS)
+  * [X](https://www.twitter.com/greensock)
+
+
+©2025 GSAP - A Webflow Product. All rights reserved.
+[](https://webflow.com/)
+  * [ Privacy Policy.](https://gsap.com/community/privacy-policy/)
+  * [ Terms of Use.](https://gsap.com/community/terms-of-use/)
+
+
+
